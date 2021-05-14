@@ -1,0 +1,36 @@
+{
+  "Breadcrumb": {
+    "prefix": "rb:breadcrumb",
+    "body": [
+      "<Breadcrumb>",
+      "\t<Breadcrumb.Item href=\"${2:#}\">${1:Breadcrumb.Item}</Breadcrumb.Item>",
+      "</Breadcrumb>"
+    ],
+    "description": "Create a Breadcrumb with a single Breadcrumb.Item"
+  },
+  "Breadcrumb.Item": {
+    "prefix": "rb:breadcrumb-item",
+    "body": [
+      "<Breadcrumb.Item href=\"${2:#}\">${1:Breadcrumb.Item}</Breadcrumb.Item>"
+    ],
+    "description": "Create a Breadcrumb.Item for use inside a Breadcrumb"
+  },
+  "Breadcrumb.Item (active)": {
+    "prefix": "rb:breadcrumb-item-active",
+    "body": ["<Breadcrumb.Item active>${1:Active}</Breadcrumb.Item>"],
+    "description": "Create an active Breadcrumb.Item that does not have an href"
+  },
+  "Breadcrumb Example": {
+    "prefix": "rb:breadcrumb-example",
+    "body": [
+      "<Breadcrumb>",
+      "\t<Breadcrumb.Item href=\"#\">Home</Breadcrumb.Item>",
+      "\t<Breadcrumb.Item href=\"https://react-bootstrap.github.io/\">",
+      "\t\tLibrary",
+      "\t</Breadcrumb.Item>",
+      "\t<Breadcrumb.Item active>Data</Breadcrumb.Item>",
+      "</Breadcrumb>"
+    ],
+    "description": "Create a Breadcrumb example to build from"
+  }
+}

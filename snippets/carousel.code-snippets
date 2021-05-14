@@ -1,0 +1,80 @@
+{
+  "Import Carousel": {
+    "prefix": "rb:import:carousel",
+    "body": "import { Carousel } from 'react-bootstrap';",
+    "description": "Import Carousel from react-bootstrap"
+  },
+  "Carousel": {
+    "prefix": "rb:carousel",
+    "body": ["<Carousel>${1:Carousel items}</Carousel>"],
+    "description": "Create a Carousel"
+  },
+  "Carousel.Item": {
+    "prefix": "rb:carousel-item",
+    "body": [
+      "<Carousel.Item>",
+      "\t<img",
+      "\t\tclassName=\"d-block w-100\"",
+      "\t\tsrc=\"${1:https://placeimg.com/800/400/any}\"",
+      "\t\talt=\"${2:Slide image alt}\"",
+      "\t/>",
+      "\t<Carousel.Caption>",
+      "\t\t<h3>${3:Slide label}</h3>",
+      "\t\t<p>${4:Caption for slide}</p>",
+      "\t</Carousel.Caption>",
+      "</Carousel.Item>"
+    ],
+    "description": "Create a Carousel.Item"
+  },
+  "Carousel.Caption": {
+    "prefix": "rb:carousel-caption",
+    "body": [
+      "<Carousel.Caption>",
+      "\t<h3>${1:Slide label}</h3>",
+      "\t<p>${2:Caption for slide}</p>",
+      "</Carousel.Caption>"
+    ],
+    "description": "Create a Carousel.Caption"
+  },
+  "Carousel Example": {
+    "prefix": "rb:carousel-example",
+    "body": [
+      "<Carousel>",
+      "\t<Carousel.Item>",
+      "\t\t<img",
+      "\t\t\tclassName=\"d-block w-100\"",
+      "\t\t\tsrc=\"https://placeimg.com/800/400/any\"",
+      "\t\t\talt=\"First slide\"",
+      "\t\t/>",
+      "\t\t<Carousel.Caption>",
+      "\t\t\t<h3>First slide label</h3>",
+      "\t\t\t<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>",
+      "\t\t</Carousel.Caption>",
+      "\t</Carousel.Item>",
+      "\t<Carousel.Item>",
+      "\t\t<img",
+      "\t\t\tclassName=\"d-block w-100\"",
+      "\t\t\tsrc=\"https://placeimg.com/800/400/any\"",
+      "\t\t\talt=\"Second slide\"",
+      "\t\t/>",
+      "\t\t<Carousel.Caption>",
+      "\t\t\t<h3>Second slide label</h3>",
+      "\t\t\t<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+      "\t\t</Carousel.Caption>",
+      "\t</Carousel.Item>",
+      "\t<Carousel.Item>",
+      "\t\t<img",
+      "\t\t\tclassName=\"d-block w-100\"",
+      "\t\t\tsrc=\"https://placeimg.com/800/400/any\"",
+      "\t\t\talt=\"Third slide\"",
+      "\t\t/>",
+      "\t\t<Carousel.Caption>",
+      "\t\t\t<h3>Third slide label</h3>",
+      "\t\t\t<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>",
+      "\t\t</Carousel.Caption>",
+      "\t</Carousel.Item>",
+      "</Carousel>"
+    ],
+    "description": "Create an example Carousel to build from"
+  }
+}

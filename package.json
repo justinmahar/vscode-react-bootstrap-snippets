@@ -13,27 +13,651 @@
     "snippets": [
       {
         "language": "javascriptreact",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/accordion.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/alerts.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/badge.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/breadcrumb.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/button-group.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/buttons.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/cards.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/carousel.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/dropdowns.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/figures.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/forms.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/images.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/input-group.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/jumbotron.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/list-group.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/modal.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/navbar.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/navs.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/overlays.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/pagination.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/popovers.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/progress.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/spinners.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/table.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/tabs.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/toasts.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/tooltips.code-snippets"
       },
       {
         "language": "javascript",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/accordion.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/alerts.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/badge.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/breadcrumb.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/button-group.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/buttons.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/cards.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/carousel.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/dropdowns.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/figures.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/forms.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/images.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/input-group.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/jumbotron.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/list-group.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/modal.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/navbar.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/navs.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/overlays.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/pagination.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/popovers.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/progress.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/spinners.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/table.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/tabs.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/toasts.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/tooltips.code-snippets"
       },
       {
         "language": "jsx",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/accordion.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/alerts.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/badge.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/breadcrumb.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/button-group.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/buttons.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/cards.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/carousel.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/dropdowns.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/figures.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/forms.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/images.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/input-group.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/jumbotron.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/list-group.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/modal.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/navbar.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/navs.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/overlays.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/pagination.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/popovers.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/progress.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/spinners.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/table.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/tabs.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/toasts.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/tooltips.code-snippets"
       },
       {
         "language": "jsx-attr",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/accordion.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/alerts.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/badge.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/breadcrumb.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/button-group.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/buttons.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/cards.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/carousel.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/dropdowns.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/figures.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/forms.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/images.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/input-group.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/jumbotron.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/list-group.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/modal.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/navbar.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/navs.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/overlays.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/pagination.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/popovers.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/progress.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/spinners.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/table.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/tabs.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/toasts.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/tooltips.code-snippets"
       },
       {
         "language": "typescript",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/accordion.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/alerts.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/badge.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/breadcrumb.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/button-group.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/buttons.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/cards.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/carousel.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/dropdowns.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/figures.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/forms.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/images.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/input-group.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/jumbotron.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/list-group.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/modal.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/navbar.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/navs.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/overlays.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/pagination.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/popovers.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/progress.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/spinners.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/table.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/tabs.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/toasts.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/tooltips.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/accordion.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/alerts.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/badge.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/breadcrumb.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/button-group.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/buttons.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/cards.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/carousel.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/dropdowns.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/figures.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/forms.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/images.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/input-group.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/jumbotron.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/list-group.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/modal.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/navbar.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/navs.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/overlays.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/pagination.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/popovers.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/progress.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/spinners.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/table.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/tabs.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/toasts.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/tooltips.code-snippets"
       }
     ]
   },

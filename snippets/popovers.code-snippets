@@ -1,0 +1,12 @@
+{
+  // "Import Yyyyyyyyyyy": {
+  //   "prefix": "rb:import:Yyyyyyyyyyy",
+  //   "body": "import { Yyyyyyyyyyy } from 'react-bootstrap';",
+  //   "description": "Import Yyyyyyyyyyy from react-bootstrap"
+  // },
+  // "Yyyyyyyyyyy": {
+  //   "prefix": "rb:Yyyyyyyyyyy",
+  //   "body": ["<Yyyyyyyyyyy>${1}</Yyyyyyyyyyy>"],
+  //   "description": "Create a Yyyyyyyyyyy"
+  // }
+}

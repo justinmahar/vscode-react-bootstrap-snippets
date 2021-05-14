@@ -1,0 +1,71 @@
+{
+  "Import Alert": {
+    "prefix": "rb:import:alert",
+    "body": "import { Alert } from 'react-bootstrap';",
+    "description": "Import Alert from react-bootstrap"
+  },
+  "Alert (primary)": {
+    "prefix": ["rb:alert", "rb:alert-primary"],
+    "body": ["<Alert variant=\"primary\">", "\t${1}", "</Alert>"],
+    "description": "Create a primary Alert"
+  },
+  "Alert (secondary)": {
+    "prefix": "rb:alert-secondary",
+    "body": ["<Alert variant=\"secondary\">", "\t${1}", "</Alert>"],
+    "description": "Create a secondary Alert"
+  },
+  "Alert (success)": {
+    "prefix": "rb:alert-success",
+    "body": ["<Alert variant=\"success\">", "\t${1}", "</Alert>"],
+    "description": "Create a success Alert"
+  },
+  "Alert (danger)": {
+    "prefix": "rb:alert-danger",
+    "body": ["<Alert variant=\"danger\">", "\t${1}", "</Alert>"],
+    "description": "Create a danger Alert"
+  },
+  "Alert (warning)": {
+    "prefix": "rb:alert-warning",
+    "body": ["<Alert variant=\"warning\">", "\t${1}", "</Alert>"],
+    "description": "Create a warning Alert"
+  },
+  "Alert (info)": {
+    "prefix": "rb:alert-info",
+    "body": ["<Alert variant=\"info\">", "\t${1}", "</Alert>"],
+    "description": "Create an info Alert"
+  },
+  "Alert (light)": {
+    "prefix": "rb:alert-light",
+    "body": ["<Alert variant=\"light\">", "\t${1}", "</Alert>"],
+    "description": "Create a light Alert"
+  },
+  "Alert (dark)": {
+    "prefix": "rb:alert-dark",
+    "body": ["<Alert variant=\"dark\">", "\t${1}", "</Alert>"],
+    "description": "Create a dark Alert"
+  },
+  "Alert.Heading": {
+    "prefix": "rb:alert-heading",
+    "body": ["<Alert.Heading>${1}</Alert.Heading>"],
+    "description": "Create an Alert.Heading"
+  },
+  "Alert Example": {
+    "prefix": "rb:alert-example",
+    "body": [
+      "<Alert variant=\"primary\">",
+      "\t<Alert.Heading>Hey, nice to see you</Alert.Heading>",
+      "\t<p>",
+      "\t\tAww yeah, you successfully read this important alert message. This example",
+      "\t\ttext is going to run a bit longer so that you can see how spacing within an",
+      "\t\talert works with this kind of content.",
+      "\t</p>",
+      "\t<hr />",
+      "\t<p className=\"mb-0\">",
+      "\t\tWhenever you need to, be sure to use margin utilities to keep things nice",
+      "\t\tand tidy.",
+      "\t</p>",
+      "</Alert>"
+    ],
+    "description": "Insert an example Alert to build from"
+  }
+}

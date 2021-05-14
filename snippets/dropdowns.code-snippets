@@ -1,0 +1,114 @@
+{
+  "Import DropdownButton": {
+    "prefix": "rb:import:dropdown-button",
+    "body": "import { Dropdown, DropdownButton } from 'react-bootstrap';",
+    "description": "Import DropdownButton and Dropdown from react-bootstrap"
+  },
+  "DropdownButton": {
+    "prefix": "rb:dropdown-button",
+    "body": [
+      "<DropdownButton title=\"${1:Dropdown button}\" id=\"${2:dropdown-basic-button}\">",
+      "\t${3:Dropdown.Item, Dropdown.Divider, Dropdown.Header, Dropdown.ItemText, etc}",
+      "</DropdownButton>"
+    ],
+    "description": "Create a DropdownButton with two Dropdown.Items"
+  },
+  "Import SplitButton": {
+    "prefix": ["rb:import:dropdown-split-button"],
+    "body": "import { Dropdown, SplitButton } from 'react-bootstrap';",
+    "description": "Import SplitButton and Dropdown from react-bootstrap"
+  },
+  "SplitButton": {
+    "prefix": ["rb:dropdown-split-button"],
+    "body": [
+      "<SplitButton id=\"${2:dropdown-split-button}\" title=\"${1:Split button}\">",
+      "\t${3:Dropdown.Item, Dropdown.Divider, Dropdown.Header, Dropdown.ItemText, etc}",
+      "</SplitButton>"
+    ],
+    "description": "Create a SplitButton"
+  },
+  "Import Dropdown": {
+    "prefix": "rb:import:dropdown",
+    "body": "import { Dropdown } from 'react-bootstrap';",
+    "description": "Import Dropdown from react-bootstrap"
+  },
+  "Dropdown": {
+    "prefix": "rb:dropdown",
+    "body": [
+      "<Dropdown>",
+      "\t${1:Dropdown.Toggle, Dropdown.Menu, Button, etc}",
+      "</Dropdown>"
+    ],
+    "description": "Create a Dropdown"
+  },
+  "Dropdown.Toggle": {
+    "prefix": "rb:dropdown-toggle",
+    "body": [
+      "<Dropdown.Toggle id=\"${2:dropdown-basic}\">${1:Dropdown Button}</Dropdown.Toggle>"
+    ],
+    "description": "Create a Dropdown.Toggle"
+  },
+  "Dropdown.Menu": {
+    "prefix": "rb:dropdown-menu",
+    "body": [
+      "<Dropdown.Menu>",
+      "\t${1:Dropdown.Item, Dropdown.Divider, Dropdown.Header, Dropdown.ItemText, etc}",
+      "</Dropdown.Menu>"
+    ],
+    "description": "Create a Dropdown.Menu"
+  },
+  "Dropdown.Item": {
+    "prefix": "rb:dropdown-item",
+    "body": [
+      "<Dropdown.Item eventKey=\"${2:X}\">${1:Dropdown item}</Dropdown.Item>"
+    ],
+    "description": "Create a Dropdown.Item"
+  },
+  "Dropdown.ItemText": {
+    "prefix": "rb:dropdown-item-text",
+    "body": [
+      "<Dropdown.ItemText>${1:Non-interactive text}</Dropdown.ItemText>"
+    ],
+    "description": "Create a Dropdown.ItemText"
+  },
+  "Dropdown.Header": {
+    "prefix": "rb:dropdown-header",
+    "body": ["<Dropdown.Header>${1:Dropdown header}</Dropdown.Header>"],
+    "description": "Create a Dropdown.Header"
+  },
+  "Dropdown.Divider": {
+    "prefix": "rb:dropdown-divider",
+    "body": ["<Dropdown.Divider />"],
+    "description": "Create a Dropdown.Divider"
+  },
+  "Dropdown Button Example": {
+    "prefix": "rb:dropdown-button-example",
+    "body": [
+      "<DropdownButton title=\"Dropdown Button Example\" id=\"dropdown-button-example\">",
+      "\t<Dropdown.Header>Dropdown Header</Dropdown.Header>",
+      "\t<Dropdown.Item eventKey=\"1\">Action</Dropdown.Item>",
+      "\t<Dropdown.Item eventKey=\"2\">Another action</Dropdown.Item>",
+      "\t<Dropdown.Item eventKey=\"3\">Something else here</Dropdown.Item>",
+      "\t<Dropdown.Divider />",
+      "\t<Dropdown.Item eventKey=\"4\">Separated link</Dropdown.Item>",
+      "\t<Dropdown.ItemText>Non-interactive text</Dropdown.ItemText>",
+      "</DropdownButton>"
+    ],
+    "description": "Create a DropdownButton example to build from"
+  },
+  "Split Button Example": {
+    "prefix": "rb:dropdown-split-button-example",
+    "body": [
+      "<SplitButton title=\"Split Button Example\" id=\"split-button-example\">",
+      "\t<Dropdown.Header>Dropdown Header</Dropdown.Header>",
+      "\t<Dropdown.Item eventKey=\"1\">Action</Dropdown.Item>",
+      "\t<Dropdown.Item eventKey=\"2\">Another action</Dropdown.Item>",
+      "\t<Dropdown.Item eventKey=\"3\">Something else here</Dropdown.Item>",
+      "\t<Dropdown.Divider />",
+      "\t<Dropdown.Item eventKey=\"4\">Separated link</Dropdown.Item>",
+      "\t<Dropdown.ItemText>Non-interactive text</Dropdown.ItemText>",
+      "</SplitButton>"
+    ],
+    "description": "Create a SplitButton example to build from"
+  }
+}

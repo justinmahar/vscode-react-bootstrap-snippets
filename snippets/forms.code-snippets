@@ -1,0 +1,374 @@
+{
+  "Import Form": {
+    "prefix": "rb:import:form",
+    "body": "import { Form } from 'react-bootstrap';",
+    "description": "Import Form from react-bootstrap"
+  },
+  "Form": {
+    "prefix": "rb:form",
+    "body": ["<Form>", "\t${1:Form.Group, Form.Row, etc}", "</Form>"],
+    "description": "Create a Form"
+  },
+  "Form.Row": {
+    "prefix": "rb:form-row",
+    "body": [
+      "<Form.Row>",
+      "\t<Col>",
+      "\t\t${1:Form.Label, Form.Control, Form.Text, Form.Check, InputGroup, etc}",
+      "\t</Col>",
+      "</Form.Row>"
+    ],
+    "description": "Create a Form.Row"
+  },
+  "Form.Group": {
+    "prefix": "rb:form-group",
+    "body": [
+      "<Form.Group controlId=\"${1:form-group-id}\">",
+      "\t${2:Form.Label, Form.Control, Form.Text, Form.Check, InputGroup, etc}",
+      "</Form.Group>"
+    ],
+    "description": "Create a Form.Group"
+  },
+  "Inline Form": {
+    "prefix": "rb:form-inline",
+    "body": [
+      "<Form inline>",
+      "\t${1:Form.Label, Form.Control, Form.Text, Form.Check, InputGroup, etc}",
+      "</Form>"
+    ],
+    "description": "Create an inline Form"
+  },
+  "Form.Label": {
+    "prefix": "rb:form-label",
+    "body": ["<Form.Label>${1}</Form.Label>"],
+    "description": "Create a Form.Label"
+  },
+  "Form.Text": {
+    "prefix": "rb:form-text",
+    "body": [
+      "<Form.Text className=\"text-muted\">",
+      "\t${1:Form text}",
+      "</Form.Text>"
+    ],
+    "description": "Create a Form.Text"
+  },
+  "Text Form.Control": {
+    "prefix": ["rb:form-control", "rb:form-control-text"],
+    "body": [
+      "<Form.Control type=\"${2:text}\" placeholder=\"${1:Placeholder text}\" />"
+    ],
+    "description": "Create a text Form.Control"
+  },
+  "Email Form.Control": {
+    "prefix": ["rb:form-control-email"],
+    "body": [
+      "<Form.Control type=\"email\" placeholder=\"${1:Enter email}\" />"
+    ],
+    "description": "Create an email Form.Control"
+  },
+  "Password Form.Control": {
+    "prefix": ["rb:form-control-password"],
+    "body": [
+      "<Form.Control type=\"password\" placeholder=\"${1:Enter password}\" />"
+    ],
+    "description": "Create a password Form.Control"
+  },
+  "Select Form.Control": {
+    "prefix": "rb:form-control-select",
+    "body": [
+      "<Form.Control as=\"select\" defaultValue=\"${1:Choose...}\">",
+      "\t<option>${1:Choose...}</option>",
+      "\t<option>${2:...}</option>",
+      "</Form.Control>"
+    ],
+    "description": "Create a select Form.Control"
+  },
+  "Textarea Form.Control": {
+    "prefix": "rb:form-control-textarea",
+    "body": [
+      "<Form.Control as=\"textarea\" placeholder=\"${1:Placeholder}\" rows={${2:3}} />"
+    ],
+    "description": "Create a textarea Form.Control"
+  },
+  "Range Form.Control": {
+    "prefix": "rb:form-control-range",
+    "body": ["<Form.Control type=\"range\" />"],
+    "description": "Create a range Form.Control"
+  },
+  "Other HTML Form.Control": {
+    "prefix": "rb:form-control-other",
+    "body": [
+      "<Form.Control",
+      "\ttype=\"${1:button|checkbox|color|date|datetime-local|email|file|hidden|image|month|number|password|radio|range|reset|search|submit|tel|text|time|url|week}\"",
+      "\tas=\"${2:input}\"",
+      "/>"
+    ],
+    "description": "Create an HTML Form.Control"
+  },
+  "Form.Control.Feedback": {
+    "prefix": "rb:form-control-feedback",
+    "body": ["<Form.Control.Feedback>${1:Looks good!}</Form.Control.Feedback>"],
+    "description": "Create a Form.Control.Feedback"
+  },
+  "Invalid Form.Control.Feedback": {
+    "prefix": "rb:form-control-feedback-invalid",
+    "body": [
+      "<Form.Control.Feedback type=\"invalid\">${1:Please provide a valid entry.}</Form.Control.Feedback>"
+    ],
+    "description": "Create an invalid Form.Control.Feedback"
+  },
+  "Tooltip Form.Control.Feedback": {
+    "prefix": "rb:form-control-feedback-tooltip",
+    "body": [
+      "<Form.Control.Feedback tooltip>${1:Looks good!}</Form.Control.Feedback>"
+    ],
+    "description": "Create an invalid Form.Control.Feedback"
+  },
+  "Invalid Tooltip Form.Control.Feedback": {
+    "prefix": "rb:form-control-feedback-tooltip-invalid",
+    "body": [
+      "<Form.Control.Feedback type=\"invalid\" tooltip>${1:Please provide a valid entry.}</Form.Control.Feedback>"
+    ],
+    "description": "Create an invalid Form.Control.Feedback"
+  },
+  "Checkbox": {
+    "prefix": "rb:form-checkbox",
+    "body": [
+      "<Form.Check label=\"${1:Checkbox label}\" id=\"${2:checkbox-id}\" />"
+    ],
+    "description": "Create a checkbox Form.Check"
+  },
+  "Inline Checkbox": {
+    "prefix": "rb:form-checkbox-inline",
+    "body": [
+      "<Form.Check inline label=\"${1:Checkbox label}\" id=\"${2:checkbox-id}\" />"
+    ],
+    "description": "Create a checkbox Form.Check"
+  },
+  "Radio Button": {
+    "prefix": "rb:form-radio-button",
+    "body": [
+      "<Form.Check type=\"radio\" label=\"${1:Radio button label}\" id=\"${2:radio-button-id}\" />"
+    ],
+    "description": "Create a radio button Form.Check"
+  },
+  "Inline Radio Button": {
+    "prefix": "rb:form-radio-button-inline",
+    "body": [
+      "<Form.Check inline type=\"radio\" label=\"${1:Radio button label}\" id=\"${2:radio-button-id}\" />"
+    ],
+    "description": "Create a radio button Form.Check"
+  },
+  "Toggle Switch Checkbox": {
+    "prefix": "rb:form-checkbox-toggle-switch",
+    "body": [
+      "<Form.Check type=\"switch\" label=\"${1:Switch label}\" id=\"${2:toggle-switch-id}\" />"
+    ],
+    "description": "Create a toggle switch checkbox Form.Check"
+  },
+  "Inline Toggle Switch Checkbox": {
+    "prefix": "rb:form-checkbox-toggle-switch-inline",
+    "body": [
+      "<Form.Check inline type=\"switch\" label=\"${1:Switch label}\" id=\"${2:toggle-switch-id}\" />"
+    ],
+    "description": "Create an inline toggle switch checkbox Form.Check"
+  },
+  "Form.Check.Input": {
+    "prefix": "rb:form-check-input",
+    "body": ["<Form.Check.Input type=\"${1:checkbox}\" />"],
+    "description": "Create a Form.Check.Input"
+  },
+  "Form.Check.Label": {
+    "prefix": "rb:form-check-label",
+    "body": ["<Form.Check.Label>${1:Label}</Form.Check.Label>"],
+    "description": "Create a Form.Check.Label"
+  },
+  "Form.File": {
+    "prefix": "rb:form-file",
+    "body": [
+      "<Form.File label=\"${1:File input}\" id=\"${2:form-file-id}\" />"
+    ],
+    "description": "Create a Form.File"
+  },
+  "Custom Form.File": {
+    "prefix": "rb:form-file-custom",
+    "body": [
+      "<Form.File id=\"${3:formcheck-api-custom}\" custom>",
+      "\t<Form.File.Input isValid />",
+      "\t<Form.File.Label data-browse=\"${2:Button text}\">",
+      "\t\t${1:Custom file input}",
+      "\t</Form.File.Label>",
+      "\t<Form.Control.Feedback type=\"valid\">${4:You did it!}</Form.Control.Feedback>",
+      "</Form.File>"
+    ],
+    "description": "Create a custom Form.File"
+  },
+  "Form.File.Input": {
+    "prefix": "rb:form-file-input",
+    "body": ["<Form.File.Input>${1}</Form.File.Input>"],
+    "description": "Create a Form.File.Input"
+  },
+  "Form.File.Label": {
+    "prefix": "rb:form-file-label",
+    "body": [
+      "<Form.File.Label data-browse=\"${2:Button text}\">",
+      "\t${1:Custom file input}",
+      "</Form.File.Label>"
+    ],
+    "description": "Create a Form.File.Label"
+  },
+  "Form Example": {
+    "prefix": "rb:form-example",
+    "body": [
+      "<Form>",
+      "\t<Form.Group controlId=\"formBasicEmail\">",
+      "\t\t<Form.Label>Email address</Form.Label>",
+      "\t\t<Form.Control type=\"email\" placeholder=\"Enter email\" />",
+      "\t\t<Form.Text className=\"text-muted\">",
+      "\t\t\tWe'll never share your email with anyone else.",
+      "\t\t</Form.Text>",
+      "\t</Form.Group>",
+      "\t<Form.Group controlId=\"formBasicPassword\">",
+      "\t\t<Form.Label>Password</Form.Label>",
+      "\t\t<Form.Control type=\"password\" placeholder=\"Password\" />",
+      "\t</Form.Group>",
+      "\t<Form.Group controlId=\"exampleForm.ControlSelect1\">",
+      "\t\t<Form.Label>Example select</Form.Label>",
+      "\t\t<Form.Control as=\"select\">",
+      "\t\t\t<option>1</option>",
+      "\t\t\t<option>2</option>",
+      "\t\t\t<option>3</option>",
+      "\t\t</Form.Control>",
+      "\t</Form.Group>",
+      "\t<Form.Group controlId=\"exampleForm.ControlTextarea1\">",
+      "\t\t<Form.Label>Example textarea</Form.Label>",
+      "\t\t<Form.Control as=\"textarea\" rows={3} />",
+      "\t</Form.Group>",
+      "\t<Form.Group>",
+      "\t\t<Form.File id=\"exampleFormControlFile1\" label=\"Example file input\" />",
+      "\t</Form.Group>",
+      "\t<Form.Group controlId=\"formBasicRange\">",
+      "\t\t<Form.Label>Range</Form.Label>",
+      "\t\t<Form.Control type=\"range\" />",
+      "\t</Form.Group>",
+      "\t<Form.Group controlId=\"formBasicCheckbox\">",
+      "\t\t<Form.Check type=\"checkbox\" label=\"Check me out\" />",
+      "\t</Form.Group>",
+      "\t<Button variant=\"primary\" type=\"submit\">",
+      "\t\tSubmit",
+      "\t</Button>",
+      "</Form>"
+    ],
+    "description": "Create an example Form that can be built from"
+  },
+  "Grid Form Example": {
+    "prefix": "rb:form-grid-example",
+    "body": [
+      "<Form>",
+      "\t<Form.Row>",
+      "\t\t<Form.Group as={Col} controlId=\"formGridEmail\">",
+      "\t\t\t<Form.Label>Email</Form.Label>",
+      "\t\t\t<Form.Control type=\"email\" placeholder=\"Enter email\" />",
+      "\t\t</Form.Group>",
+      "\t\t<Form.Group as={Col} controlId=\"formGridPassword\">",
+      "\t\t\t<Form.Label>Password</Form.Label>",
+      "\t\t\t<Form.Control type=\"password\" placeholder=\"Password\" />",
+      "\t\t</Form.Group>",
+      "\t</Form.Row>",
+      "\t<Form.Group controlId=\"formGridAddress1\">",
+      "\t\t<Form.Label>Address</Form.Label>",
+      "\t\t<Form.Control placeholder=\"1234 Main St\" />",
+      "\t</Form.Group>",
+      "\t<Form.Group controlId=\"formGridAddress2\">",
+      "\t\t<Form.Label>Address 2</Form.Label>",
+      "\t\t<Form.Control placeholder=\"Apartment, studio, or floor\" />",
+      "\t</Form.Group>",
+      "\t<Form.Row>",
+      "\t\t<Form.Group as={Col} controlId=\"formGridCity\">",
+      "\t\t\t<Form.Label>City</Form.Label>",
+      "\t\t\t<Form.Control />",
+      "\t\t</Form.Group>",
+      "\t\t<Form.Group as={Col} controlId=\"formGridState\">",
+      "\t\t\t<Form.Label>State</Form.Label>",
+      "\t\t\t<Form.Control as=\"select\" defaultValue=\"Choose...\">",
+      "\t\t\t\t<option>Choose...</option>",
+      "\t\t\t\t<option>...</option>",
+      "\t\t\t</Form.Control>",
+      "\t\t</Form.Group>",
+      "\t\t<Form.Group as={Col} controlId=\"formGridZip\">",
+      "\t\t\t<Form.Label>Zip</Form.Label>",
+      "\t\t\t<Form.Control />",
+      "\t\t</Form.Group>",
+      "\t</Form.Row>",
+      "\t<Form.Group id=\"formGridCheckbox\">",
+      "\t\t<Form.Check type=\"checkbox\" label=\"Check me out\" />",
+      "\t</Form.Group>",
+      "\t<Button variant=\"primary\" type=\"submit\">",
+      "\t\tSubmit",
+      "\t</Button>",
+      "</Form>"
+    ],
+    "description": "Create an example grid Form that can be built from"
+  },
+  "Horizontal Grid Form Example": {
+    "prefix": "rb:form-grid-horizontal-example",
+    "body": [
+      "<Form>",
+      "\t<Form.Group as={Row} controlId=\"formHorizontalEmail\">",
+      "\t\t<Form.Label column sm={2}>",
+      "\t\t\tEmail",
+      "\t\t</Form.Label>",
+      "\t\t<Col sm={10}>",
+      "\t\t\t<Form.Control type=\"email\" placeholder=\"Email\" />",
+      "\t\t</Col>",
+      "\t</Form.Group>",
+      "\t<Form.Group as={Row} controlId=\"formHorizontalPassword\">",
+      "\t\t<Form.Label column sm={2}>",
+      "\t\t\tPassword",
+      "\t\t</Form.Label>",
+      "\t\t<Col sm={10}>",
+      "\t\t\t<Form.Control type=\"password\" placeholder=\"Password\" />",
+      "\t\t</Col>",
+      "\t</Form.Group>",
+      "\t<fieldset>",
+      "\t\t<Form.Group as={Row}>",
+      "\t\t\t<Form.Label as=\"legend\" column sm={2}>",
+      "\t\t\t\tRadios",
+      "\t\t\t</Form.Label>",
+      "\t\t\t<Col sm={10}>",
+      "\t\t\t\t<Form.Check",
+      "\t\t\t\t\ttype=\"radio\"",
+      "\t\t\t\t\tlabel=\"first radio\"",
+      "\t\t\t\t\tname=\"formHorizontalRadios\"",
+      "\t\t\t\t\tid=\"formHorizontalRadios1\"",
+      "\t\t\t\t/>",
+      "\t\t\t\t<Form.Check",
+      "\t\t\t\t\ttype=\"radio\"",
+      "\t\t\t\t\tlabel=\"second radio\"",
+      "\t\t\t\t\tname=\"formHorizontalRadios\"",
+      "\t\t\t\t\tid=\"formHorizontalRadios2\"",
+      "\t\t\t\t/>",
+      "\t\t\t\t<Form.Check",
+      "\t\t\t\t\ttype=\"radio\"",
+      "\t\t\t\t\tlabel=\"third radio\"",
+      "\t\t\t\t\tname=\"formHorizontalRadios\"",
+      "\t\t\t\t\tid=\"formHorizontalRadios3\"",
+      "\t\t\t\t/>",
+      "\t\t\t</Col>",
+      "\t\t</Form.Group>",
+      "\t</fieldset>",
+      "\t<Form.Group as={Row} controlId=\"formHorizontalCheck\">",
+      "\t\t<Col sm={{ span: 10, offset: 2 }}>",
+      "\t\t\t<Form.Check label=\"Remember me\" />",
+      "\t\t</Col>",
+      "\t</Form.Group>",
+      "\t<Form.Group as={Row}>",
+      "\t\t<Col sm={{ span: 10, offset: 2 }}>",
+      "\t\t\t<Button type=\"submit\">Sign in</Button>",
+      "\t\t</Col>",
+      "\t</Form.Group>",
+      "</Form>"
+    ],
+    "description": "Create an example horizontal grid Form that can be built from"
+  }
+}

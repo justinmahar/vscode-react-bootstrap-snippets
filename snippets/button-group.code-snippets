@@ -1,0 +1,55 @@
+{
+  "Import ButtonGroup": {
+    "prefix": "rb:import:button-group",
+    "body": "import { ButtonGroup } from 'react-bootstrap';",
+    "description": "Import ButtonGroup from react-bootstrap"
+  },
+  "ButtonGroup": {
+    "prefix": "rb:button-group",
+    "body": ["<ButtonGroup>${1:Buttons}</ButtonGroup>"],
+    "description": "Create a ButtonGroup"
+  },
+  "ButtonGroup Example": {
+    "prefix": "rb:button-group-example",
+    "body": [
+      "<ButtonGroup>",
+      "\t<Button>Left</Button>",
+      "\t<Button>Middle</Button>",
+      "\t<Button>Right</Button>",
+      "</ButtonGroup>"
+    ],
+    "description": "Create a ButtonGroup example to build from"
+  },
+  "Import ButtonToolbar": {
+    "prefix": "rb:import:button-toolbar",
+    "body": "import { ButtonToolbar } from 'react-bootstrap';",
+    "description": "Import ButtonToolbar from react-bootstrap"
+  },
+  "ButtonToolbar": {
+    "prefix": "rb:button-toolbar",
+    "body": [
+      "<ButtonToolbar>${1:ButtonGroups and InputGroups}</ButtonToolbar>"
+    ],
+    "description": "Create a ButtonToolbar"
+  },
+  "ButtonToolbar Example": {
+    "prefix": "rb:button-toolbar-example",
+    "body": [
+      "<ButtonToolbar>",
+      "\t<ButtonGroup className=\"mr-2\">",
+      "\t\t<Button>1</Button> <Button>2</Button> <Button>3</Button> <Button>4</Button>",
+      "\t</ButtonGroup>",
+      "\t<InputGroup>",
+      "\t\t<InputGroup.Prepend>",
+      "\t\t\t<InputGroup.Text id=\"btnGroupAddon\">@</InputGroup.Text>",
+      "\t\t</InputGroup.Prepend>",
+      "\t\t<FormControl",
+      "\t\t\ttype=\"text\"",
+      "\t\t\tplaceholder=\"Input group example\"",
+      "\t\t/>",
+      "\t</InputGroup>",
+      "</ButtonToolbar>"
+    ],
+    "description": "Create a ButtonToolbar example to build from"
+  }
+}

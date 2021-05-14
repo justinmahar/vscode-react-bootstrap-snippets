@@ -1,0 +1,92 @@
+{
+  "Import Button": {
+    "prefix": "rb:import:button",
+    "body": "import { Button } from 'react-bootstrap';",
+    "description": "Import Button from react-bootstrap"
+  },
+  "Button (primary)": {
+    "prefix": ["rb:button", "rb:button-primary"],
+    "body": ["<Button variant=\"primary\">${1:Primary}</Button>"],
+    "description": "Create a primary Button"
+  },
+  "Button (outline-primary)": {
+    "prefix": "rb:button-outline-primary",
+    "body": ["<Button variant=\"outline-primary\">${1:Primary}</Button>"],
+    "description": "Create an outlined primary Button with no background color"
+  },
+  "Button (secondary)": {
+    "prefix": "rb:button-secondary",
+    "body": ["<Button variant=\"secondary\">${1:Secondary}</Button>"],
+    "description": "Create a secondary Button"
+  },
+  "Button (outline-secondary)": {
+    "prefix": "rb:button-outline-secondary",
+    "body": ["<Button variant=\"outline-secondary\">${1:Secondary}</Button>"],
+    "description": "Create an outlined secondary Button with no background color"
+  },
+  "Button (success)": {
+    "prefix": "rb:button-success",
+    "body": ["<Button variant=\"success\">${1:Success}</Button>"],
+    "description": "Create a success Button"
+  },
+  "Button (outline-success)": {
+    "prefix": "rb:button-outline-success",
+    "body": ["<Button variant=\"outline-success\">${1:Success}</Button>"],
+    "description": "Create an outlined success Button with no background color"
+  },
+  "Button (danger)": {
+    "prefix": "rb:button-danger",
+    "body": ["<Button variant=\"danger\">${1:Danger}</Button>"],
+    "description": "Create a danger Button"
+  },
+  "Button (outline-danger)": {
+    "prefix": "rb:button-outline-danger",
+    "body": ["<Button variant=\"outline-danger\">${1:Danger}</Button>"],
+    "description": "Create an outlined danger Button with no background color"
+  },
+  "Button (warning)": {
+    "prefix": "rb:button-warning",
+    "body": ["<Button variant=\"warning\">${1:Warning}</Button>"],
+    "description": "Create a warning Button"
+  },
+  "Button (outline-warning)": {
+    "prefix": "rb:button-outline-warning",
+    "body": ["<Button variant=\"outline-warning\">${1:Warning}</Button>"],
+    "description": "Create an outlined warning Button with no background color"
+  },
+  "Button (info)": {
+    "prefix": "rb:button-info",
+    "body": ["<Button variant=\"info\">${1:Info}</Button>"],
+    "description": "Create a info Button"
+  },
+  "Button (outline-info)": {
+    "prefix": "rb:button-outline-info",
+    "body": ["<Button variant=\"outline-info\">${1:Info}</Button>"],
+    "description": "Create an outlined info Button with no background color"
+  },
+  "Button (light)": {
+    "prefix": "rb:button-light",
+    "body": ["<Button variant=\"light\">${1:Light}</Button>"],
+    "description": "Create a light Button"
+  },
+  "Button (outline-light)": {
+    "prefix": "rb:button-outline-light",
+    "body": ["<Button variant=\"outline-light\">${1:Light}</Button>"],
+    "description": "Create an outlined light Button with no background color"
+  },
+  "Button (dark)": {
+    "prefix": "rb:button-dark",
+    "body": ["<Button variant=\"dark\">${1:Dark}</Button>"],
+    "description": "Create a dark Button"
+  },
+  "Button (outline-dark)": {
+    "prefix": "rb:button-outline-dark",
+    "body": ["<Button variant=\"outline-dark\">${1:Dark}</Button>"],
+    "description": "Create an outlined dark Button with no background color"
+  },
+  "Button (link)": {
+    "prefix": "rb:button-link",
+    "body": ["<Button variant=\"link\">${1:Link}</Button>"],
+    "description": "Create a link Button"
+  }
+}

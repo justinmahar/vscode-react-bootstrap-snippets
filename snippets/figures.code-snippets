@@ -1,0 +1,45 @@
+{
+  "Import Figure": {
+    "prefix": "rb:import:figure",
+    "body": "import { Figure } from 'react-bootstrap';",
+    "description": "Import Figure from react-bootstrap"
+  },
+  "Figure": {
+    "prefix": "rb:figure",
+    "body": [
+      "<Figure>",
+      "\t<Figure.Image",
+      "\t\tsrc=\"${2:https://placeimg.com/171/180/any}\"",
+      "\t\twidth={${3:171}}",
+      "\t\theight={${4:180}}",
+      "\t\talt=\"${5:171x180}\"",
+      "\t/>",
+      "\t<Figure.Caption>",
+      "\t\t${1:Add a caption for the figure here}",
+      "\t</Figure.Caption>",
+      "</Figure>"
+    ],
+    "description": "Create a Figure"
+  },
+  "Figure.Image": {
+    "prefix": "rb:figure-image",
+    "body": [
+      "<Figure.Image",
+      "\tsrc=\"${1:https://placeimg.com/171/180/any}\"",
+      "\twidth={${2:171}}",
+      "\theight={${3:180}}",
+      "\talt=\"${4:171x180}\"",
+      "/>"
+    ],
+    "description": "Create a Figure.Image"
+  },
+  "Figure.Caption": {
+    "prefix": "rb:figure-caption",
+    "body": [
+      "<Figure.Caption>",
+      "\t${1:Add a caption for the figure here}",
+      "</Figure.Caption>"
+    ],
+    "description": "Create a Figure"
+  }
+}

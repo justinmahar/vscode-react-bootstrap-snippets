@@ -1,0 +1,96 @@
+{
+  "Import Card": {
+    "prefix": "rb:import:card",
+    "body": "import { Card } from 'react-bootstrap';",
+    "description": "Import Card from react-bootstrap"
+  },
+  "Card": {
+    "prefix": "rb:card",
+    "body": [
+      "<Card>${1:Card.Img, Card.ImgOverlay, Card.Header, Card.Body, ListGroup, etc}</Card>"
+    ],
+    "description": "Create a Card"
+  },
+  "Card.Img": {
+    "prefix": "rb:card-img",
+    "body": [
+      "<Card.Img variant=\"${2:top}\" src=\"${1:https://placeimg.com/300/120/any}\"/>"
+    ],
+    "description": "Create a Card.Img"
+  },
+  "Card.ImgOverlay": {
+    "prefix": "rb:card-img-overlay",
+    "body": [
+      "<Card.ImgOverlay>${1:Card.Title, Card.Subtitle, Card.Text, Card.Link, Button, etc}</Card.ImgOverlay>"
+    ],
+    "description": "Create a Card.ImgOverlay. This will turn an image into a card background and overlay your card's text."
+  },
+  "Card.Header": {
+    "prefix": "rb:card-header",
+    "body": ["<Card.Header>${1:Header Text}</Card.Header>"],
+    "description": "Create a Card.Header"
+  },
+  "Card.Body": {
+    "prefix": "rb:card-body",
+    "body": [
+      "<Card.Body>${1:Card.Title, Card.Subtitle, Card.Text, Card.Link, Button, etc}</Card.Body>"
+    ],
+    "description": "Create a Card.Body"
+  },
+  "Card.Title": {
+    "prefix": "rb:card-title",
+    "body": ["<Card.Title>${1:Title}</Card.Title>"],
+    "description": "Create a Card.Title"
+  },
+  "Card.Subtitle": {
+    "prefix": "rb:card-subtitle",
+    "body": ["<Card.Subtitle>${1:Subtitle}</Card.Subtitle>"],
+    "description": "Create a Card.Subtitle"
+  },
+  "Card.Text": {
+    "prefix": "rb:card-text",
+    "body": ["<Card.Text>${1:Text}</Card.Text>"],
+    "description": "Create a Card.Text"
+  },
+  "Card.Link": {
+    "prefix": "rb:card-link",
+    "body": ["<Card.Link href=\"${2:#}\">${1:Card Link}</Card.Link>"],
+    "description": "Create a Card.Link"
+  },
+  "Card List Group": {
+    "prefix": "rb:card-list-group",
+    "body": [
+      "<ListGroup variant=\"flush\">",
+      "\t<ListGroup.Item>${1:List group item}</ListGroup.Item>",
+      "</ListGroup>"
+    ],
+    "description": "Create a flush ListGroup for use inside a Card"
+  },
+  "Card Example": {
+    "prefix": "rb:card-example",
+    "body": [
+      "<Card style={{ width: '18rem' }}>",
+      "\t<Card.Img variant=\"top\" src=\"https://placeimg.com/300/120/any\" />",
+      "\t<Card.Header>Header</Card.Header>",
+      "\t<Card.Body>",
+      "\t\t<Card.Title>Card Title</Card.Title>",
+      "\t\t<Card.Subtitle>Card Subtitle</Card.Subtitle>",
+      "\t\t<Card.Text>",
+      "\t\t\tSome quick example text to build on the card title and make up the bulk of",
+      "\t\t\tthe card's content.",
+      "\t\t</Card.Text>",
+      "\t</Card.Body>",
+      "\t<ListGroup flush>",
+      "\t\t<ListGroupItem>Cras justo odio</ListGroupItem>",
+      "\t\t<ListGroupItem>Dapibus ac facilisis in</ListGroupItem>",
+      "\t\t<ListGroupItem>Vestibulum at eros</ListGroupItem>",
+      "\t</ListGroup>",
+      "\t<Card.Body>",
+      "\t\t<Card.Link href=\"#\">Card Link</Card.Link>",
+      "\t\t<Card.Link href=\"#\">Another Link</Card.Link>",
+      "\t</Card.Body>",
+      "</Card>"
+    ],
+    "description": "Create an example Card to build from"
+  }
+}
