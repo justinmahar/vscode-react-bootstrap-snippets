@@ -57,6 +57,10 @@
       },
       {
         "language": "javascriptreact",
+        "path": "./snippets/grid.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
         "path": "./snippets/images.code-snippets"
       },
       {
@@ -70,6 +74,10 @@
       {
         "language": "javascriptreact",
         "path": "./snippets/list-group.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/media.code-snippets"
       },
       {
         "language": "javascriptreact",
@@ -165,6 +173,10 @@
       },
       {
         "language": "javascript",
+        "path": "./snippets/grid.code-snippets"
+      },
+      {
+        "language": "javascript",
         "path": "./snippets/images.code-snippets"
       },
       {
@@ -178,6 +190,10 @@
       {
         "language": "javascript",
         "path": "./snippets/list-group.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/media.code-snippets"
       },
       {
         "language": "javascript",
@@ -273,6 +289,10 @@
       },
       {
         "language": "jsx",
+        "path": "./snippets/grid.code-snippets"
+      },
+      {
+        "language": "jsx",
         "path": "./snippets/images.code-snippets"
       },
       {
@@ -286,6 +306,10 @@
       {
         "language": "jsx",
         "path": "./snippets/list-group.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/media.code-snippets"
       },
       {
         "language": "jsx",
@@ -381,6 +405,10 @@
       },
       {
         "language": "jsx-attr",
+        "path": "./snippets/grid.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
         "path": "./snippets/images.code-snippets"
       },
       {
@@ -394,6 +422,10 @@
       {
         "language": "jsx-attr",
         "path": "./snippets/list-group.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/media.code-snippets"
       },
       {
         "language": "jsx-attr",
@@ -489,6 +521,10 @@
       },
       {
         "language": "typescript",
+        "path": "./snippets/grid.code-snippets"
+      },
+      {
+        "language": "typescript",
         "path": "./snippets/images.code-snippets"
       },
       {
@@ -502,6 +538,10 @@
       {
         "language": "typescript",
         "path": "./snippets/list-group.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/media.code-snippets"
       },
       {
         "language": "typescript",
@@ -597,6 +637,10 @@
       },
       {
         "language": "typescriptreact",
+        "path": "./snippets/grid.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
         "path": "./snippets/images.code-snippets"
       },
       {
@@ -610,6 +654,10 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/list-group.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/media.code-snippets"
       },
       {
         "language": "typescriptreact",

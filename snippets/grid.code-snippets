@@ -1,0 +1,139 @@
+{
+  "Import Grid": {
+    "prefix": ["rb:import:grid", "rb:import:grid-container-row-col"],
+    "body": "import { Container, Row, Col } from 'react-bootstrap';",
+    "description": "Import grid components Container, Row, and Col from react-bootstrap"
+  },
+  "Import Container": {
+    "prefix": "rb:import:container",
+    "body": "import { Container } from 'react-bootstrap';",
+    "description": "Import Container from react-bootstrap"
+  },
+  "Container": {
+    "prefix": "rb:container",
+    "body": ["<Container>", "\t${1:Rows, etc}", "</Container>"],
+    "description": "Create a Container"
+  },
+  "Fluid Container": {
+    "prefix": "rb:container-fluid",
+    "body": ["<Container fluid>", "\t${1:Rows, etc}", "</Container>"],
+    "description": "Create a fluid Container for width: 100% across all viewport and device sizes."
+  },
+  "Import Row": {
+    "prefix": "rb:import:row",
+    "body": "import { Row } from 'react-bootstrap';",
+    "description": "Import Row from react-bootstrap"
+  },
+  "Row": {
+    "prefix": "rb:row",
+    "body": ["<Row>", "\t${1: Cols, etc}", "</Row>"],
+    "description": "Create a Row"
+  },
+  "Row (xs columns)": {
+    "prefix": "rb:row-xs",
+    "body": ["<Row xs={${1:2}}>", "\t${2: Cols, etc}", "</Row>"],
+    "description": "Create a Row with the amount of columns that will fit next to each other specified for the xs breakpoint."
+  },
+  "Row (sm columns)": {
+    "prefix": "rb:row-sm",
+    "body": ["<Row sm={${1:2}}>", "\t${2: Cols, etc}", "</Row>"],
+    "description": "Create a Row with the amount of columns that will fit next to each other specified for the sm breakpoint."
+  },
+  "Row (md columns)": {
+    "prefix": "rb:row-md",
+    "body": ["<Row md={${1:2}}>", "\t${2: Cols, etc}", "</Row>"],
+    "description": "Create a Row with the amount of columns that will fit next to each other specified for the md breakpoint."
+  },
+  "Row (lg columns)": {
+    "prefix": "rb:row-lg",
+    "body": ["<Row lg={${1:2}}>", "\t${2: Cols, etc}", "</Row>"],
+    "description": "Create a Row with the amount of columns that will fit next to each other specified for the lg breakpoint."
+  },
+  "Row (xl columns)": {
+    "prefix": "rb:row-xl",
+    "body": ["<Row xl={${1:2}}>", "\t${2: Cols, etc}", "</Row>"],
+    "description": "Create a Row with the amount of columns that will fit next to each other specified for the xl breakpoint."
+  },
+  "Import Col": {
+    "prefix": "rb:import:col",
+    "body": "import { Col } from 'react-bootstrap';",
+    "description": "Import Col from react-bootstrap"
+  },
+  "Col": {
+    "prefix": "rb:col",
+    "body": ["<Col>${1:Column}</Col>"],
+    "description": "Create a Col"
+  },
+  "Col (xs span)": {
+    "prefix": "rb:col-xs",
+    "body": ["<Col xs={${1:6}}>${2:Column}</Col>"],
+    "description": "Create a Col with an xs breakpoint span"
+  },
+  "Col (xs span/offset)": {
+    "prefix": "rb:col-xs-span-offset",
+    "body": ["<Col xs={{ span: ${1:4}, offset: ${2:4} }}>${3:Column}</Col>"],
+    "description": "Create a Col with an xs breakpoint span and offset"
+  },
+  "Col (sm span)": {
+    "prefix": "rb:col-sm",
+    "body": ["<Col sm={${1:6}}>${2:Column}</Col>"],
+    "description": "Create a Col with an sm breakpoint span"
+  },
+  "Col (sm span/offset)": {
+    "prefix": "rb:col-sm-span-offset",
+    "body": ["<Col sm={{ span: ${1:4}, offset: ${2:4} }}>${3:Column}</Col>"],
+    "description": "Create a Col with an sm breakpoint span and offset"
+  },
+  "Col (md span)": {
+    "prefix": "rb:col-md",
+    "body": ["<Col md={${1:6}}>${2:Column}</Col>"],
+    "description": "Create a Col with an md breakpoint span"
+  },
+  "Col (md span/offset)": {
+    "prefix": "rb:col-md-span-offset",
+    "body": ["<Col md={{ span: ${1:4}, offset: ${2:4} }}>${3:Column}</Col>"],
+    "description": "Create a Col with an md breakpoint span and offset"
+  },
+  "Col (lg span)": {
+    "prefix": "rb:col-lg",
+    "body": ["<Col lg={${1:6}}>${2:Column}</Col>"],
+    "description": "Create a Col with an lg breakpoint span"
+  },
+  "Col (lg span/offset)": {
+    "prefix": "rb:col-lg-span-offset",
+    "body": ["<Col lg={{ span: ${1:4}, offset: ${2:4} }}>${3:Column}</Col>"],
+    "description": "Create a Col with an lg breakpoint span and offset"
+  },
+  "Col (xl span)": {
+    "prefix": "rb:col-xl",
+    "body": ["<Col xl={${1:6}}>${2:Column}</Col>"],
+    "description": "Create a Col with an xl breakpoint span"
+  },
+  "Col (xl span/offset)": {
+    "prefix": "rb:col-xl-span-offset",
+    "body": ["<Col xl={{ span: ${1:4}, offset: ${2:4} }}>${3:Column}</Col>"],
+    "description": "Create a Col with an xl breakpoint span and offset"
+  },
+  "Container With Row": {
+    "prefix": "rb:container-row",
+    "body": [
+      "<Container>",
+      "\t<Row>",
+      "\t\t${1:Cols, etc}",
+      "\t</Row>",
+      "</Container>"
+    ],
+    "description": "Create a Container with a Row"
+  },
+  "Container With Row And Column": {
+    "prefix": "rb:container-row-column",
+    "body": [
+      "<Container>",
+      "\t<Row>",
+      "\t\t<Col>${1:Column}</Col>$0",
+      "\t</Row>",
+      "</Container>"
+    ],
+    "description": "Create a Container with a Row and a Col"
+  }
+}
