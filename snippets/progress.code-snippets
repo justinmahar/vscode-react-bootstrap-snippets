@@ -1,12 +1,107 @@
 {
-  // "Import Yyyyyyyyyyy": {
-  //   "prefix": "rb:import:Yyyyyyyyyyy",
-  //   "body": "import { Yyyyyyyyyyy } from 'react-bootstrap';",
-  //   "description": "Import Yyyyyyyyyyy from react-bootstrap"
-  // },
-  // "Yyyyyyyyyyy": {
-  //   "prefix": "rb:Yyyyyyyyyyy",
-  //   "body": ["<Yyyyyyyyyyy>", "\t${1}", "</Yyyyyyyyyyy>"],
-  //   "description": "Create a Yyyyyyyyyyy"
-  // }
+  "Import ProgressBar": {
+    "prefix": "rb:import:progress-bar",
+    "body": "import { ProgressBar } from 'react-bootstrap';",
+    "description": "Import ProgressBar from react-bootstrap"
+  },
+  "ProgressBar (primary)": {
+    "prefix": ["rb:progress-bar", "rb:progress-bar-primary"],
+    "body": ["<ProgressBar variant=\"primary\" now={${1:40}} label=\"$2\" />"],
+    "description": "Create a primary ProgressBar"
+  },
+  "Striped ProgressBar (primary)": {
+    "prefix": ["rb:progress-bar-striped", "rb:progress-bar-primary-striped"],
+    "body": [
+      "<ProgressBar striped variant=\"primary\" now={${1:40}} label=\"$2\" />"
+    ],
+    "description": "Create a primary ProgressBar"
+  },
+  "Animated ProgressBar (primary)": {
+    "prefix": ["rb:progress-bar-animated", "rb:progress-bar-primary-animated"],
+    "body": [
+      "<ProgressBar animated variant=\"primary\" now={${1:40}} label=\"$2\" />"
+    ],
+    "description": "Create a primary ProgressBar"
+  },
+  "ProgressBar (success)": {
+    "prefix": "rb:progress-bar-success",
+    "body": ["<ProgressBar variant=\"success\" now={${1:40}} label=\"$2\" />"],
+    "description": "Create a success ProgressBar"
+  },
+  "Striped ProgressBar (success)": {
+    "prefix": "rb:progress-bar-success-striped",
+    "body": [
+      "<ProgressBar striped variant=\"success\" now={${1:40}} label=\"$2\" />"
+    ],
+    "description": "Create a success ProgressBar"
+  },
+  "Animated ProgressBar (success)": {
+    "prefix": "rb:progress-bar-success-animated",
+    "body": [
+      "<ProgressBar animated variant=\"success\" now={${1:40}} label=\"$2\" />"
+    ],
+    "description": "Create a success ProgressBar"
+  },
+  "ProgressBar (info)": {
+    "prefix": "rb:progress-bar-info",
+    "body": ["<ProgressBar variant=\"info\" now={${1:40}} label=\"$2\" />"],
+    "description": "Create an info ProgressBar"
+  },
+  "Striped ProgressBar (info)": {
+    "prefix": "rb:progress-bar-info-striped",
+    "body": [
+      "<ProgressBar striped variant=\"info\" now={${1:40}} label=\"$2\" />"
+    ],
+    "description": "Create an info ProgressBar"
+  },
+  "Animated ProgressBar (info)": {
+    "prefix": "rb:progress-bar-info-animated",
+    "body": [
+      "<ProgressBar animated variant=\"info\" now={${1:40}} label=\"$2\" />"
+    ],
+    "description": "Create an info ProgressBar"
+  },
+  "ProgressBar (warning)": {
+    "prefix": "rb:progress-bar-warning",
+    "body": ["<ProgressBar variant=\"warning\" now={${1:40}} label=\"$2\" />"],
+    "description": "Create a warning ProgressBar"
+  },
+  "Striped ProgressBar (warning)": {
+    "prefix": "rb:progress-bar-warning-striped",
+    "body": [
+      "<ProgressBar striped variant=\"warning\" now={${1:40}} label=\"$2\" />"
+    ],
+    "description": "Create a warning ProgressBar"
+  },
+  "Animated ProgressBar (warning)": {
+    "prefix": "rb:progress-bar-warning-animated",
+    "body": [
+      "<ProgressBar animated variant=\"warning\" now={${1:40}} label=\"$2\" />"
+    ],
+    "description": "Create a warning ProgressBar"
+  },
+  "ProgressBar (danger)": {
+    "prefix": "rb:progress-bar-danger",
+    "body": ["<ProgressBar variant=\"danger\" now={${1:40}} label=\"$2\" />"],
+    "description": "Create a danger ProgressBar"
+  },
+  "Striped ProgressBar (danger)": {
+    "prefix": "rb:progress-bar-danger-striped",
+    "body": [
+      "<ProgressBar striped variant=\"danger\" now={${1:40}} label=\"$2\" />"
+    ],
+    "description": "Create a danger ProgressBar"
+  },
+  "Animated ProgressBar (danger)": {
+    "prefix": "rb:progress-bar-danger-animated",
+    "body": [
+      "<ProgressBar animated variant=\"danger\" now={${1:40}} label=\"$2\" />"
+    ],
+    "description": "Create a danger ProgressBar"
+  },
+  "ProgressBar Stack": {
+    "prefix": "rb:progress-bar-stack",
+    "body": ["<ProgressBar>", "\t${1:ProgressBars, etc}", "</ProgressBar>"],
+    "description": "Create a ProgressBar stack"
+  }
 }
