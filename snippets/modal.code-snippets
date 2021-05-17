@@ -1,12 +1,127 @@
 {
-  // "Import Yyyyyyyyyyy": {
-  //   "prefix": "rb:import:Yyyyyyyyyyy",
-  //   "body": "import { Yyyyyyyyyyy } from 'react-bootstrap';",
-  //   "description": "Import Yyyyyyyyyyy from react-bootstrap"
-  // },
-  // "Yyyyyyyyyyy": {
-  //   "prefix": "rb:Yyyyyyyyyyy",
-  //   "body": ["<Yyyyyyyyyyy>", "\t${1}", "</Yyyyyyyyyyy>"],
-  //   "description": "Create a Yyyyyyyyyyy"
-  // }
+  "Import Modal": {
+    "prefix": "rb:import:modal",
+    "body": "import { Modal } from 'react-bootstrap';",
+    "description": "Import Modal from react-bootstrap"
+  },
+  "Modal": {
+    "prefix": ["rb:modal", "rb:modal-md"],
+    "body": [
+      "<Modal centered show={${4:showModal}} onHide={${5:handleCloseModal}}>",
+      "\t<Modal.Header closeButton>",
+      "\t\t<Modal.Title>${1:Modal heading}</Modal.Title>",
+      "\t</Modal.Header>",
+      "\t<Modal.Body>",
+      "\t\t<p>${2:Modal body text}</p>",
+      "\t</Modal.Body>",
+      "\t<Modal.Footer>",
+      "\t\t<Button variant=\"secondary\" onClick={${5:handleCloseModal}}>",
+      "\t\t\t${3:Close}",
+      "\t\t</Button>",
+      "\t</Modal.Footer>",
+      "</Modal>"
+    ],
+    "description": "Create a Modal"
+  },
+  "Small Modal": {
+    "prefix": "rb:modal-sm",
+    "body": [
+      "<Modal size=\"sm\" centered show={${4:showModal}} onHide={${5:handleCloseModal}}>",
+      "\t<Modal.Header closeButton>",
+      "\t\t<Modal.Title>${1:Modal heading}</Modal.Title>",
+      "\t</Modal.Header>",
+      "\t<Modal.Body>",
+      "\t\t<p>${2:Modal body text}</p>",
+      "\t</Modal.Body>",
+      "\t<Modal.Footer>",
+      "\t\t<Button variant=\"secondary\" onClick={${5:handleCloseModal}}>",
+      "\t\t\t${3:Close}",
+      "\t\t</Button>",
+      "\t</Modal.Footer>",
+      "</Modal>"
+    ],
+    "description": "Create a Modal"
+  },
+  "Large Modal": {
+    "prefix": "rb:modal-lg",
+    "body": [
+      "<Modal size=\"lg\" centered show={${4:showModal}} onHide={${5:handleCloseModal}}>",
+      "\t<Modal.Header closeButton>",
+      "\t\t<Modal.Title>${1:Modal heading}</Modal.Title>",
+      "\t</Modal.Header>",
+      "\t<Modal.Body>",
+      "\t\t<p>${2:Modal body text}</p>",
+      "\t</Modal.Body>",
+      "\t<Modal.Footer>",
+      "\t\t<Button variant=\"secondary\" onClick={${5:handleCloseModal}}>",
+      "\t\t\t${3:Close}",
+      "\t\t</Button>",
+      "\t</Modal.Footer>",
+      "</Modal>"
+    ],
+    "description": "Create a Modal"
+  },
+  "Extra Large Modal": {
+    "prefix": "rb:modal-xl",
+    "body": [
+      "<Modal size=\"xl\" centered show={${4:showModal}} onHide={${5:handleCloseModal}}>",
+      "\t<Modal.Header closeButton>",
+      "\t\t<Modal.Title>${1:Modal heading}</Modal.Title>",
+      "\t</Modal.Header>",
+      "\t<Modal.Body>",
+      "\t\t<p>${2:Modal body text}</p>",
+      "\t</Modal.Body>",
+      "\t<Modal.Footer>",
+      "\t\t<Button variant=\"secondary\" onClick={${5:handleCloseModal}}>",
+      "\t\t\t${3:Close}",
+      "\t\t</Button>",
+      "\t</Modal.Footer>",
+      "</Modal>"
+    ],
+    "description": "Create a Modal"
+  },
+  "Modal.Dialog": {
+    "prefix": "rb:modal-dialog",
+    "body": ["<Modal.Dialog>", "\t${1}", "</Modal.Dialog>"],
+    "description": "Create a Modal.Dialog. This is the static modal dialog without the positioning and backdrop."
+  },
+  "Modal.Header": {
+    "prefix": "rb:modal-header",
+    "body": [
+      "<Modal.Header closeButton>",
+      "\t<Modal.Title>${1:Modal heading}</Modal.Title>",
+      "</Modal.Header>"
+    ],
+    "description": "Create a Modal.Header"
+  },
+  "Modal.Title": {
+    "prefix": "rb:modal-title",
+    "body": ["<Modal.Title>", "\t${1:Modal title}", "</Modal.Title>"],
+    "description": "Create a Modal.Title"
+  },
+  "Modal.Body": {
+    "prefix": "rb:modal-body",
+    "body": ["<Modal.Body>", "\t<p>${2:Modal body text}</p>", "</Modal.Body>"],
+    "description": "Create a Modal.Body"
+  },
+  "Modal.Footer": {
+    "prefix": "rb:modal-footer",
+    "body": [
+      "<Modal.Footer>",
+      "\t<Button variant=\"secondary\" onClick={${2:handleCloseModal}}>",
+      "\t\t${1:Close}",
+      "\t</Button>}",
+      "</Modal.Footer>"
+    ],
+    "description": "Create a Modal.Footer"
+  },
+  "Modal Functions": {
+    "prefix": "rb:modal-functions",
+    "body": [
+      "const [showModal, setShowModal] = React.useState(false);",
+      "const handleCloseModal = () => setShowModal(false);",
+      "const handleShowModal = () => setShowModal(true);"
+    ],
+    "description": "Create functions used to show and close the modal."
+  }
 }
