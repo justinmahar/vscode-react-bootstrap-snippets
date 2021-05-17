@@ -11,12 +11,12 @@
   },
   "Container": {
     "prefix": "rb:container",
-    "body": ["<Container>", "\t${1:Rows, etc}", "</Container>"],
+    "body": ["<Container>", "\t${1:Rows, content, etc}", "</Container>"],
     "description": "Create a Container"
   },
   "Fluid Container": {
     "prefix": "rb:container-fluid",
-    "body": ["<Container fluid>", "\t${1:Rows, etc}", "</Container>"],
+    "body": ["<Container fluid>", "\t${1:Rows, content, etc}", "</Container>"],
     "description": "Create a fluid Container for width: 100% across all viewport and device sizes."
   },
   "Import Row": {

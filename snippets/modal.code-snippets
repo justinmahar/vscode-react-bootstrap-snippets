@@ -82,7 +82,11 @@
   },
   "Modal.Dialog": {
     "prefix": "rb:modal-dialog",
-    "body": ["<Modal.Dialog>", "\t${1}", "</Modal.Dialog>"],
+    "body": [
+      "<Modal.Dialog>",
+      "\t${1:Modal.Header, Modal.Body, Modal.Footer, etc}",
+      "</Modal.Dialog>"
+    ],
     "description": "Create a Modal.Dialog. This is the static modal dialog without the positioning and backdrop."
   },
   "Modal.Header": {
@@ -122,6 +126,6 @@
       "const handleCloseModal = () => setShowModal(false);",
       "const handleShowModal = () => setShowModal(true);"
     ],
-    "description": "Create functions used to show and close the modal."
+    "description": "Create functions used to show and hide the modal."
   }
 }

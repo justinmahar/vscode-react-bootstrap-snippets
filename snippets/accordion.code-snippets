@@ -7,17 +7,8 @@
   "Accordion": {
     "prefix": "rb:accordion",
     "body": [
-      "<Accordion defaultActiveKey=\"${3:0}\">",
-      "\t<Card>",
-      "\t\t<Card.Header>",
-      "\t\t\t<Accordion.Toggle as={Card.Header} variant=\"link\" eventKey=\"${3:0}\">",
-      "\t\t\t\t${1:Accordion toggle title}",
-      "\t\t\t</Accordion.Toggle>",
-      "\t\t</Card.Header>",
-      "\t\t<Accordion.Collapse eventKey=\"${3:0}\">",
-      "\t\t\t<Card.Body>${2:Card body}</Card.Body>",
-      "\t\t</Accordion.Collapse>",
-      "\t</Card>",
+      "<Accordion defaultActiveKey=\"${1:0}\">",
+      "\t${2:Accordion cards, etc}",
       "</Accordion>"
     ],
     "description": "Create an Accordion with a single Card inside"
@@ -27,11 +18,11 @@
     "body": [
       "<Card>",
       "\t<Card.Header>",
-      "\t\t<Accordion.Toggle as={Card.Header} variant=\"link\" eventKey=\"${3:X}\">",
+      "\t\t<Accordion.Toggle as={Card.Header} variant=\"link\" eventKey=\"${3:0}\">",
       "\t\t\t${1:Accordion toggle title}",
       "\t\t</Accordion.Toggle>",
       "\t</Card.Header>",
-      "\t<Accordion.Collapse eventKey=\"${3:X}\">",
+      "\t<Accordion.Collapse eventKey=\"${3:0}\">",
       "\t\t<Card.Body>${2:Card body}</Card.Body>",
       "\t</Accordion.Collapse>",
       "</Card>"

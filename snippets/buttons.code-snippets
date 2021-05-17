@@ -6,87 +6,155 @@
   },
   "Button (primary)": {
     "prefix": ["rb:button", "rb:button-primary"],
-    "body": ["<Button variant=\"primary\">${1:Primary}</Button>"],
+    "body": [
+      "<Button variant=\"primary\" onClick={${2:() => console.log(\"${1:Primary}\")}}>",
+      "\t${1:Primary}",
+      "</Button>"
+    ],
     "description": "Create a primary Button"
   },
   "Button (outline-primary)": {
     "prefix": "rb:button-outline-primary",
-    "body": ["<Button variant=\"outline-primary\">${1:Primary}</Button>"],
+    "body": [
+      "<Button variant=\"outline-primary\" onClick={${2:() => console.log(\"${1:Primary}\")}}>",
+      "\t${1:Primary outline}",
+      "</Button>"
+    ],
     "description": "Create an outlined primary Button with no background color"
   },
   "Button (secondary)": {
     "prefix": "rb:button-secondary",
-    "body": ["<Button variant=\"secondary\">${1:Secondary}</Button>"],
+    "body": [
+      "<Button variant=\"secondary\" onClick={${2:() => console.log(\"${1:Secondary}\")}}>",
+      "\t${1:Secondary}",
+      "</Button>"
+    ],
     "description": "Create a secondary Button"
   },
   "Button (outline-secondary)": {
     "prefix": "rb:button-outline-secondary",
-    "body": ["<Button variant=\"outline-secondary\">${1:Secondary}</Button>"],
+    "body": [
+      "<Button variant=\"outline-secondary\" onClick={${2:() => console.log(\"${1:Secondary}\")}}>",
+      "\t${1:Secondary outline}",
+      "</Button>"
+    ],
     "description": "Create an outlined secondary Button with no background color"
   },
   "Button (success)": {
     "prefix": "rb:button-success",
-    "body": ["<Button variant=\"success\">${1:Success}</Button>"],
+    "body": [
+      "<Button variant=\"success\" onClick={${2:() => console.log(\"${1:Success}\")}}>",
+      "\t${1:Success}",
+      "</Button>"
+    ],
     "description": "Create a success Button"
   },
   "Button (outline-success)": {
     "prefix": "rb:button-outline-success",
-    "body": ["<Button variant=\"outline-success\">${1:Success}</Button>"],
+    "body": [
+      "<Button variant=\"outline-success\" onClick={${2:() => console.log(\"${1:Success}\")}}>",
+      "\t${1:Success outline}",
+      "</Button>"
+    ],
     "description": "Create an outlined success Button with no background color"
   },
   "Button (danger)": {
     "prefix": "rb:button-danger",
-    "body": ["<Button variant=\"danger\">${1:Danger}</Button>"],
+    "body": [
+      "<Button variant=\"danger\" onClick={${2:() => console.log(\"${1:Danger}\")}}>",
+      "\t${1:Danger}",
+      "</Button>"
+    ],
     "description": "Create a danger Button"
   },
   "Button (outline-danger)": {
     "prefix": "rb:button-outline-danger",
-    "body": ["<Button variant=\"outline-danger\">${1:Danger}</Button>"],
+    "body": [
+      "<Button variant=\"outline-danger\" onClick={${2:() => console.log(\"${1:Danger}\")}}>",
+      "\t${1:Danger outline}",
+      "</Button>"
+    ],
     "description": "Create an outlined danger Button with no background color"
   },
   "Button (warning)": {
     "prefix": "rb:button-warning",
-    "body": ["<Button variant=\"warning\">${1:Warning}</Button>"],
+    "body": [
+      "<Button variant=\"warning\" onClick={${2:() => console.log(\"${1:Warning}\")}}>",
+      "\t${1:Warning}",
+      "</Button>"
+    ],
     "description": "Create a warning Button"
   },
   "Button (outline-warning)": {
     "prefix": "rb:button-outline-warning",
-    "body": ["<Button variant=\"outline-warning\">${1:Warning}</Button>"],
+    "body": [
+      "<Button variant=\"outline-warning\" onClick={${2:() => console.log(\"${1:Warning}\")}}>",
+      "\t${1:Warning outline}",
+      "</Button>"
+    ],
     "description": "Create an outlined warning Button with no background color"
   },
   "Button (info)": {
     "prefix": "rb:button-info",
-    "body": ["<Button variant=\"info\">${1:Info}</Button>"],
+    "body": [
+      "<Button variant=\"info\" onClick={${2:() => console.log(\"${1:Info}\")}}>",
+      "\t${1:Info}",
+      "</Button>"
+    ],
     "description": "Create a info Button"
   },
   "Button (outline-info)": {
     "prefix": "rb:button-outline-info",
-    "body": ["<Button variant=\"outline-info\">${1:Info}</Button>"],
+    "body": [
+      "<Button variant=\"outline-info\" onClick={${2:() => console.log(\"${1:Info}\")}}>",
+      "\t${1:Info outline}",
+      "</Button>"
+    ],
     "description": "Create an outlined info Button with no background color"
   },
   "Button (light)": {
     "prefix": "rb:button-light",
-    "body": ["<Button variant=\"light\">${1:Light}</Button>"],
+    "body": [
+      "<Button variant=\"light\" onClick={${2:() => console.log(\"${1:Light}\")}}>",
+      "\t${1:Light}",
+      "</Button>"
+    ],
     "description": "Create a light Button"
   },
   "Button (outline-light)": {
     "prefix": "rb:button-outline-light",
-    "body": ["<Button variant=\"outline-light\">${1:Light}</Button>"],
+    "body": [
+      "<Button variant=\"outline-light\" onClick={${2:() => console.log(\"${1:Light}\")}}>",
+      "\t${1:Light outline}",
+      "</Button>"
+    ],
     "description": "Create an outlined light Button with no background color"
   },
   "Button (dark)": {
     "prefix": "rb:button-dark",
-    "body": ["<Button variant=\"dark\">${1:Dark}</Button>"],
+    "body": [
+      "<Button variant=\"dark\" onClick={${2:() => console.log(\"${1:Dark}\")}}>",
+      "\t${1:Dark}",
+      "</Button>"
+    ],
     "description": "Create a dark Button"
   },
   "Button (outline-dark)": {
     "prefix": "rb:button-outline-dark",
-    "body": ["<Button variant=\"outline-dark\">${1:Dark}</Button>"],
+    "body": [
+      "<Button variant=\"outline-dark\" onClick={${2:() => console.log(\"${1:Dark}\")}}>",
+      "\t${1:Dark outline}",
+      "</Button>"
+    ],
     "description": "Create an outlined dark Button with no background color"
   },
   "Button (link)": {
     "prefix": "rb:button-link",
-    "body": ["<Button variant=\"link\">${1:Link}</Button>"],
+    "body": [
+      "<Button variant=\"link\" onClick={${2:() => console.log(\"${1:Link}\")}}>",
+      "\t${1:Link}",
+      "</Button>"
+    ],
     "description": "Create a link Button"
   }
 }

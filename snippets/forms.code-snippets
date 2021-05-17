@@ -40,7 +40,7 @@
   },
   "Form.Label": {
     "prefix": "rb:form-label",
-    "body": ["<Form.Label>${1}</Form.Label>"],
+    "body": ["<Form.Label>${1:Label for form group}</Form.Label>"],
     "description": "Create a Form.Label"
   },
   "Form.Text": {
@@ -132,66 +132,66 @@
     "description": "Create an invalid Form.Control.Feedback"
   },
   "Checkbox": {
-    "prefix": "rb:form-checkbox",
+    "prefix": "rb:form-control-checkbox",
     "body": [
       "<Form.Check label=\"${1:Checkbox label}\" id=\"${2:checkbox-id}\" />"
     ],
     "description": "Create a checkbox Form.Check"
   },
   "Inline Checkbox": {
-    "prefix": "rb:form-checkbox-inline",
+    "prefix": "rb:form-control-checkbox-inline",
     "body": [
       "<Form.Check inline label=\"${1:Checkbox label}\" id=\"${2:checkbox-id}\" />"
     ],
     "description": "Create a checkbox Form.Check"
   },
   "Radio Button": {
-    "prefix": "rb:form-radio-button",
+    "prefix": "rb:form-control-radio-button",
     "body": [
       "<Form.Check type=\"radio\" label=\"${1:Radio button label}\" id=\"${2:radio-button-id}\" />"
     ],
     "description": "Create a radio button Form.Check"
   },
   "Inline Radio Button": {
-    "prefix": "rb:form-radio-button-inline",
+    "prefix": "rb:form-control-radio-button-inline",
     "body": [
       "<Form.Check inline type=\"radio\" label=\"${1:Radio button label}\" id=\"${2:radio-button-id}\" />"
     ],
     "description": "Create a radio button Form.Check"
   },
   "Toggle Switch Checkbox": {
-    "prefix": "rb:form-checkbox-toggle-switch",
+    "prefix": "rb:form-control-checkbox-toggle-switch",
     "body": [
       "<Form.Check type=\"switch\" label=\"${1:Switch label}\" id=\"${2:toggle-switch-id}\" />"
     ],
     "description": "Create a toggle switch checkbox Form.Check"
   },
   "Inline Toggle Switch Checkbox": {
-    "prefix": "rb:form-checkbox-toggle-switch-inline",
+    "prefix": "rb:form-control-checkbox-toggle-switch-inline",
     "body": [
       "<Form.Check inline type=\"switch\" label=\"${1:Switch label}\" id=\"${2:toggle-switch-id}\" />"
     ],
     "description": "Create an inline toggle switch checkbox Form.Check"
   },
   "Form.Check.Input": {
-    "prefix": "rb:form-check-input",
+    "prefix": "rb:form-control-check-input",
     "body": ["<Form.Check.Input type=\"${1:checkbox}\" />"],
     "description": "Create a Form.Check.Input"
   },
   "Form.Check.Label": {
-    "prefix": "rb:form-check-label",
+    "prefix": "rb:form-control-check-label",
     "body": ["<Form.Check.Label>${1:Label}</Form.Check.Label>"],
     "description": "Create a Form.Check.Label"
   },
   "Form.File": {
-    "prefix": "rb:form-file",
+    "prefix": "rb:form-control-file",
     "body": [
       "<Form.File label=\"${1:File input}\" id=\"${2:form-file-id}\" />"
     ],
     "description": "Create a Form.File"
   },
   "Custom Form.File": {
-    "prefix": "rb:form-file-custom",
+    "prefix": "rb:form-control-file-custom",
     "body": [
       "<Form.File id=\"${3:formcheck-api-custom}\" custom>",
       "\t<Form.File.Input isValid />",
@@ -204,12 +204,12 @@
     "description": "Create a custom Form.File"
   },
   "Form.File.Input": {
-    "prefix": "rb:form-file-input",
-    "body": ["<Form.File.Input>${1}</Form.File.Input>"],
+    "prefix": "rb:form-control-file-input",
+    "body": ["<Form.File.Input />"],
     "description": "Create a Form.File.Input"
   },
   "Form.File.Label": {
-    "prefix": "rb:form-file-label",
+    "prefix": "rb:form-control-file-label",
     "body": [
       "<Form.File.Label data-browse=\"${2:Button text}\">",
       "\t${1:Custom file input}",

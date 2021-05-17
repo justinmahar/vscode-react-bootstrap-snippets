@@ -6,47 +6,151 @@
   },
   "Alert (primary)": {
     "prefix": ["rb:alert", "rb:alert-primary"],
-    "body": ["<Alert variant=\"primary\">", "\t${1}", "</Alert>"],
+    "body": [
+      "<Alert variant=\"primary\">",
+      "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
+      "</Alert>"
+    ],
+    "description": "Create a primary Alert"
+  },
+  "Dismissible Alert (primary)": {
+    "prefix": ["rb:alert-dismissible", "rb:alert-primary-dismissible"],
+    "body": [
+      "<Alert variant=\"primary\" dismissible onClose={${2:handleCloseAlert}}>",
+      "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
+      "</Alert>"
+    ],
     "description": "Create a primary Alert"
   },
   "Alert (secondary)": {
     "prefix": "rb:alert-secondary",
-    "body": ["<Alert variant=\"secondary\">", "\t${1}", "</Alert>"],
+    "body": [
+      "<Alert variant=\"secondary\">",
+      "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
+      "</Alert>"
+    ],
+    "description": "Create a secondary Alert"
+  },
+  "Dismissible Alert (secondary)": {
+    "prefix": "rb:alert-secondary-dismissible",
+    "body": [
+      "<Alert variant=\"secondary\" dismissible onClose={${2:handleCloseAlert}}>",
+      "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
+      "</Alert>"
+    ],
     "description": "Create a secondary Alert"
   },
   "Alert (success)": {
     "prefix": "rb:alert-success",
-    "body": ["<Alert variant=\"success\">", "\t${1}", "</Alert>"],
+    "body": [
+      "<Alert variant=\"success\">",
+      "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
+      "</Alert>"
+    ],
+    "description": "Create a success Alert"
+  },
+  "Dismissible Alert (success)": {
+    "prefix": "rb:alert-success-dismissible",
+    "body": [
+      "<Alert variant=\"success\" dismissible onClose={${2:handleCloseAlert}}>",
+      "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
+      "</Alert>"
+    ],
     "description": "Create a success Alert"
   },
   "Alert (danger)": {
     "prefix": "rb:alert-danger",
-    "body": ["<Alert variant=\"danger\">", "\t${1}", "</Alert>"],
+    "body": [
+      "<Alert variant=\"danger\">",
+      "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
+      "</Alert>"
+    ],
+    "description": "Create a danger Alert"
+  },
+  "Dismissible Alert (danger)": {
+    "prefix": "rb:alert-danger-dismissible",
+    "body": [
+      "<Alert variant=\"danger\" dismissible onClose={${2:handleCloseAlert}}>",
+      "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
+      "</Alert>"
+    ],
     "description": "Create a danger Alert"
   },
   "Alert (warning)": {
     "prefix": "rb:alert-warning",
-    "body": ["<Alert variant=\"warning\">", "\t${1}", "</Alert>"],
+    "body": [
+      "<Alert variant=\"warning\">",
+      "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
+      "</Alert>"
+    ],
+    "description": "Create a warning Alert"
+  },
+  "Dismissible Alert (warning)": {
+    "prefix": "rb:alert-warning-dismissible",
+    "body": [
+      "<Alert variant=\"warning\" dismissible onClose={${2:handleCloseAlert}}>",
+      "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
+      "</Alert>"
+    ],
     "description": "Create a warning Alert"
   },
   "Alert (info)": {
     "prefix": "rb:alert-info",
-    "body": ["<Alert variant=\"info\">", "\t${1}", "</Alert>"],
+    "body": [
+      "<Alert variant=\"info\">",
+      "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
+      "</Alert>"
+    ],
+    "description": "Create an info Alert"
+  },
+  "Dismissible Alert (info)": {
+    "prefix": "rb:alert-info-dismissible",
+    "body": [
+      "<Alert variant=\"info\" dismissible onClose={${2:handleCloseAlert}}>",
+      "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
+      "</Alert>"
+    ],
     "description": "Create an info Alert"
   },
   "Alert (light)": {
     "prefix": "rb:alert-light",
-    "body": ["<Alert variant=\"light\">", "\t${1}", "</Alert>"],
+    "body": [
+      "<Alert variant=\"light\">",
+      "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
+      "</Alert>"
+    ],
+    "description": "Create a light Alert"
+  },
+  "Dismissible Alert (light)": {
+    "prefix": "rb:alert-light-dismissible",
+    "body": [
+      "<Alert variant=\"light\" dismissible onClose={${2:handleCloseAlert}}>",
+      "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
+      "</Alert>"
+    ],
     "description": "Create a light Alert"
   },
   "Alert (dark)": {
     "prefix": "rb:alert-dark",
-    "body": ["<Alert variant=\"dark\">", "\t${1}", "</Alert>"],
+    "body": [
+      "<Alert variant=\"dark\">",
+      "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
+      "</Alert>"
+    ],
+    "description": "Create a dark Alert"
+  },
+  "Dismissible Alert (dark)": {
+    "prefix": "rb:alert-dark-dismissible",
+    "body": [
+      "<Alert variant=\"dark\" dismissible onClose={${2:handleCloseAlert}}>",
+      "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
+      "</Alert>"
+    ],
     "description": "Create a dark Alert"
   },
   "Alert.Heading": {
     "prefix": "rb:alert-heading",
-    "body": ["<Alert.Heading>${1}</Alert.Heading>"],
+    "body": ["<Alert.Heading>${1:Heading text}</Alert.Heading>"],
     "description": "Create an Alert.Heading"
   },
   "Alert Example": {
@@ -67,5 +171,14 @@
       "</Alert>"
     ],
     "description": "Insert an example Alert to build from"
+  },
+  "Dismissible Alert Functions": {
+    "prefix": "rb:alert-dismissible-functions",
+    "body": [
+      "const [showAlert, setShowAlert] = React.useState(false);",
+      "const handleCloseAlert = () => setShowAlert(false);",
+      "const handleShowAlert = () => setShowAlert(true);"
+    ],
+    "description": "Create functions used to show and hide the alert."
   }
 }
