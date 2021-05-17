@@ -7,10 +7,23 @@
   "Tooltip": {
     "prefix": "rb:tooltip",
     "body": [
-      "<Tooltip id=\"${2:tooltip-id}\">",
-      "\t${1:Tooltip text}",
+      "<Tooltip id=\"${1:tooltip-id}\">",
+      "\t${2:Tooltip text}",
       "</Tooltip>"
     ],
     "description": "Create a Tooltip"
+  },
+  "Tooltip Example": {
+    "prefix": "rb:tooltip-example",
+    "body": [
+      "<OverlayTrigger",
+      "\tplacement=\"right\"",
+      "\tdelay={{ show: 250, hide: 400 }}",
+      "\toverlay={<Tooltip id=\"tooltip-id\">We are using an OverlayTrigger to show this tooltip!</Tooltip>}",
+      ">",
+      "\t<Button variant=\"success\">Hover me to see</Button>",
+      "</OverlayTrigger>"
+    ],
+    "description": "Create an example of using a Tooltip with an OverlayTrigger"
   }
 }

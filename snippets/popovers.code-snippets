@@ -28,5 +28,25 @@
       "<Popover.Title as=\"${1:h3}\">${2:Popover Title}</Popover.Title>"
     ],
     "description": "Create a Popover.Title"
+  },
+  "Popover Example": {
+    "prefix": "rb:popover-example",
+    "body": [
+      "<OverlayTrigger",
+      "\ttrigger=\"click\"",
+      "\tplacement=\"right\"",
+      "\toverlay={",
+      "\t\t<Popover id=\"popover-id\">",
+      "\t\t\t<Popover.Title as=\"h3\">Popover title</Popover.Title>",
+      "\t\t\t<Popover.Content>",
+      "\t\t\t\tWe are using an <strong>OverlayTrigger</strong> to show this popover on click!",
+      "\t\t\t</Popover.Content>",
+      "\t\t</Popover>",
+      "\t}",
+      "\t>",
+      "\t<Button variant=\"success\">Click me to see</Button>",
+      "</OverlayTrigger>"
+    ],
+    "description": "Create an example of using a Popover with an OverlayTrigger"
   }
 }
