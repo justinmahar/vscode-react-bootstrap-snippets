@@ -1,12 +1,48 @@
 {
-  // "Import Yyyyyyyyyyy": {
-  //   "prefix": "rb:import:Yyyyyyyyyyy",
-  //   "body": "import { Yyyyyyyyyyy } from 'react-bootstrap';",
-  //   "description": "Import Yyyyyyyyyyy from react-bootstrap"
-  // },
-  // "Yyyyyyyyyyy": {
-  //   "prefix": "rb:Yyyyyyyyyyy",
-  //   "body": ["<Yyyyyyyyyyy>${1}</Yyyyyyyyyyy>"],
-  //   "description": "Create a Yyyyyyyyyyy"
-  // }
+  "Import ListGroup": {
+    "prefix": "rb:import:list-group",
+    "body": "import { ListGroup } from 'react-bootstrap';",
+    "description": "Import ListGroup from react-bootstrap"
+  },
+  "ListGroup": {
+    "prefix": "rb:list-group",
+    "body": [
+      "<ListGroup>",
+      "\t<ListGroup.Item>${1:ListGroup item}</ListGroup.Item>",
+      "</ListGroup>"
+    ],
+    "description": "Create a ListGroup"
+  },
+  "Flush ListGroup": {
+    "prefix": "rb:list-group-flush",
+    "body": [
+      "<ListGroup variant=\"flush\">",
+      "\t<ListGroup.Item>${1:ListGroup item}</ListGroup.Item>",
+      "</ListGroup>"
+    ],
+    "description": "Create a flush ListGroup. Removes outer borders and rounded corners to render list group items edge-to-edge in a parent container such as a Card."
+  },
+  "Horizontal ListGroup": {
+    "prefix": "rb:list-group-horizontal",
+    "body": [
+      "<ListGroup horizontal>",
+      "\t<ListGroup.Item>${1:ListGroup item}</ListGroup.Item>",
+      "</ListGroup>"
+    ],
+    "description": "Create a horizontal ListGroup. The ListGroup will render horizontally."
+  },
+  "ListGroup.Item": {
+    "prefix": "rb:list-group-item",
+    "body": ["<ListGroup.Item>${1:ListGroup item}</ListGroup.Item>"],
+    "description": "Create a ListGroup.Item"
+  },
+  "Action ListGroup.Item": {
+    "prefix": "rb:list-group-item-action",
+    "body": [
+      "<ListGroup.Item action onClick={() => {}}>",
+      "\t${1:ListGroup item}",
+      "</ListGroup.Item>"
+    ],
+    "description": "Create an action ListGroup.Item"
+  }
 }

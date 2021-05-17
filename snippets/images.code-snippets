@@ -1,12 +1,36 @@
 {
-  // "Import Yyyyyyyyyyy": {
-  //   "prefix": "rb:import:Yyyyyyyyyyy",
-  //   "body": "import { Yyyyyyyyyyy } from 'react-bootstrap';",
-  //   "description": "Import Yyyyyyyyyyy from react-bootstrap"
-  // },
-  // "Yyyyyyyyyyy": {
-  //   "prefix": "rb:Yyyyyyyyyyy",
-  //   "body": ["<Yyyyyyyyyyy>${1}</Yyyyyyyyyyy>"],
-  //   "description": "Create a Yyyyyyyyyyy"
-  // }
+  "Import Image": {
+    "prefix": "rb:import:image",
+    "body": "import { Image } from 'react-bootstrap';",
+    "description": "Import Image from react-bootstrap"
+  },
+  "Image": {
+    "prefix": "rb:image",
+    "body": ["<Image src=\"${1:https://placeimg.com/171/180/any}\" />"],
+    "description": "Create an Image"
+  },
+  "Rounded Image": {
+    "prefix": "rb:image-rounded",
+    "body": ["<Image src=\"${1:https://placeimg.com/171/180/any}\" rounded />"],
+    "description": "Create a rounded Image"
+  },
+  "Rounded Circle Image": {
+    "prefix": "rb:image-rounded-circle",
+    "body": [
+      "<Image src=\"${1:https://placeimg.com/171/180/any}\" roundedCircle />"
+    ],
+    "description": "Create a rounded circle Image"
+  },
+  "Thumbnail Image": {
+    "prefix": "rb:image-thumbnail",
+    "body": [
+      "<Image src=\"${1:https://placeimg.com/171/180/any}\" thumbnail />"
+    ],
+    "description": "Create a thumbnail Image"
+  },
+  "Fluid Image": {
+    "prefix": "rb:image-fluid",
+    "body": ["<Image src=\"${1:https://placeimg.com/1104/250/any}\" fluid />"],
+    "description": "Create a fluid Image that scales to the parent element"
+  }
 }

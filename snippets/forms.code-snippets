@@ -262,7 +262,7 @@
     "description": "Create an example Form that can be built from"
   },
   "Grid Form Example": {
-    "prefix": "rb:form-grid-example",
+    "prefix": "rb:form-example-grid",
     "body": [
       "<Form>",
       "\t<Form.Row>",
@@ -311,7 +311,7 @@
     "description": "Create an example grid Form that can be built from"
   },
   "Horizontal Grid Form Example": {
-    "prefix": "rb:form-grid-horizontal-example",
+    "prefix": "rb:form-example-grid-horizontal",
     "body": [
       "<Form>",
       "\t<Form.Group as={Row} controlId=\"formHorizontalEmail\">",

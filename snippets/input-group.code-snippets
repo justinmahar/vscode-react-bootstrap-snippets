@@ -1,12 +1,99 @@
 {
-  // "Import Yyyyyyyyyyy": {
-  //   "prefix": "rb:import:Yyyyyyyyyyy",
-  //   "body": "import { Yyyyyyyyyyy } from 'react-bootstrap';",
-  //   "description": "Import Yyyyyyyyyyy from react-bootstrap"
-  // },
-  // "Yyyyyyyyyyy": {
-  //   "prefix": "rb:Yyyyyyyyyyy",
-  //   "body": ["<Yyyyyyyyyyy>${1}</Yyyyyyyyyyy>"],
-  //   "description": "Create a Yyyyyyyyyyy"
-  // }
+  "Import InputGroup": {
+    "prefix": "rb:import:input-group",
+    "body": "import { InputGroup } from 'react-bootstrap';",
+    "description": "Import InputGroup from react-bootstrap"
+  },
+  "InputGroup": {
+    "prefix": "rb:input-group",
+    "body": [
+      "<InputGroup>",
+      "\t${1:InputGroup.Prepend, FormControl, InputGroup.Append, etc}",
+      "</InputGroup>"
+    ],
+    "description": "Create an InputGroup"
+  },
+  "InputGroup.Prepend": {
+    "prefix": "rb:input-group-prepend",
+    "body": [
+      "<InputGroup.Prepend>",
+      "\t${1:InputGroup.Text, Button, InputGroup.Checkbox, InputGroup.Radio, etc}",
+      "</InputGroup.Prepend>"
+    ],
+    "description": "Create an InputGroup.Prepend"
+  },
+  "InputGroup.Append": {
+    "prefix": "rb:input-group-append",
+    "body": [
+      "<InputGroup.Append>",
+      "\t${1:InputGroup.Text, Button, InputGroup.Checkbox, InputGroup.Radio, etc}",
+      "</InputGroup.Append>"
+    ],
+    "description": "Create an InputGroup.Append"
+  },
+  "InputGroup.Text": {
+    "prefix": "rb:input-group-text",
+    "body": ["<InputGroup.Text>${1:Text}</InputGroup.Text>"],
+    "description": "Create an InputGroup.Text"
+  },
+  "InputGroup.Checkbox": {
+    "prefix": "rb:input-group-checkbox",
+    "body": [
+      "<InputGroup.Checkbox aria-label=\"${1:Checkbox for following text input}\" />"
+    ],
+    "description": "Create an InputGroup.Checkbox"
+  },
+  "InputGroup.Radio": {
+    "prefix": "rb:input-group-radio",
+    "body": [
+      "<InputGroup.Radio aria-label=\"${1:Radio button for following text input}\" />"
+    ],
+    "description": "Create an InputGroup.Radio"
+  },
+  "Prepended InputGroup DropdownButton": {
+    "prefix": "rb:input-group-dropdown-button-prepend",
+    "body": [
+      "<DropdownButton",
+      "\tas={InputGroup.Prepend}",
+      "\tvariant=\"primary\"",
+      "\ttitle=\"Dropdown Button Text\"",
+      "\tid=\"input-group-dropdown-id\"",
+      ">",
+      "\t${3:Dropdown.Item, Dropdown.Divider, Dropdown.Header, Dropdown.ItemText, etc}",
+      "</DropdownButton>"
+    ],
+    "description": "Create a prepended InputGroup DropdownButton"
+  },
+  "Appended InputGroup DropdownButton": {
+    "prefix": "rb:input-group-dropdown-button-append",
+    "body": [
+      "<DropdownButton",
+      "\tas={InputGroup.Append}",
+      "\tvariant=\"primary\"",
+      "\ttitle=\"Dropdown Button Text\"",
+      "\tid=\"input-group-dropdown-id\"",
+      ">",
+      "\t${3:Dropdown.Item, Dropdown.Divider, Dropdown.Header, Dropdown.ItemText, etc}",
+      "</DropdownButton>"
+    ],
+    "description": "Create an appended InputGroup DropdownButton"
+  },
+  "InputGroup Example": {
+    "prefix": "rb:input-group-example",
+    "body": [
+      "<InputGroup>",
+      "\t<InputGroup.Prepend>",
+      "\t\t<InputGroup.Text>$</InputGroup.Text>",
+      "\t\t<InputGroup.Text>0.00</InputGroup.Text>",
+      "\t</InputGroup.Prepend>",
+      "\t<Form.Control",
+      "\t\tplaceholder=\"Recipient's username\"",
+      "\t/>",
+      "\t<InputGroup.Append>",
+      "\t\t<Button variant=\"outline-secondary\">Send</Button>",
+      "\t</InputGroup.Append>",
+      "</InputGroup>"
+    ],
+    "description": "Create an example InputGroup to build from"
+  }
 }
