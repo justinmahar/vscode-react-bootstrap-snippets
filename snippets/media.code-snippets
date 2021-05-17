@@ -6,59 +6,46 @@
   },
   "Media": {
     "prefix": "rb:media",
-    "body": [
-      "<Media>",
-      "\t<img",
-      "\t\twidth={${5:64}}",
-      "\t\theight={${6:64}}",
-      "\t\tclassName=\"mr-3\"",
-      "\t\tsrc=\"${3:http://placeimg.com/64/64/any}\"",
-      "\t\talt=\"${4:Generic placeholder}\"",
-      "\t/>",
-      "\t<Media.Body>",
-      "\t\t<h5>${1:Media Heading}</h5>",
-      "\t\t<p>",
-      "\t\t\t${2:Sic mundus creatus est. Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque",
-      "\t\t\tante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,",
-      "\t\t\ttempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.}",
-      "\t\t</p>",
-      "\t</Media.Body>",
-      "</Media>"
-    ],
+    "body": ["<Media>", "\t${1:img, Media.Body, etc}", "</Media>"],
     "description": "Create a Media"
   },
   "Media.Body": {
     "prefix": "rb:media-body",
-    "body": [
-      "<Media.Body>",
-      "\t<h5>${1:Media Heading}</h5>",
-      "\t<p>",
-      "\t\t${2:Sic mundus creatus est. Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque",
-      "\t\tante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,",
-      "\t\ttempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.}",
-      "\t</p>",
-      "</Media.Body>"
-    ],
+    "body": ["<Media.Body>", "\t${1:h5, p, etc}", "</Media.Body>"],
     "description": "Create a Media.Body"
   },
   "Media List": {
     "prefix": "rb:media-list",
     "body": [
       "<ul className=\"list-unstyled\">",
+      "\t${1:Media list item, etc}",
+      "</ul>"
+    ],
+    "description": "Create a Media list"
+  },
+  "Media List Item": {
+    "prefix": "rb:media-list-item",
+    "body": ["<Media as=\"li\">", "\t${1:img, Media.Body, etc}", "</Media>"],
+    "description": "Create a Media list item"
+  },
+  "Media List Example": {
+    "prefix": "rb:media-list-example",
+    "body": [
+      "<ul className=\"list-unstyled\">",
       "\t<Media as=\"li\">",
       "\t\t<img",
-      "\t\t\twidth={${5:64}}",
-      "\t\t\theight={${6:64}}",
+      "\t\t\twidth={64}",
+      "\t\t\theight={64}",
       "\t\t\tclassName=\"mr-3\"",
-      "\t\t\tsrc=\"${3:http://placeimg.com/64/64/any}\"",
-      "\t\t\talt=\"${4:Generic placeholder}\"",
+      "\t\t\tsrc=\"http://placeimg.com/64/64/any\"",
+      "\t\t\talt=\"Generic placeholder\"",
       "\t\t/>",
       "\t\t<Media.Body>",
-      "\t\t\t<h5>${1:Media Heading}</h5>",
+      "\t\t\t<h5>Media Heading</h5>",
       "\t\t\t<p>",
-      "\t\t\t\t${2:Sic mundus creatus est. Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque",
+      "\t\t\t\tSic mundus creatus est. Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque",
       "\t\t\t\tante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,",
-      "\t\t\t\ttempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.}",
+      "\t\t\t\ttempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.",
       "\t\t\t</p>",
       "\t\t</Media.Body>",
       "\t</Media>",
@@ -66,27 +53,27 @@
     ],
     "description": "Create a Media list"
   },
-  "Media List Item": {
-    "prefix": "rb:media-list-item",
+  "Media Example": {
+    "prefix": "rb:media-example",
     "body": [
-      "<Media as=\"li\">",
+      "<Media>",
       "\t<img",
-      "\t\twidth={${5:64}}",
-      "\t\theight={${6:64}}",
+      "\t\twidth={64}",
+      "\t\theight={64}",
       "\t\tclassName=\"mr-3\"",
-      "\t\tsrc=\"${3:http://placeimg.com/64/64/any}\"",
-      "\t\talt=\"${4:Generic placeholder}\"",
+      "\t\tsrc=\"http://placeimg.com/64/64/any\"",
+      "\t\talt=\"Generic placeholder\"",
       "\t/>",
       "\t<Media.Body>",
-      "\t\t<h5>${1:Media Heading}</h5>",
+      "\t\t<h5>Media Heading</h5>",
       "\t\t<p>",
-      "\t\t\t${2:Sic mundus creatus est. Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque",
+      "\t\t\tSic mundus creatus est. Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque",
       "\t\t\tante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,",
-      "\t\t\ttempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.}",
+      "\t\t\ttempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.",
       "\t\t</p>",
       "\t</Media.Body>",
       "</Media>"
     ],
-    "description": "Create a Media list item"
+    "description": "Create a Media"
   }
 }
