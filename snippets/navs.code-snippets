@@ -1,12 +1,145 @@
 {
-  // "Import Yyyyyyyyyyy": {
-  //   "prefix": "rb:import:Yyyyyyyyyyy",
-  //   "body": "import { Yyyyyyyyyyy } from 'react-bootstrap';",
-  //   "description": "Import Yyyyyyyyyyy from react-bootstrap"
-  // },
-  // "Yyyyyyyyyyy": {
-  //   "prefix": "rb:Yyyyyyyyyyy",
-  //   "body": ["<Yyyyyyyyyyy>", "\t${1}", "</Yyyyyyyyyyy>"],
-  //   "description": "Create a Yyyyyyyyyyy"
-  // }
+  "Import Nav": {
+    "prefix": "rb:import:nav",
+    "body": "import { Nav } from 'react-bootstrap';",
+    "description": "Import Nav from react-bootstrap"
+  },
+  "Nav": {
+    "prefix": "rb:nav",
+    "body": [
+      "<Nav activeKey=\"${1:/link}\">",
+      "\t${3:Nav.Item, etc}",
+      "</Nav>"
+    ],
+    "description": "Create a Nav"
+  },
+  "Nav (tabs)": {
+    "prefix": "rb:nav-tabs",
+    "body": [
+      "<Nav variant=\"tabs\" activeKey=\"${1:/link}\">",
+      "\t${3:Nav.Item, etc}",
+      "</Nav>"
+    ],
+    "description": "Create a Nav styled as tabs"
+  },
+  "Nav (pills)": {
+    "prefix": "rb:nav-pills",
+    "body": [
+      "<Nav variant=\"pills\" activeKey=\"${1:/link}\">",
+      "\t${3:Nav.Item, etc}",
+      "</Nav>"
+    ],
+    "description": "Create a Nav styled as pills"
+  },
+  "Nav (vertical)": {
+    "prefix": "rb:nav-vertical",
+    "body": [
+      "<Nav className=\"flex-column\" activeKey=\"${1:/link}\">",
+      "\t${3:Nav.Item, etc}",
+      "</Nav>"
+    ],
+    "description": "Create a vertical Nav"
+  },
+  "Nav List": {
+    "prefix": "rb:nav-list",
+    "body": [
+      "<Nav as=\"ul\" activeKey=\"${1:/link}\">",
+      "\t${3:Nav list items, etc}",
+      "</Nav>"
+    ],
+    "description": "Create a Nav list (a Nav as a ul)"
+  },
+  "Nav.Item": {
+    "prefix": "rb:nav-item",
+    "body": ["<Nav.Item>", "\t${1:Nav.Link, etc}", "</Nav.Item>"],
+    "description": "Create a Nav.Item"
+  },
+  "Nav List Item": {
+    "prefix": "rb:nav-list-item",
+    "body": ["<Nav.Item as=\"li\">", "\t${1:Nav.Link, etc}", "</Nav.Item>"],
+    "description": "Create a Nav list item (a Nav.Item as an li)"
+  },
+  "Nav.Link (event)": {
+    "prefix": ["rb:nav-link", "rb:nav-link-event"],
+    "body": [
+      "<Nav.Link eventKey=\"${2:link-event-key}\">",
+      "\t${1:Link text}",
+      "</Nav.Link>"
+    ],
+    "description": "Create a Nav.Link"
+  },
+  "Nav.Link (href)": {
+    "prefix": "rb:nav-link-href",
+    "body": ["<Nav.Link href=\"${2:#/link}\">${1:Link text}</Nav.Link>"],
+    "description": "Create a Nav.Link"
+  },
+  "Import NavDropdown": {
+    "prefix": "rb:import:nav-dropdown",
+    "body": "import { NavDropdown } from 'react-bootstrap';",
+    "description": "Import NavDropdown from react-bootstrap"
+  },
+  "NavDropdown": {
+    "prefix": "rb:nav-dropdown",
+    "body": [
+      "<NavDropdown title=\"${1:Dropdown}\" id=\"${2:nav-dropdown}\">",
+      "\t${3:NavDropdown.Item, NavDropdown.Divider, etc}",
+      "</NavDropdown>"
+    ],
+    "description": "Create a NavDropdown"
+  },
+  "NavDropdown.Item": {
+    "prefix": "rb:nav-dropdown-item",
+    "body": [
+      "<NavDropdown.Item eventKey=\"${2:event-key}\">${1:Item text}</NavDropdown.Item>"
+    ],
+    "description": "Create a NavDropdown.Item"
+  },
+  "NavDropdown.Divider": {
+    "prefix": "rb:nav-dropdown-divider",
+    "body": ["<NavDropdown.Divider />"],
+    "description": "Create a NavDropdown.Divider"
+  },
+  "Nav Example": {
+    "prefix": "rb:nav-example",
+    "body": [
+      "<Nav variant=\"pills\" activeKey=\"1\" onSelect={(eventKey) => console.log(\"selected\", eventKey)}>",
+      "\t<Nav.Item>",
+      "\t\t<Nav.Link eventKey=\"1\" href=\"#/home\">",
+      "\t\t\tNavLink 1 content",
+      "\t\t</Nav.Link>",
+      "\t</Nav.Item>",
+      "\t<Nav.Item>",
+      "\t\t<Nav.Link eventKey=\"2\" title=\"Item\">",
+      "\t\t\tNavLink 2 content",
+      "\t\t</Nav.Link>",
+      "\t</Nav.Item>",
+      "\t<Nav.Item>",
+      "\t\t<Nav.Link eventKey=\"3\" disabled>",
+      "\t\t\tNavLink 3 content",
+      "\t\t</Nav.Link>",
+      "\t</Nav.Item>",
+      "\t<NavDropdown title=\"Dropdown\" id=\"nav-dropdown\">",
+      "\t\t<NavDropdown.Item eventKey=\"4.1\">Action</NavDropdown.Item>",
+      "\t\t<NavDropdown.Item eventKey=\"4.2\">Another action</NavDropdown.Item>",
+      "\t\t<NavDropdown.Item eventKey=\"4.3\">Something else here</NavDropdown.Item>",
+      "\t\t<NavDropdown.Divider />",
+      "\t\t<NavDropdown.Item eventKey=\"4.4\">Separated link</NavDropdown.Item>",
+      "\t</NavDropdown>",
+      "</Nav>"
+    ],
+    "description": "Create an example Nav that can be built from"
+  },
+  "NavDropdown Example": {
+    "prefix": "rb:nav-dropdown-example",
+    "body": [
+      "<NavDropdown title=\"Dropdown\" id=\"nav-dropdown\">",
+      "\t<NavDropdown.Item eventKey=\"4.1\">Action</NavDropdown.Item>",
+      "\t<NavDropdown.Item eventKey=\"4.2\">Another action</NavDropdown.Item>",
+      "\t<NavDropdown.Item eventKey=\"4.3\">Something else here</NavDropdown.Item>",
+      "\t<NavDropdown.Divider />",
+      "\t<NavDropdown.Item eventKey=\"4.4\">Separated link</NavDropdown.Item>",
+      "</NavDropdown>"
+    ],
+    "description": "Create an example NavDropdown that can be built from"
+  }
 }

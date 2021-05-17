@@ -13,10 +13,28 @@
     ],
     "description": "Create a primary Button"
   },
+  "Block-level Button (primary)": {
+    "prefix": ["rb:button-block", "rb:button-primary-block"],
+    "body": [
+      "<Button block variant=\"primary\" onClick={${2:() => console.log(\"${1:Primary}\")}}>",
+      "\t${1:Primary}",
+      "</Button>"
+    ],
+    "description": "Create a primary Button"
+  },
   "Button (outline-primary)": {
     "prefix": "rb:button-outline-primary",
     "body": [
       "<Button variant=\"outline-primary\" onClick={${2:() => console.log(\"${1:Primary}\")}}>",
+      "\t${1:Primary outline}",
+      "</Button>"
+    ],
+    "description": "Create an outlined primary Button with no background color"
+  },
+  "Block-level Button (outline-primary)": {
+    "prefix": "rb:button-outline-primary-block",
+    "body": [
+      "<Button block variant=\"outline-primary\" onClick={${2:() => console.log(\"${1:Primary}\")}}>",
       "\t${1:Primary outline}",
       "</Button>"
     ],
@@ -31,10 +49,28 @@
     ],
     "description": "Create a secondary Button"
   },
+  "Block-level Button (secondary)": {
+    "prefix": "rb:button-secondary-block",
+    "body": [
+      "<Button block variant=\"secondary\" onClick={${2:() => console.log(\"${1:Secondary}\")}}>",
+      "\t${1:Secondary}",
+      "</Button>"
+    ],
+    "description": "Create a secondary Button"
+  },
   "Button (outline-secondary)": {
     "prefix": "rb:button-outline-secondary",
     "body": [
       "<Button variant=\"outline-secondary\" onClick={${2:() => console.log(\"${1:Secondary}\")}}>",
+      "\t${1:Secondary outline}",
+      "</Button>"
+    ],
+    "description": "Create an outlined secondary Button with no background color"
+  },
+  "Block-level Button (outline-secondary)": {
+    "prefix": "rb:button-outline-secondary-block",
+    "body": [
+      "<Button block variant=\"outline-secondary\" onClick={${2:() => console.log(\"${1:Secondary}\")}}>",
       "\t${1:Secondary outline}",
       "</Button>"
     ],
@@ -49,10 +85,28 @@
     ],
     "description": "Create a success Button"
   },
+  "Block-level Button (success)": {
+    "prefix": "rb:button-success-block",
+    "body": [
+      "<Button block variant=\"success\" onClick={${2:() => console.log(\"${1:Success}\")}}>",
+      "\t${1:Success}",
+      "</Button>"
+    ],
+    "description": "Create a success Button"
+  },
   "Button (outline-success)": {
     "prefix": "rb:button-outline-success",
     "body": [
       "<Button variant=\"outline-success\" onClick={${2:() => console.log(\"${1:Success}\")}}>",
+      "\t${1:Success outline}",
+      "</Button>"
+    ],
+    "description": "Create an outlined success Button with no background color"
+  },
+  "Block-level Button (outline-success)": {
+    "prefix": "rb:button-outline-success-block",
+    "body": [
+      "<Button block variant=\"outline-success\" onClick={${2:() => console.log(\"${1:Success}\")}}>",
       "\t${1:Success outline}",
       "</Button>"
     ],
@@ -67,10 +121,28 @@
     ],
     "description": "Create a danger Button"
   },
+  "Block-level Button (danger)": {
+    "prefix": "rb:button-danger-block",
+    "body": [
+      "<Button block variant=\"danger\" onClick={${2:() => console.log(\"${1:Danger}\")}}>",
+      "\t${1:Danger}",
+      "</Button>"
+    ],
+    "description": "Create a danger Button"
+  },
   "Button (outline-danger)": {
     "prefix": "rb:button-outline-danger",
     "body": [
       "<Button variant=\"outline-danger\" onClick={${2:() => console.log(\"${1:Danger}\")}}>",
+      "\t${1:Danger outline}",
+      "</Button>"
+    ],
+    "description": "Create an outlined danger Button with no background color"
+  },
+  "Block-level Button (outline-danger)": {
+    "prefix": "rb:button-outline-danger-block",
+    "body": [
+      "<Button block variant=\"outline-danger\" onClick={${2:() => console.log(\"${1:Danger}\")}}>",
       "\t${1:Danger outline}",
       "</Button>"
     ],
@@ -85,10 +157,28 @@
     ],
     "description": "Create a warning Button"
   },
+  "Block-level Button (warning)": {
+    "prefix": "rb:button-warning-block",
+    "body": [
+      "<Button block variant=\"warning\" onClick={${2:() => console.log(\"${1:Warning}\")}}>",
+      "\t${1:Warning}",
+      "</Button>"
+    ],
+    "description": "Create a warning Button"
+  },
   "Button (outline-warning)": {
     "prefix": "rb:button-outline-warning",
     "body": [
       "<Button variant=\"outline-warning\" onClick={${2:() => console.log(\"${1:Warning}\")}}>",
+      "\t${1:Warning outline}",
+      "</Button>"
+    ],
+    "description": "Create an outlined warning Button with no background color"
+  },
+  "Block-level Button (outline-warning)": {
+    "prefix": "rb:button-outline-warning-block",
+    "body": [
+      "<Button block variant=\"outline-warning\" onClick={${2:() => console.log(\"${1:Warning}\")}}>",
       "\t${1:Warning outline}",
       "</Button>"
     ],
@@ -103,10 +193,28 @@
     ],
     "description": "Create a info Button"
   },
+  "Block-level Button (info)": {
+    "prefix": "rb:button-info-block",
+    "body": [
+      "<Button block variant=\"info\" onClick={${2:() => console.log(\"${1:Info}\")}}>",
+      "\t${1:Info}",
+      "</Button>"
+    ],
+    "description": "Create a info Button"
+  },
   "Button (outline-info)": {
     "prefix": "rb:button-outline-info",
     "body": [
       "<Button variant=\"outline-info\" onClick={${2:() => console.log(\"${1:Info}\")}}>",
+      "\t${1:Info outline}",
+      "</Button>"
+    ],
+    "description": "Create an outlined info Button with no background color"
+  },
+  "Block-level Button (outline-info)": {
+    "prefix": "rb:button-outline-info-block",
+    "body": [
+      "<Button block variant=\"outline-info\" onClick={${2:() => console.log(\"${1:Info}\")}}>",
       "\t${1:Info outline}",
       "</Button>"
     ],
@@ -121,10 +229,28 @@
     ],
     "description": "Create a light Button"
   },
+  "Block-level Button (light)": {
+    "prefix": "rb:button-light-block",
+    "body": [
+      "<Button block variant=\"light\" onClick={${2:() => console.log(\"${1:Light}\")}}>",
+      "\t${1:Light}",
+      "</Button>"
+    ],
+    "description": "Create a light Button"
+  },
   "Button (outline-light)": {
     "prefix": "rb:button-outline-light",
     "body": [
       "<Button variant=\"outline-light\" onClick={${2:() => console.log(\"${1:Light}\")}}>",
+      "\t${1:Light outline}",
+      "</Button>"
+    ],
+    "description": "Create an outlined light Button with no background color"
+  },
+  "Block-level Button (outline-light)": {
+    "prefix": "rb:button-outline-light-block",
+    "body": [
+      "<Button block variant=\"outline-light\" onClick={${2:() => console.log(\"${1:Light}\")}}>",
       "\t${1:Light outline}",
       "</Button>"
     ],
@@ -139,10 +265,28 @@
     ],
     "description": "Create a dark Button"
   },
+  "Block-level Button (dark)": {
+    "prefix": "rb:button-dark-block",
+    "body": [
+      "<Button block variant=\"dark\" onClick={${2:() => console.log(\"${1:Dark}\")}}>",
+      "\t${1:Dark}",
+      "</Button>"
+    ],
+    "description": "Create a dark Button"
+  },
   "Button (outline-dark)": {
     "prefix": "rb:button-outline-dark",
     "body": [
       "<Button variant=\"outline-dark\" onClick={${2:() => console.log(\"${1:Dark}\")}}>",
+      "\t${1:Dark outline}",
+      "</Button>"
+    ],
+    "description": "Create an outlined dark Button with no background color"
+  },
+  "Block-level Button (outline-dark)": {
+    "prefix": "rb:button-outline-dark-block",
+    "body": [
+      "<Button block variant=\"outline-dark\" onClick={${2:() => console.log(\"${1:Dark}\")}}>",
       "\t${1:Dark outline}",
       "</Button>"
     ],
@@ -156,5 +300,47 @@
       "</Button>"
     ],
     "description": "Create a link Button"
+  },
+  "Block-level Button (link)": {
+    "prefix": "rb:button-link-block",
+    "body": [
+      "<Button block variant=\"link\" onClick={${2:() => console.log(\"${1:Link}\")}}>",
+      "\t${1:Link}",
+      "</Button>"
+    ],
+    "description": "Create a link Button"
+  },
+  "Import ToggleButton": {
+    "prefix": "rb:import:toggle-button",
+    "body": "import { ToggleButton } from 'react-bootstrap';",
+    "description": "Import ToggleButton from react-bootstrap"
+  },
+  "ToggleButton": {
+    "prefix": "rb:toggle-button",
+    "body": ["<ToggleButton value={${2:1}}>${1:Toggle button}</ToggleButton>"],
+    "description": "Create a ToggleButton"
+  },
+  "Import ToggleButtonGroup": {
+    "prefix": "rb:import:toggle-button-group",
+    "body": "import { ToggleButtonGroup } from 'react-bootstrap';",
+    "description": "Import ToggleButtonGroup from react-bootstrap"
+  },
+  "Radio ToggleButtonGroup": {
+    "prefix": ["rb:toggle-button-group", "rb:toggle-button-group-radio"],
+    "body": [
+      "<ToggleButtonGroup type=\"radio\">",
+      "\t${1:ToggleButton, etc}",
+      "</ToggleButtonGroup>"
+    ],
+    "description": "Create a radio ToggleButtonGroup"
+  },
+  "Checkbox ToggleButtonGroup": {
+    "prefix": "rb:toggle-button-group-checkbox",
+    "body": [
+      "<ToggleButtonGroup type=\"checkbox\">",
+      "\t${1:ToggleButton, etc}",
+      "</ToggleButtonGroup>"
+    ],
+    "description": "Create a checkbox ToggleButtonGroup"
   }
 }

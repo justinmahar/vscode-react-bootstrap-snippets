@@ -11,13 +11,7 @@
   },
   "Form.Row": {
     "prefix": "rb:form-row",
-    "body": [
-      "<Form.Row>",
-      "\t<Col>",
-      "\t\t${1:Form.Label, Form.Control, Form.Text, Form.Check, InputGroup, etc}",
-      "\t</Col>",
-      "</Form.Row>"
-    ],
+    "body": ["<Form.Row>", "\tForm.Group columns, etc", "</Form.Row>"],
     "description": "Create a Form.Row"
   },
   "Form.Group": {
@@ -28,6 +22,15 @@
       "</Form.Group>"
     ],
     "description": "Create a Form.Group"
+  },
+  "Form.Group Column": {
+    "prefix": "rb:form-group-col",
+    "body": [
+      "<Form.Group as={Col} controlId=\"${1:form-group-id}\">",
+      "\t${2:Form.Label, Form.Control, Form.Text, Form.Check, InputGroup, etc}",
+      "</Form.Group>"
+    ],
+    "description": "Create a Form.Group as a Col, for use in a Form.Row"
   },
   "Inline Form": {
     "prefix": "rb:form-inline",
@@ -40,7 +43,7 @@
   },
   "Form.Label": {
     "prefix": "rb:form-label",
-    "body": ["<Form.Label>${1:Label for form group}</Form.Label>"],
+    "body": ["<Form.Label>${1:Label text}</Form.Label>"],
     "description": "Create a Form.Label"
   },
   "Form.Text": {
