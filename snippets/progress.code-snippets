@@ -6,7 +6,7 @@
   // },
   // "Yyyyyyyyyyy": {
   //   "prefix": "rb:Yyyyyyyyyyy",
-  //   "body": ["<Yyyyyyyyyyy>${1}</Yyyyyyyyyyy>"],
+  //   "body": ["<Yyyyyyyyyyy>", "\t${1}", "</Yyyyyyyyyyy>"],
   //   "description": "Create a Yyyyyyyyyyy"
   // }
 }

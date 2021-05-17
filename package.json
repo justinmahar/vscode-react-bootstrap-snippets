@@ -109,6 +109,10 @@
       },
       {
         "language": "javascriptreact",
+        "path": "./snippets/responsive-embed.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
         "path": "./snippets/spinners.code-snippets"
       },
       {
@@ -128,6 +132,10 @@
         "path": "./snippets/tooltips.code-snippets"
       },
       {
+        "language": "javascriptreact",
+        "path": "./snippets/transitions.code-snippets"
+      },
+      {
         "language": "javascript",
         "path": "./snippets/accordion.code-snippets"
       },
@@ -225,6 +233,10 @@
       },
       {
         "language": "javascript",
+        "path": "./snippets/responsive-embed.code-snippets"
+      },
+      {
+        "language": "javascript",
         "path": "./snippets/spinners.code-snippets"
       },
       {
@@ -242,6 +254,10 @@
       {
         "language": "javascript",
         "path": "./snippets/tooltips.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/transitions.code-snippets"
       },
       {
         "language": "jsx",
@@ -341,6 +357,10 @@
       },
       {
         "language": "jsx",
+        "path": "./snippets/responsive-embed.code-snippets"
+      },
+      {
+        "language": "jsx",
         "path": "./snippets/spinners.code-snippets"
       },
       {
@@ -358,6 +378,10 @@
       {
         "language": "jsx",
         "path": "./snippets/tooltips.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/transitions.code-snippets"
       },
       {
         "language": "jsx-attr",
@@ -457,6 +481,10 @@
       },
       {
         "language": "jsx-attr",
+        "path": "./snippets/responsive-embed.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
         "path": "./snippets/spinners.code-snippets"
       },
       {
@@ -474,6 +502,10 @@
       {
         "language": "jsx-attr",
         "path": "./snippets/tooltips.code-snippets"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/transitions.code-snippets"
       },
       {
         "language": "typescript",
@@ -573,6 +605,10 @@
       },
       {
         "language": "typescript",
+        "path": "./snippets/responsive-embed.code-snippets"
+      },
+      {
+        "language": "typescript",
         "path": "./snippets/spinners.code-snippets"
       },
       {
@@ -590,6 +626,10 @@
       {
         "language": "typescript",
         "path": "./snippets/tooltips.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/transitions.code-snippets"
       },
       {
         "language": "typescriptreact",
@@ -689,6 +729,10 @@
       },
       {
         "language": "typescriptreact",
+        "path": "./snippets/responsive-embed.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
         "path": "./snippets/spinners.code-snippets"
       },
       {
@@ -706,6 +750,10 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/tooltips.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/transitions.code-snippets"
       }
     ]
   },
