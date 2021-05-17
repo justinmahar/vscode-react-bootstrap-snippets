@@ -20,7 +20,7 @@
       "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
       "</Alert>"
     ],
-    "description": "Create a primary Alert"
+    "description": "Create a dismissible primary Alert"
   },
   "Alert (secondary)": {
     "prefix": "rb:alert-secondary",
@@ -38,7 +38,7 @@
       "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
       "</Alert>"
     ],
-    "description": "Create a secondary Alert"
+    "description": "Create a dismissible secondary Alert"
   },
   "Alert (success)": {
     "prefix": "rb:alert-success",
@@ -56,7 +56,7 @@
       "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
       "</Alert>"
     ],
-    "description": "Create a success Alert"
+    "description": "Create a dismissible success Alert"
   },
   "Alert (danger)": {
     "prefix": "rb:alert-danger",
@@ -74,7 +74,7 @@
       "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
       "</Alert>"
     ],
-    "description": "Create a danger Alert"
+    "description": "Create a dismissible danger Alert"
   },
   "Alert (warning)": {
     "prefix": "rb:alert-warning",
@@ -92,7 +92,7 @@
       "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
       "</Alert>"
     ],
-    "description": "Create a warning Alert"
+    "description": "Create a dismissible warning Alert"
   },
   "Alert (info)": {
     "prefix": "rb:alert-info",
@@ -110,7 +110,7 @@
       "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
       "</Alert>"
     ],
-    "description": "Create an info Alert"
+    "description": "Create an dismissible info Alert"
   },
   "Alert (light)": {
     "prefix": "rb:alert-light",
@@ -128,7 +128,7 @@
       "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
       "</Alert>"
     ],
-    "description": "Create a light Alert"
+    "description": "Create a dismissible light Alert"
   },
   "Alert (dark)": {
     "prefix": "rb:alert-dark",
@@ -146,7 +146,7 @@
       "\t${1:Alert.Heading, p, Alert.Link, hr, etc}",
       "</Alert>"
     ],
-    "description": "Create a dark Alert"
+    "description": "Create a dismissible dark Alert"
   },
   "Alert.Heading": {
     "prefix": "rb:alert-heading",

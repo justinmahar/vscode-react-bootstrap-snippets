@@ -8,7 +8,7 @@
     "prefix": "rb:list-group",
     "body": [
       "<ListGroup>",
-      "\t<ListGroup.Item>${1:ListGroup item}</ListGroup.Item>",
+      "\t<ListGroup.Item>${1:ListGroup item}</ListGroup.Item>$0",
       "</ListGroup>"
     ],
     "description": "Create a ListGroup"
@@ -17,7 +17,7 @@
     "prefix": "rb:list-group-flush",
     "body": [
       "<ListGroup variant=\"flush\">",
-      "\t<ListGroup.Item>${1:ListGroup item}</ListGroup.Item>",
+      "\t<ListGroup.Item>${1:ListGroup item}</ListGroup.Item>$0",
       "</ListGroup>"
     ],
     "description": "Create a flush ListGroup. Removes outer borders and rounded corners to render list group items edge-to-edge in a parent container such as a Card."
@@ -26,7 +26,7 @@
     "prefix": "rb:list-group-horizontal",
     "body": [
       "<ListGroup horizontal>",
-      "\t<ListGroup.Item>${1:ListGroup item}</ListGroup.Item>",
+      "\t<ListGroup.Item>${1:ListGroup item}</ListGroup.Item>$0",
       "</ListGroup>"
     ],
     "description": "Create a horizontal ListGroup. The ListGroup will render horizontally."
@@ -39,7 +39,7 @@
   "Action ListGroup.Item": {
     "prefix": "rb:list-group-item-action",
     "body": [
-      "<ListGroup.Item action onClick={() => {}}>",
+      "<ListGroup.Item action onClick={${2:() => console.log(\"${1:ListGroup item}\")}}>",
       "\t${1:ListGroup item}",
       "</ListGroup.Item>"
     ],
