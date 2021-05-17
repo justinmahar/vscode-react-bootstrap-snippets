@@ -1,12 +1,77 @@
 {
-  // "Import Yyyyyyyyyyy": {
-  //   "prefix": "rb:import:Yyyyyyyyyyy",
-  //   "body": "import { Yyyyyyyyyyy } from 'react-bootstrap';",
-  //   "description": "Import Yyyyyyyyyyy from react-bootstrap"
-  // },
-  // "Yyyyyyyyyyy": {
-  //   "prefix": "rb:Yyyyyyyyyyy",
-  //   "body": ["<Yyyyyyyyyyy>", "\t${1}", "</Yyyyyyyyyyy>"],
-  //   "description": "Create a Yyyyyyyyyyy"
-  // }
+  "Import Pagination": {
+    "prefix": "rb:import:pagination",
+    "body": "import { Pagination } from 'react-bootstrap';",
+    "description": "Import Pagination from react-bootstrap"
+  },
+  "Pagination": {
+    "prefix": "rb:pagination",
+    "body": [
+      "<Pagination>",
+      "\t${1:Pagination.First, Pagination.Prev, Pagination.Item, Pagination.Ellipsis, Pagination.Next, Pagination.Last, etc}",
+      "</Pagination>"
+    ],
+    "description": "Create a Pagination"
+  },
+  "Pagination.First": {
+    "prefix": "rb:pagination-first",
+    "body": ["<Pagination.First />"],
+    "description": "Create a Pagination.First («)"
+  },
+  "Pagination.Prev": {
+    "prefix": "rb:pagination-prev",
+    "body": ["<Pagination.Prev />"],
+    "description": "Create a Pagination.Prev (‹)"
+  },
+  "Pagination.Item": {
+    "prefix": "rb:pagination-item",
+    "body": ["<Pagination.Item>{${1:1}}</Pagination.Item>"],
+    "description": "Create a Pagination.Item"
+  },
+  "Active Pagination.Item": {
+    "prefix": "rb:pagination-item-active",
+    "body": ["<Pagination.Item active>{${1:1}}</Pagination.Item>"],
+    "description": "Create an active Pagination.Item"
+  },
+  "Disabled Pagination.Item": {
+    "prefix": "rb:pagination-item-disabled",
+    "body": ["<Pagination.Item disabled>{${1:1}}</Pagination.Item>"],
+    "description": "Create a disabled Pagination.Item"
+  },
+  "Pagination.Ellipsis": {
+    "prefix": "rb:pagination-ellipsis",
+    "body": ["<Pagination.Ellipsis />"],
+    "description": "Create a Pagination.Ellipsis (…)"
+  },
+  "Pagination.Next": {
+    "prefix": "rb:pagination-next",
+    "body": ["<Pagination.Next />"],
+    "description": "Create a Pagination.Next (›)"
+  },
+  "Pagination.Last": {
+    "prefix": "rb:pagination-last",
+    "body": ["<Pagination.Last />"],
+    "description": "Create a Pagination.Last (»)"
+  },
+  "Pagination Example": {
+    "prefix": "rb:pagination-example",
+    "body": [
+      "<Pagination>",
+      "\t<Pagination.First />",
+      "\t<Pagination.Prev />",
+      "\t<Pagination.Item>{1}</Pagination.Item>",
+      "\t<Pagination.Ellipsis />",
+      "\t<Pagination.Item>{10}</Pagination.Item>",
+      "\t<Pagination.Item>{11}</Pagination.Item>",
+      "\t<Pagination.Item active>{12}</Pagination.Item>",
+      "\t<Pagination.Item>{13}</Pagination.Item>",
+      "\t<Pagination.Item disabled>{14}</Pagination.Item>",
+      "\t<Pagination.Ellipsis />",
+      "\t<Pagination.Item>{20}</Pagination.Item>",
+      "\t<Pagination.Next />",
+      "\t<Pagination.Last />",
+      "</Pagination>"
+    ],
+    "description": "Create an example Pagination to build from"
+  }
 }
