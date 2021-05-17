@@ -1,12 +1,32 @@
 {
-  // "Import Yyyyyyyyyyy": {
-  //   "prefix": "rb:import:Yyyyyyyyyyy",
-  //   "body": "import { Yyyyyyyyyyy } from 'react-bootstrap';",
-  //   "description": "Import Yyyyyyyyyyy from react-bootstrap"
-  // },
-  // "Yyyyyyyyyyy": {
-  //   "prefix": "rb:Yyyyyyyyyyy",
-  //   "body": ["<Yyyyyyyyyyy>", "\t${1}", "</Yyyyyyyyyyy>"],
-  //   "description": "Create a Yyyyyyyyyyy"
-  // }
+  "Import Popover": {
+    "prefix": "rb:import:popover",
+    "body": "import { Popover } from 'react-bootstrap';",
+    "description": "Import Popover from react-bootstrap"
+  },
+  "Popover": {
+    "prefix": "rb:popover",
+    "body": [
+      "<Popover id=\"${1:popover-id}\">",
+      "\t${2:Popover.Title, Popover.Content, etc}",
+      "</Popover>"
+    ],
+    "description": "Create a Popover"
+  },
+  "Popover.Content": {
+    "prefix": "rb:popover-content",
+    "body": [
+      "<Popover.Content>",
+      "\t${1:Popover content}",
+      "</Popover.Content>"
+    ],
+    "description": "Create a Popover.Content"
+  },
+  "Popover.Title": {
+    "prefix": "rb:popover-title",
+    "body": [
+      "<Popover.Title as=\"${1:h3}\">${2:Popover Title}</Popover.Title>"
+    ],
+    "description": "Create a Popover.Title"
+  }
 }

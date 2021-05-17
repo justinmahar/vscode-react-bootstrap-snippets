@@ -1,12 +1,67 @@
 {
-  // "Import Yyyyyyyyyyy": {
-  //   "prefix": "rb:import:Yyyyyyyyyyy",
-  //   "body": "import { Yyyyyyyyyyy } from 'react-bootstrap';",
-  //   "description": "Import Yyyyyyyyyyy from react-bootstrap"
-  // },
-  // "Yyyyyyyyyyy": {
-  //   "prefix": "rb:Yyyyyyyyyyy",
-  //   "body": ["<Yyyyyyyyyyy>", "\t${1}", "</Yyyyyyyyyyy>"],
-  //   "description": "Create a Yyyyyyyyyyy"
-  // }
+  "Import Overlay": {
+    "prefix": "rb:import:overlay",
+    "body": "import { Overlay } from 'react-bootstrap';",
+    "description": "Import Overlay from react-bootstrap"
+  },
+  "Overlay": {
+    "prefix": "rb:overlay",
+    "body": [
+      "<Overlay target={target.current} show={show} placement=\"right\">",
+      "\t{({ placement, arrowProps, show: _show, popper, ...props }) => (",
+      "\t\t<div",
+      "\t\t\t{...props}",
+      "\t\t\tstyle={{",
+      "\t\t\t\tbackgroundColor: 'rgba(255, 100, 100, 0.85)',",
+      "\t\t\t\tpadding: '2px 10px',",
+      "\t\t\t\tcolor: 'white',",
+      "\t\t\t\tborderRadius: 3,",
+      "\t\t\t\t...props.style,",
+      "\t\t\t}}",
+      "\t\t>",
+      "\t\t\t${1:Simple tooltip}",
+      "\t\t</div>",
+      "\t)}",
+      "</Overlay>"
+    ],
+    "description": "Create an Overlay"
+  },
+  "Import OverlayTrigger": {
+    "prefix": "rb:import:overlay-trigger",
+    "body": "import { OverlayTrigger } from 'react-bootstrap';",
+    "description": "Import OverlayTrigger from react-bootstrap"
+  },
+  "OverlayTrigger (Tooltip)": {
+    "prefix": ["rb:overlay-trigger", "rb:overlay-trigger-tooltip"],
+    "body": [
+      "<OverlayTrigger",
+      "\tplacement=\"right\"",
+      "\tdelay={{ show: 250, hide: 400 }}",
+      "\toverlay={<Tooltip id=\"${2:tooltip-id}\">${1:Tooltip text}</Tooltip>}",
+      ">",
+      "\t${3:Button, etc}",
+      "</OverlayTrigger>"
+    ],
+    "description": "Create an OverlayTrigger with a tooltip overlay"
+  },
+  "OverlayTrigger (Popover)": {
+    "prefix": "rb:overlay-trigger-popover",
+    "body": [
+      "<OverlayTrigger",
+      "\ttrigger=\"click\"",
+      "\tplacement=\"right\"",
+      "\toverlay={",
+      "\t\t<Popover id=\"${3:popover-id}\">",
+      "\t\t\t<Popover.Title as=\"h3\">${1:Popover title}</Popover.Title>",
+      "\t\t\t<Popover.Content>",
+      "\t\t\t\t${2:Popover content}",
+      "\t\t\t</Popover.Content>",
+      "\t\t</Popover>",
+      "\t}",
+      "\t>",
+      "\t${4:Button, etc}",
+      "</OverlayTrigger>"
+    ],
+    "description": "Create an OverlayTrigger with a popover overlay"
+  }
 }

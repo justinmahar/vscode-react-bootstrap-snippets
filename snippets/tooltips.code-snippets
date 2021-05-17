@@ -1,12 +1,16 @@
 {
-  // "Import Yyyyyyyyyyy": {
-  //   "prefix": "rb:import:Yyyyyyyyyyy",
-  //   "body": "import { Yyyyyyyyyyy } from 'react-bootstrap';",
-  //   "description": "Import Yyyyyyyyyyy from react-bootstrap"
-  // },
-  // "Yyyyyyyyyyy": {
-  //   "prefix": "rb:Yyyyyyyyyyy",
-  //   "body": ["<Yyyyyyyyyyy>", "\t${1}", "</Yyyyyyyyyyy>"],
-  //   "description": "Create a Yyyyyyyyyyy"
-  // }
+  "Import Tooltip": {
+    "prefix": "rb:import:tooltip",
+    "body": "import { Tooltip } from 'react-bootstrap';",
+    "description": "Import Tooltip from react-bootstrap"
+  },
+  "Tooltip": {
+    "prefix": "rb:tooltip",
+    "body": [
+      "<Tooltip id=\"${2:tooltip-id}\">",
+      "\t${1:Tooltip text}",
+      "</Tooltip>"
+    ],
+    "description": "Create a Tooltip"
+  }
 }
