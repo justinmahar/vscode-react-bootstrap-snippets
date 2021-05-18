@@ -22,129 +22,113 @@
     ],
     "description": "Create a Table that's striped, bordered, responsive, and has a hover effect"
   },
-  "2-Cell Table Head": {
-    "prefix": "rb:table-head-2",
+  "2-Cell Table Header Row": {
+    "prefix": "rb:table-header-row-2",
     "body": [
-      "<thead>",
-      "\t<tr>",
-      "\t\t<th>${1:Header}</th>",
-      "\t\t<th>${2:Header}</th>",
-      "\t</tr>",
-      "</thead>"
+      "<tr>",
+      "\t<th>${1:Header}</th>",
+      "\t<th>${2:Header}</th>",
+      "</tr>"
     ],
-    "description": "Create a table head with 2 columns"
+    "description": "Create a table header row with 2 columns"
   },
-  "3-Cell Table Head": {
-    "prefix": "rb:table-head-3",
+  "3-Cell Table Header Row": {
+    "prefix": "rb:table-header-row-3",
     "body": [
-      "<thead>",
-      "\t<tr>",
-      "\t\t<th>${1:Header}</th>",
-      "\t\t<th>${2:Header}</th>",
-      "\t\t<th>${3:Header}</th>",
-      "\t</tr>",
-      "</thead>"
+      "<tr>",
+      "\t<th>${1:Header}</th>",
+      "\t<th>${2:Header}</th>",
+      "\t<th>${3:Header}</th>",
+      "</tr>"
     ],
-    "description": "Create a table head with 3 columns"
+    "description": "Create a table header row with 3 columns"
   },
-  "4-Cell Table Head": {
-    "prefix": "rb:table-head-4",
+  "4-Cell Table Header Row": {
+    "prefix": "rb:table-header-row-4",
     "body": [
-      "<thead>",
-      "\t<tr>",
-      "\t\t<th>${1:Header}</th>",
-      "\t\t<th>${2:Header}</th>",
-      "\t\t<th>${3:Header}</th>",
-      "\t\t<th>${4:Header}</th>",
-      "\t</tr>",
-      "</thead>"
+      "<tr>",
+      "\t<th>${1:Header}</th>",
+      "\t<th>${2:Header}</th>",
+      "\t<th>${3:Header}</th>",
+      "\t<th>${4:Header}</th>",
+      "</tr>"
     ],
-    "description": "Create a table head with 4 columns"
+    "description": "Create a table header row with 4 columns"
   },
-  "5-Cell Table Head": {
-    "prefix": "rb:table-head-5",
+  "5-Cell Table Header Row": {
+    "prefix": "rb:table-header-row-5",
     "body": [
-      "<thead>",
-      "\t<tr>",
-      "\t\t<th>${1:Header}</th>",
-      "\t\t<th>${2:Header}</th>",
-      "\t\t<th>${3:Header}</th>",
-      "\t\t<th>${4:Header}</th>",
-      "\t\t<th>${5:Header}</th>",
-      "\t</tr>",
-      "</thead>"
+      "<tr>",
+      "\t<th>${1:Header}</th>",
+      "\t<th>${2:Header}</th>",
+      "\t<th>${3:Header}</th>",
+      "\t<th>${4:Header}</th>",
+      "\t<th>${5:Header}</th>",
+      "</tr>"
     ],
-    "description": "Create a table head with 5 columns"
+    "description": "Create a table header row with 5 columns"
   },
-  "6-Cell Table Head": {
-    "prefix": "rb:table-head-6",
+  "6-Cell Table Header Row": {
+    "prefix": "rb:table-header-row-6",
     "body": [
-      "<thead>",
-      "\t<tr>",
-      "\t\t<th>${1:Header}</th>",
-      "\t\t<th>${2:Header}</th>",
-      "\t\t<th>${3:Header}</th>",
-      "\t\t<th>${4:Header}</th>",
-      "\t\t<th>${5:Header}</th>",
-      "\t\t<th>${6:Header}</th>",
-      "\t</tr>",
-      "</thead>"
+      "<tr>",
+      "\t<th>${1:Header}</th>",
+      "\t<th>${2:Header}</th>",
+      "\t<th>${3:Header}</th>",
+      "\t<th>${4:Header}</th>",
+      "\t<th>${5:Header}</th>",
+      "\t<th>${6:Header}</th>",
+      "</tr>"
     ],
-    "description": "Create a table head with 6 columns"
+    "description": "Create a table header row with 6 columns"
   },
-  "7-Cell Table Head": {
-    "prefix": "rb:table-head-7",
+  "7-Cell Table Header Row": {
+    "prefix": "rb:table-header-row-7",
     "body": [
-      "<thead>",
-      "\t<tr>",
-      "\t\t<th>${1:Header}</th>",
-      "\t\t<th>${2:Header}</th>",
-      "\t\t<th>${3:Header}</th>",
-      "\t\t<th>${4:Header}</th>",
-      "\t\t<th>${5:Header}</th>",
-      "\t\t<th>${6:Header}</th>",
-      "\t\t<th>${7:Header}</th>",
-      "\t</tr>",
-      "</thead>"
+      "<tr>",
+      "\t<th>${1:Header}</th>",
+      "\t<th>${2:Header}</th>",
+      "\t<th>${3:Header}</th>",
+      "\t<th>${4:Header}</th>",
+      "\t<th>${5:Header}</th>",
+      "\t<th>${6:Header}</th>",
+      "\t<th>${7:Header}</th>",
+      "</tr>"
     ],
-    "description": "Create a table head with 7 columns"
+    "description": "Create a table header row with 7 columns"
   },
-  "8-Cell Table Head": {
-    "prefix": "rb:table-head-8",
+  "8-Cell Table Header Row": {
+    "prefix": "rb:table-header-row-8",
     "body": [
-      "<thead>",
-      "\t<tr>",
-      "\t\t<th>${1:Header}</th>",
-      "\t\t<th>${2:Header}</th>",
-      "\t\t<th>${3:Header}</th>",
-      "\t\t<th>${4:Header}</th>",
-      "\t\t<th>${5:Header}</th>",
-      "\t\t<th>${6:Header}</th>",
-      "\t\t<th>${7:Header}</th>",
-      "\t\t<th>${8:Header}</th>",
-      "\t</tr>",
-      "</thead>"
+      "<tr>",
+      "\t<th>${1:Header}</th>",
+      "\t<th>${2:Header}</th>",
+      "\t<th>${3:Header}</th>",
+      "\t<th>${4:Header}</th>",
+      "\t<th>${5:Header}</th>",
+      "\t<th>${6:Header}</th>",
+      "\t<th>${7:Header}</th>",
+      "\t<th>${8:Header}</th>",
+      "</tr>"
     ],
-    "description": "Create a table head with 8 columns"
+    "description": "Create a table header row with 8 columns"
   },
-  "9-Cell Table Head": {
-    "prefix": "rb:table-head-9",
+  "9-Cell Table Header Row": {
+    "prefix": "rb:table-header-row-9",
     "body": [
-      "<thead>",
-      "\t<tr>",
-      "\t\t<th>${1:Header}</th>",
-      "\t\t<th>${2:Header}</th>",
-      "\t\t<th>${3:Header}</th>",
-      "\t\t<th>${4:Header}</th>",
-      "\t\t<th>${5:Header}</th>",
-      "\t\t<th>${6:Header}</th>",
-      "\t\t<th>${7:Header}</th>",
-      "\t\t<th>${8:Header}</th>",
-      "\t\t<th>${9:Header}</th>",
-      "\t</tr>",
-      "</thead>"
+      "<tr>",
+      "\t<th>${1:Header}</th>",
+      "\t<th>${2:Header}</th>",
+      "\t<th>${3:Header}</th>",
+      "\t<th>${4:Header}</th>",
+      "\t<th>${5:Header}</th>",
+      "\t<th>${6:Header}</th>",
+      "\t<th>${7:Header}</th>",
+      "\t<th>${8:Header}</th>",
+      "\t<th>${9:Header}</th>",
+      "</tr>"
     ],
-    "description": "Create a table head with 9 columns"
+    "description": "Create a table header row with 9 columns"
   },
   "2-Cell Table Row": {
     "prefix": "rb:table-row-2",
