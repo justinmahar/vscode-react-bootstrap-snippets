@@ -1,65 +1,48 @@
 # React-Bootstrap Snippets
 
-This is the README for your extension "react-bootstrap-snippets". After writing up a brief description, we recommend including the following sections.
+[![Version](https://vsmarketplacebadge.apphb.com/version-short/justinmahar.vscode-react-bootstrap-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=justinmahar.vscode-react-bootstrap-snippets)
 
-## Features
+This extension provides you with 350+ [React-Bootstrap](https://react-bootstrap.github.io/) snippets for VS Code.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## 📚 Supported languages (file extensions)
+- JavaScript (.js)
+- JavaScript React (.jsx)
+- TypeScript (.ts)
+- TypeScript React (.tsx)
 
-For example if there is an image subfolder under your extension project workspace:
+## 📖 Snippets
 
-\!\[feature X\]\(images/feature-x.png\)
+All React-Bootstrap snippets begin with `rb`.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Type `rb` and press <kbd>Ctrl</kbd>+<kbd>Space</kbd> for autocompletion.
 
-## Requirements
+There are over 350 snippets available for components, imports, and examples. Read more on each below.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+> Note: Due to the sheer number of snippets available, they are not abbreviated as you might see in other snippets extensions. VS Code's intelligent search usually autocompletes to the component you're looking for, making it a pleasure to work with in most cases.
 
-## Extension Settings
+### Component Snippets
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+All of React-Bootstrap's components are supported.
 
-For example:
+For example, `rb:alert`, `rb:badge`, `rb:breadrcumb`, etc.
 
-This extension contributes the following settings:
+### Import Snippets
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+Component import snippets are available for all React-Bootstrap components. 
 
-## Known Issues
+All imports begin with `rb:import` followed by the component name. For example, `rb:import:row` will import `Row`. 
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+You can also use `rb:import:grid` to import `Container`, `Row`, and `Col` all in one go.
+### Example Snippets
+
+Where applicable, examples from the docs are provided as snippets. These can be very helpful as a starting point when working with more complex components, or for use as quick placeholders.
+
+Example snippets all end with `-example`. 
+
+For instance, `rb:alert-example` will insert an example `Alert` to build upon.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Initial release of React-Bootstrap snippets.
