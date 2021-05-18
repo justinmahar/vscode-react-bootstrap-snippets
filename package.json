@@ -1,7 +1,7 @@
 {
-  "name": "justinmahar.vscode-react-bootstrap-snippets",
+  "name": "react-bootstrap-snippets",
   "displayName": "React-Bootstrap Snippets",
-  "description": "Code snippets for the React-Bootstrap library",
+  "description": "Code snippets for React-Bootstrap 🙌",
   "version": "1.0.0",
   "icon": "images/icon.png",
   "galleryBanner": {

@@ -1,6 +1,6 @@
 # React-Bootstrap Snippets
 
-[![Version](https://vsmarketplacebadge.apphb.com/version-short/justinmahar.vscode-react-bootstrap-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=justinmahar.vscode-react-bootstrap-snippets)
+[![Version](https://vsmarketplacebadge.apphb.com/version-short/justinmahar.react-bootstrap-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-bootstrap-snippets)
 
 It's finally here! 350+ [React-Bootstrap](https://react-bootstrap.github.io/) snippets for VS Code.
 
