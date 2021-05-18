@@ -1,12 +1,100 @@
 {
-  // "Import Yyyyyyyyyyy": {
-  //   "prefix": "rb:import:Yyyyyyyyyyy",
-  //   "body": "import { Yyyyyyyyyyy } from 'react-bootstrap';",
-  //   "description": "Import Yyyyyyyyyyy from react-bootstrap"
-  // },
-  // "Yyyyyyyyyyy": {
-  //   "prefix": "rb:Yyyyyyyyyyy",
-  //   "body": ["<Yyyyyyyyyyy>", "\t${1}", "</Yyyyyyyyyyy>"],
-  //   "description": "Create a Yyyyyyyyyyy"
-  // }
+  "Import Tabs": {
+    "prefix": "rb:import:tabs",
+    "body": "import { Tabs } from 'react-bootstrap';",
+    "description": "Import Tabs from react-bootstrap"
+  },
+  "Tabs": {
+    "prefix": "rb:tabs",
+    "body": [
+      "<Tabs defaultActiveKey=\"${1:event-key}\" id=\"${2:tabs-id}\">",
+      "\t${3:Tab, etc}",
+      "</Tabs>"
+    ],
+    "description": "Create a Tabs"
+  },
+  "Import Tab": {
+    "prefix": "rb:import:tab",
+    "body": "import { Tab } from 'react-bootstrap';",
+    "description": "Import Tab from react-bootstrap"
+  },
+  "Tab": {
+    "prefix": "rb:tab",
+    "body": [
+      "<Tab eventKey=\"${1:event-key}\" title=\"${2:Title}\">",
+      "\t${3:Contents of tab}",
+      "</Tab>"
+    ],
+    "description": "Create a Tab"
+  },
+  "Tab.Container": {
+    "prefix": "rb:tab-container",
+    "body": [
+      "<Tab.Container id=\"${1:tab-container-id}\" defaultActiveKey=\"${2:tab-key}\">",
+      "\t${3:Row, etc}",
+      "</Tab.Container>"
+    ],
+    "description": "Create a Tab.Container, which allows you to build custom tabs."
+  },
+  "Tab.Content": {
+    "prefix": "rb:tab-content",
+    "body": ["<Tab.Content>", "\t${1:Tab.Pane, etc}", "</Tab.Content>"],
+    "description": "Create a Tab.Content, which contains Tab.Panes"
+  },
+  "Tab.Pane": {
+    "prefix": "rb:tab-pane",
+    "body": [
+      "<Tab.Pane eventKey=\"${1:event-key}\">",
+      "\t${1:Tab contents}",
+      "</Tab.Pane>"
+    ],
+    "description": "Create a Tab.Pane, which contains the tab contents"
+  },
+  "Tabs Example": {
+    "prefix": "rb:tabs-example",
+    "body": [
+      "<Tabs defaultActiveKey=\"profile\" id=\"tabs-example\">",
+      "\t<Tab eventKey=\"home\" title=\"Home\">",
+      "\t\t<p>Full many a glorious morning have I seen Flatter the mountain tops with sovereign eye, Kissing with golden face the meadows green, Gilding pale streams with heavenly alchemy; Anon permit the basest clouds to ride With ugly rack on his celestial face, And from the forlorn world his visage hide, Stealing unseen to west with this disgrace: Even so my sun one early morn did shine, With all triumphant splendour on my brow;</p>",
+      "\t</Tab>",
+      "\t<Tab eventKey=\"profile\" title=\"Profile\">",
+      "\t\t<p>When I do count the clock that tells the time, And see the brave day sunk in hideous night; When I behold the violet past prime, And sable curls, all silvered o'er with white; When lofty trees I see barren of leaves, Which erst from heat did canopy the herd, And summer's green all girded up in sheaves, Borne on the bier with white and bristly beard, Then of thy beauty do I question make, That thou among the wastes of time must go,</p>",
+      "\t</Tab>",
+      "\t<Tab eventKey=\"contact\" title=\"Contact\" disabled>",
+      "\t\t<p>To me, fair friend, you never can be old, For as you were when first your eye I ey'd, Such seems your beauty still. Three winters cold, Have from the forests shook three summers' pride, Three beauteous springs to yellow autumn turn'd, In process of the seasons have I seen, Three April perfumes in three hot Junes burn'd, Since first I saw you fresh, which yet are green. Ah! yet doth beauty like a dial-hand, Steal from his figure, and no pace perceiv'd;</p>",
+      "\t</Tab>",
+      "</Tabs>"
+    ],
+    "description": "Create a Tabs example to build from"
+  },
+  "Custom Tab Layout Example": {
+    "prefix": "rb:tab-container-example",
+    "body": [
+      "<Tab.Container id=\"tab-container-example\" defaultActiveKey=\"first\">",
+      "\t<Row>",
+      "\t\t<Col sm={3}>",
+      "\t\t\t<Nav variant=\"pills\" className=\"flex-column\">",
+      "\t\t\t\t<Nav.Item>",
+      "\t\t\t\t\t<Nav.Link eventKey=\"first\">Tab 1</Nav.Link>",
+      "\t\t\t\t</Nav.Item>",
+      "\t\t\t\t<Nav.Item>",
+      "\t\t\t\t\t<Nav.Link eventKey=\"second\">Tab 2</Nav.Link>",
+      "\t\t\t\t</Nav.Item>",
+      "\t\t\t</Nav>",
+      "\t\t</Col>",
+      "\t\t<Col sm={9}>",
+      "\t\t\t<Tab.Content>",
+      "\t\t\t\t<Tab.Pane eventKey=\"first\">",
+      "\t\t\t\t\t<p>Full many a glorious morning have I seen Flatter the mountain tops with sovereign eye, Kissing with golden face the meadows green, Gilding pale streams with heavenly alchemy; Anon permit the basest clouds to ride With ugly rack on his celestial face, And from the forlorn world his visage hide, Stealing unseen to west with this disgrace: Even so my sun one early morn did shine, With all triumphant splendour on my brow;</p>",
+      "\t\t\t\t</Tab.Pane>",
+      "\t\t\t\t<Tab.Pane eventKey=\"second\">",
+      "\t\t\t\t\t<p>When I do count the clock that tells the time, And see the brave day sunk in hideous night; When I behold the violet past prime, And sable curls, all silvered o'er with white; When lofty trees I see barren of leaves, Which erst from heat did canopy the herd, And summer's green all girded up in sheaves, Borne on the bier with white and bristly beard, Then of thy beauty do I question make, That thou among the wastes of time must go,</p>",
+      "\t\t\t\t</Tab.Pane>",
+      "\t\t\t</Tab.Content>",
+      "\t\t</Col>",
+      "\t</Row>",
+      "</Tab.Container>"
+    ],
+    "description": "Create a custom Tab.Container layout example to build from"
+  }
 }

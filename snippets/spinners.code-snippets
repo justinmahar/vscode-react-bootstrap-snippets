@@ -7,7 +7,7 @@
   "Border Spinner": {
     "prefix": ["rb:spinner", "rb:spinner-border"],
     "body": ["<Spinner animation=\"border\" role=\"status\" />"],
-    "description": "Create a primary spinning border Spinner"
+    "description": "Create a spinning border Spinner"
   },
   "Border Spinner (primary)": {
     "prefix": ["rb:spinner-primary", "rb:spinner-border-primary"],
@@ -68,7 +68,7 @@
   "Grow Spinner": {
     "prefix": "rb:spinner-grow",
     "body": ["<Spinner animation=\"grow\" role=\"status\" />"],
-    "description": "Create a primary Spinner that repeatedly grows and fades"
+    "description": "Create a Spinner that repeatedly grows and fades"
   },
   "Grow Spinner (primary)": {
     "prefix": "rb:spinner-grow-primary",
