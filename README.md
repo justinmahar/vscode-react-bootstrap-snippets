@@ -10,7 +10,7 @@ This extension supports:
 - 💁‍♀️ Import snippets, for quick importing
 - 🙋‍♂️ Example snippets from the docs for convenience
 
-**All snippets start with `rb` (for React-Bootstrap)**
+> Type `rb` and press <kbd>Ctrl</kbd>+<kbd>Space</kbd> for autocompletion. VS Code will autocomplete to the component you're looking for, making building using React-Bootstrap an absolute pleasure.
 
 See below for more!
 
@@ -22,9 +22,7 @@ See below for more!
 
 ## 📖 Snippets
 
-All React-Bootstrap snippets begin with `rb`.
-
-> Type `rb` and press <kbd>Ctrl</kbd>+<kbd>Space</kbd> for autocompletion. VS Code will autocomplete to the component you're looking for, making building using React-Bootstrap an absolute pleasure.
+**All snippets start with `rb` (for React-Bootstrap).**
 
 There are over 350 snippets available for components, imports, and examples. Read more on each below.
 
