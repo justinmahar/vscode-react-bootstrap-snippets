@@ -12,6 +12,8 @@ This extension supports:
 
 > Type `rb` and press <kbd>Ctrl</kbd>+<kbd>Space</kbd> for autocompletion. VS Code will autocomplete to the component you're looking for, making building using React-Bootstrap an absolute pleasure.
 
+![Demo](./images/demo.gif)
+
 See below for more!
 
 ## 📚 Supported languages (file extensions)
@@ -55,6 +57,10 @@ For instance, `rb:alert-example` will insert an example `Alert` to build upon.
 ### 1.0.0
 
 Initial release of React-Bootstrap snippets.
+
+### 1.0.1
+
+Update documentation.  Add demo gif.
 
 ## Contributing
 
