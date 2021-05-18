@@ -111,7 +111,7 @@ And as always, happy coding!
 
 - Initial release of React-Bootstrap snippets.
 
-### [1.0.1]-[1.0.4] - 2021-05-18
+### [1.0.1]-[1.0.5] - 2021-05-18
 
 - Update documentation. 
-- Add demo gif.
+- Add demo gifs.
