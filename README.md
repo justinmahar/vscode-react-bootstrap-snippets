@@ -62,4 +62,6 @@ My goal was to make this one of the best snippets extensions available. As such,
 
 That being said, if you see a way to improve this extension, please feel free to submit a [pull request to the project](https://github.com/justinmahar/vscode-react-bootstrap-snippets).
 
+If you found this extension helpful, please rate it and [star it](https://github.com/justinmahar/vscode-react-bootstrap-snippets) so others can find it.
+
 And as always, happy coding!
