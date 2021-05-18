@@ -1,5 +1,5 @@
 {
-  "Import Grid": {
+  "Import Grid (Container, Row, Col)": {
     "prefix": ["rb:import:grid", "rb:import:grid-container-row-col"],
     "body": "import { Container, Row, Col } from 'react-bootstrap';",
     "description": "Import grid components Container, Row, and Col from react-bootstrap"

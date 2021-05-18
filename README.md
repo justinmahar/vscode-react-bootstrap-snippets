@@ -4,17 +4,19 @@
 
 It's finally here! 350+ [React-Bootstrap](https://react-bootstrap.github.io/) snippets for VS Code.
 
+These snippets make building apps with React-Bootstrap an absolute pleasure.
+
 This extension supports:
 
-- 🙌 All React-Bootstrap components
-- 💁‍♀️ Import snippets, for quick importing
-- 🙋‍♂️ Example snippets from the docs for convenience
+- 🙌 All `react-bootstrap` components. The complete package.
+- 💁‍♀️ `import` snippets, for quick and easy importing.
+- 🙋‍♂️ Example snippets from the docs for convenience.
 
-> Type `rb` and press <kbd>Ctrl</kbd>+<kbd>Space</kbd> for autocompletion. VS Code will autocomplete to the component you're looking for, making building using React-Bootstrap an absolute pleasure.
+**Just type `rb` and press <kbd>Ctrl</kbd>+<kbd>Space</kbd> for autocompletion. VS Code will autocomplete the component you need.**
 
 ![Demo](./images/demo.gif)
 
-See below for more!
+Want to see what's included and more demo gifs? Scroll on!
 
 ## 📚 Supported languages (file extensions)
 - JavaScript (.js)
@@ -24,7 +26,7 @@ See below for more!
 
 ## 📖 Snippets
 
-**All snippets start with `rb` (for React-Bootstrap).**
+**All snippets start with `rb` for React-Bootstrap.**
 
 There are over 350 snippets available for components, imports, and examples. Read more on each below.
 
@@ -42,7 +44,9 @@ Component import snippets are available for all React-Bootstrap components.
 
 All imports begin with `rb:import` followed by the component name. For example, `rb:import:row` will import `Row`. 
 
-You can also use `rb:import:grid` to import `Container`, `Row`, and `Col` all at once.
+Since it's such a common use case, you can also use `rb:import:grid` to import `Container`, `Row`, and `Col` all at once.
+
+![Imports](./images/imports.gif)
 
 ### Example Snippets
 
@@ -52,15 +56,54 @@ Example snippets all end with `-example`.
 
 For instance, `rb:alert-example` will insert an example `Alert` to build upon.
 
-## Contributing
+![Examples](./images/examples.gif)
 
-My goal was to make this one of the best snippets extensions available. As such, I pored over the docs to make this as great as I could.
+### Alert and Modal Functions
+
+For convenience, function snippets are included for the show/hide functions needed for modals and dismissible alerts.
+
+![Functions](./images/functions.gif)
+
+Use `rb:modal-functions` for the following:
+
+```tsx
+const [showModal, setShowModal] = React.useState(false);
+const handleCloseModal = () => setShowModal(false);
+const handleShowModal = () => setShowModal(true);
+```
+
+And `rb:alert-dismissible-functions` for the following:
+
+```tsx
+const [showAlert, setShowAlert] = React.useState(false);
+const handleCloseAlert = () => setShowAlert(false);
+const handleShowAlert = () => setShowAlert(true);
+```
+
+These pair nicely with the snippets for `rb:alert-dismissible` and `rb:modal`.
+
+
+### Table Utilities
+
+This extension includes utilities for tables so you can quickly build table headers and table rows.
+
+Use `rb:table-row-X` and `rb:table-header-row-X`, where `X` is the number of columns from 2-9, to quickly build rows in your `thead` and `tbody`.
+
+![Tables](./images/tables.gif)
+
+## Note To You, The Developer
+
+My goal was to make this one of the best snippets extensions available to you. As such, I spent countless hours reading the docs to make this as great as I could, and I truly hope you find it useful.
 
 That being said, if you find a bug or see a way to improve this extension, please feel free to [open an issue](https://github.com/justinmahar/vscode-react-bootstrap-snippets/issues) or submit a [pull request to the project](https://github.com/justinmahar/vscode-react-bootstrap-snippets).
 
-## 🌟 If you found this extension helpful, please **[rate it](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-bootstrap-snippets&ssr=false#review-details)** and **[star it](https://github.com/justinmahar/vscode-react-bootstrap-snippets)** so others can find it. 
+This is a brand new extension, so...
+
+## 🌟 If you found this extension helpful, please **[rate it](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-bootstrap-snippets&ssr=false#review-details)** and **[star it](https://github.com/justinmahar/vscode-react-bootstrap-snippets)** so others can find it. :)
 
 And as always, happy coding!
+
+-Justin
 
 ## Release Notes
 
