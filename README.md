@@ -52,22 +52,23 @@ Example snippets all end with `-example`.
 
 For instance, `rb:alert-example` will insert an example `Alert` to build upon.
 
+## Contributing
+
+My goal was to make this one of the best snippets extensions available. As such, I pored over the docs to make this as great as I could.
+
+That being said, if you find a bug or see a way to improve this extension, please feel free to [open an issue](https://github.com/justinmahar/vscode-react-bootstrap-snippets/issues) or submit a [pull request to the project](https://github.com/justinmahar/vscode-react-bootstrap-snippets).
+
+## 🌟 If you found this extension helpful, please **[rate it](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-bootstrap-snippets&ssr=false#review-details)** and **[star it](https://github.com/justinmahar/vscode-react-bootstrap-snippets)** so others can find it. 
+
+And as always, happy coding!
+
 ## Release Notes
 
 ### [1.0.0] - 2021-05-17
 
 - Initial release of React-Bootstrap snippets.
 
-### [1.0.1]-[1.0.2] - 2021-05-17
+### [1.0.1]-[1.0.3] - 2021-05-18
 
-- Update documentation. Add demo gif.
-
-## Contributing
-
-My goal was to make this one of the best snippets extensions available. As such, I pored over the docs to make this as great as I could.
-
-That being said, if you see a way to improve this extension, please feel free to submit a [pull request to the project](https://github.com/justinmahar/vscode-react-bootstrap-snippets).
-
-If you found this extension helpful, please rate it and [star it](https://github.com/justinmahar/vscode-react-bootstrap-snippets) so others can find it.
-
-And as always, happy coding!
+- Update documentation. 
+- Add demo gif.

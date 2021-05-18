@@ -6,6 +6,7 @@ All notable changes to the "vscode-react-bootstrap-snippets" extension will be d
 
 - Initial release of React-Bootstrap snippets.
 
-### [1.0.1]-[1.0.2] - 2021-05-17
+### [1.0.1]-[1.0.3] - 2021-05-18
 
-- Update documentation. Add demo gif.
+- Update documentation. 
+- Add demo gif.

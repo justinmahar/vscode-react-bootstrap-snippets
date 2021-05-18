@@ -2,7 +2,7 @@
   "name": "react-bootstrap-snippets",
   "displayName": "React-Bootstrap Snippets",
   "description": "Code snippets for React-Bootstrap 🙌",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#000",
@@ -14,7 +14,9 @@
     "snippets",
     "react",
     "bootstrap",
-    "reactstrap"
+    "reactstrap",
+    "react bootstrap",
+    "react bootstrap snippets"
   ],
   "homepage": "https://github.com/justinmahar/vscode-react-bootstrap-snippets/blob/master/README.md",
   "repository": {
