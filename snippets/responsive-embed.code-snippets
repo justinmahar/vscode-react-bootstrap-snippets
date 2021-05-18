@@ -1,12 +1,43 @@
 {
-  // "Import Yyyyyyyyyyy": {
-  //   "prefix": "rb:import:Yyyyyyyyyyy",
-  //   "body": "import { Yyyyyyyyyyy } from 'react-bootstrap';",
-  //   "description": "Import Yyyyyyyyyyy from react-bootstrap"
-  // },
-  // "Yyyyyyyyyyy": {
-  //   "prefix": "rb:Yyyyyyyyyyy",
-  //   "body": ["<Yyyyyyyyyyy>", "\t${1}", "</Yyyyyyyyyyy>"],
-  //   "description": "Create a Yyyyyyyyyyy"
-  // }
+  "Import ResponsiveEmbed": {
+    "prefix": "rb:import:responsive-embed",
+    "body": "import { ResponsiveEmbed } from 'react-bootstrap';",
+    "description": "Import ResponsiveEmbed from react-bootstrap"
+  },
+  "ResponsiveEmbed (1by1)": {
+    "prefix": ["rb:responsive-embed", "rb:responsive-embed-1x1"],
+    "body": [
+      "<ResponsiveEmbed aspectRatio=\"1by1\">",
+      "\t${1:Embedded content}",
+      "</ResponsiveEmbed>"
+    ],
+    "description": "Create a ResponsiveEmbed"
+  },
+  "ResponsiveEmbed (4by3)": {
+    "prefix": "rb:responsive-embed-4x3",
+    "body": [
+      "<ResponsiveEmbed aspectRatio=\"4by3\">",
+      "\t${1:Embedded content}",
+      "</ResponsiveEmbed>"
+    ],
+    "description": "Create a ResponsiveEmbed"
+  },
+  "ResponsiveEmbed (16by9)": {
+    "prefix": "rb:responsive-embed-16x9",
+    "body": [
+      "<ResponsiveEmbed aspectRatio=\"16by9\">",
+      "\t${1:Embedded content}",
+      "</ResponsiveEmbed>"
+    ],
+    "description": "Create a ResponsiveEmbed"
+  },
+  "ResponsiveEmbed (21by9)": {
+    "prefix": "rb:responsive-embed-21x9",
+    "body": [
+      "<ResponsiveEmbed aspectRatio=\"21by9\">",
+      "\t${1:Embedded content}",
+      "</ResponsiveEmbed>"
+    ],
+    "description": "Create a ResponsiveEmbed"
+  }
 }

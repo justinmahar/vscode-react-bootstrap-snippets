@@ -1,12 +1,38 @@
 {
-  // "Import Yyyyyyyyyyy": {
-  //   "prefix": "rb:import:Yyyyyyyyyyy",
-  //   "body": "import { Yyyyyyyyyyy } from 'react-bootstrap';",
-  //   "description": "Import Yyyyyyyyyyy from react-bootstrap"
-  // },
-  // "Yyyyyyyyyyy": {
-  //   "prefix": "rb:Yyyyyyyyyyy",
-  //   "body": ["<Yyyyyyyyyyy>", "\t${1}", "</Yyyyyyyyyyy>"],
-  //   "description": "Create a Yyyyyyyyyyy"
-  // }
+  "Import Collapse": {
+    "prefix": "rb:import:collapse",
+    "body": "import { Collapse } from 'react-bootstrap';",
+    "description": "Import Collapse from react-bootstrap"
+  },
+  "Collapse": {
+    "prefix": "rb:collapse",
+    "body": [
+      "<Collapse in={${1:open}}>",
+      "\t<div id=\"${2:collapse-contents-id}\">",
+      "\t\t${3:Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus",
+      "\t\tterry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer",
+      "\t\tlabore wes anderson cred nesciunt sapiente ea proident.}",
+      "\t</div>",
+      "</Collapse>"
+    ],
+    "description": "Create a Collapse. When the value of the \"in\" prop is true, the contents are shown."
+  },
+  "Import Fade": {
+    "prefix": "rb:import:fade",
+    "body": "import { Fade } from 'react-bootstrap';",
+    "description": "Import Fade from react-bootstrap"
+  },
+  "Fade": {
+    "prefix": "rb:fade",
+    "body": [
+      "<Fade in={${1:open}}>",
+      "\t<div id=\"${2:fade-contents-id}\">",
+      "\t\t${3:Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus",
+      "\t\tterry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer",
+      "\t\tlabore wes anderson cred nesciunt sapiente ea proident.}",
+      "\t</div>",
+      "</Fade>"
+    ],
+    "description": "Create a Fade. When the value of the \"in\" prop is true, the contents are shown."
+  }
 }
