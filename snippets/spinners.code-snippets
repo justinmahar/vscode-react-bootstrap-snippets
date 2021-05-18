@@ -6,164 +6,136 @@
   },
   "Border Spinner": {
     "prefix": ["rb:spinner", "rb:spinner-border"],
-    "body": [
-      "<Spinner animation=\"border\" role=\"status\">",
-      "\t<span className=\"sr-only\">${1:Loading...}</span>",
-      "</Spinner>"
-    ],
+    "body": ["<Spinner animation=\"border\" role=\"status\" />"],
     "description": "Create a primary spinning border Spinner"
   },
   "Border Spinner (primary)": {
     "prefix": ["rb:spinner-primary", "rb:spinner-border-primary"],
     "body": [
-      "<Spinner animation=\"border\" variant=\"primary\" role=\"status\">",
-      "\t<span className=\"sr-only\">${1:Loading...}</span>",
-      "</Spinner>"
+      "<Spinner animation=\"border\" variant=\"primary\" role=\"status\" />"
     ],
     "description": "Create a primary spinning border Spinner"
   },
   "Border Spinner (secondary)": {
     "prefix": "rb:spinner-border-secondary",
     "body": [
-      "<Spinner animation=\"border\" variant=\"secondary\" role=\"status\">",
-      "\t<span className=\"sr-only\">${1:Loading...}</span>",
-      "</Spinner>"
+      "<Spinner animation=\"border\" variant=\"secondary\" role=\"status\" />"
     ],
     "description": "Create a secondary spinning border Spinner"
   },
   "Border Spinner (success)": {
     "prefix": "rb:spinner-border-success",
     "body": [
-      "<Spinner animation=\"border\" variant=\"success\" role=\"status\">",
-      "\t<span className=\"sr-only\">${1:Loading...}</span>",
-      "</Spinner>"
+      "<Spinner animation=\"border\" variant=\"success\" role=\"status\" />"
     ],
     "description": "Create a success spinning border Spinner"
   },
   "Border Spinner (danger)": {
     "prefix": "rb:spinner-border-danger",
     "body": [
-      "<Spinner animation=\"border\" variant=\"danger\" role=\"status\">",
-      "\t<span className=\"sr-only\">${1:Loading...}</span>",
-      "</Spinner>"
+      "<Spinner animation=\"border\" variant=\"danger\" role=\"status\" />"
     ],
     "description": "Create a danger spinning border Spinner"
   },
   "Border Spinner (warning)": {
     "prefix": "rb:spinner-border-warning",
     "body": [
-      "<Spinner animation=\"border\" variant=\"warning\" role=\"status\">",
-      "\t<span className=\"sr-only\">${1:Loading...}</span>",
-      "</Spinner>"
+      "<Spinner animation=\"border\" variant=\"warning\" role=\"status\" />"
     ],
     "description": "Create a warning spinning border Spinner"
   },
   "Border Spinner (info)": {
     "prefix": "rb:spinner-border-info",
     "body": [
-      "<Spinner animation=\"border\" variant=\"info\" role=\"status\">",
-      "\t<span className=\"sr-only\">${1:Loading...}</span>",
-      "</Spinner>"
+      "<Spinner animation=\"border\" variant=\"info\" role=\"status\" />"
     ],
     "description": "Create an info spinning border Spinner"
   },
   "Border Spinner (light)": {
     "prefix": "rb:spinner-border-light",
     "body": [
-      "<Spinner animation=\"border\" variant=\"light\" role=\"status\">",
-      "\t<span className=\"sr-only\">${1:Loading...}</span>",
-      "</Spinner>"
+      "<Spinner animation=\"border\" variant=\"light\" role=\"status\" />"
     ],
     "description": "Create a light spinning border Spinner"
   },
   "Border Spinner (dark)": {
     "prefix": "rb:spinner-border-dark",
     "body": [
-      "<Spinner animation=\"border\" variant=\"dark\" role=\"status\">",
-      "\t<span className=\"sr-only\">${1:Loading...}</span>",
-      "</Spinner>"
+      "<Spinner animation=\"border\" variant=\"dark\" role=\"status\" />"
     ],
     "description": "Create a dark spinning border Spinner"
   },
   "Grow Spinner": {
     "prefix": "rb:spinner-grow",
-    "body": [
-      "<Spinner animation=\"grow\" role=\"status\">",
-      "\t<span className=\"sr-only\">${1:Loading...}</span>",
-      "</Spinner>"
-    ],
+    "body": ["<Spinner animation=\"grow\" role=\"status\" />"],
     "description": "Create a primary Spinner that repeatedly grows and fades"
   },
   "Grow Spinner (primary)": {
     "prefix": "rb:spinner-grow-primary",
     "body": [
-      "<Spinner animation=\"grow\" variant=\"primary\" role=\"status\">",
-      "\t<span className=\"sr-only\">${1:Loading...}</span>",
-      "</Spinner>"
+      "<Spinner animation=\"grow\" variant=\"primary\" role=\"status\" />"
     ],
     "description": "Create a primary Spinner that repeatedly grows and fades"
   },
   "Grow Spinner (secondary)": {
     "prefix": "rb:spinner-grow-secondary",
     "body": [
-      "<Spinner animation=\"grow\" variant=\"secondary\" role=\"status\">",
-      "\t<span className=\"sr-only\">${1:Loading...}</span>",
-      "</Spinner>"
+      "<Spinner animation=\"grow\" variant=\"secondary\" role=\"status\" />"
     ],
     "description": "Create a secondary Spinner that repeatedly grows and fades"
   },
   "Grow Spinner (success)": {
     "prefix": "rb:spinner-grow-success",
     "body": [
-      "<Spinner animation=\"grow\" variant=\"success\" role=\"status\">",
-      "\t<span className=\"sr-only\">${1:Loading...}</span>",
-      "</Spinner>"
+      "<Spinner animation=\"grow\" variant=\"success\" role=\"status\" />"
     ],
     "description": "Create a success Spinner that repeatedly grows and fades"
   },
   "Grow Spinner (danger)": {
     "prefix": "rb:spinner-grow-danger",
     "body": [
-      "<Spinner animation=\"grow\" variant=\"danger\" role=\"status\">",
-      "\t<span className=\"sr-only\">${1:Loading...}</span>",
-      "</Spinner>"
+      "<Spinner animation=\"grow\" variant=\"danger\" role=\"status\" />"
     ],
     "description": "Create a danger Spinner that repeatedly grows and fades"
   },
   "Grow Spinner (warning)": {
     "prefix": "rb:spinner-grow-warning",
     "body": [
-      "<Spinner animation=\"grow\" variant=\"warning\" role=\"status\">",
-      "\t<span className=\"sr-only\">${1:Loading...}</span>",
-      "</Spinner>"
+      "<Spinner animation=\"grow\" variant=\"warning\" role=\"status\" />"
     ],
     "description": "Create a warning Spinner that repeatedly grows and fades"
   },
   "Grow Spinner (info)": {
     "prefix": "rb:spinner-grow-info",
-    "body": [
-      "<Spinner animation=\"grow\" variant=\"info\" role=\"status\">",
-      "\t<span className=\"sr-only\">${1:Loading...}</span>",
-      "</Spinner>"
-    ],
+    "body": ["<Spinner animation=\"grow\" variant=\"info\" role=\"status\" />"],
     "description": "Create an info Spinner that repeatedly grows and fades"
   },
   "Grow Spinner (light)": {
     "prefix": "rb:spinner-grow-light",
     "body": [
-      "<Spinner animation=\"grow\" variant=\"light\" role=\"status\">",
-      "\t<span className=\"sr-only\">${1:Loading...}</span>",
-      "</Spinner>"
+      "<Spinner animation=\"grow\" variant=\"light\" role=\"status\" />"
     ],
     "description": "Create a light Spinner that repeatedly grows and fades"
   },
   "Grow Spinner (dark)": {
     "prefix": "rb:spinner-grow-dark",
-    "body": [
-      "<Spinner animation=\"grow\" variant=\"dark\" role=\"status\">",
-      "\t<span className=\"sr-only\">${1:Loading...}</span>",
-      "</Spinner>"
-    ],
+    "body": ["<Spinner animation=\"grow\" variant=\"dark\" role=\"status\" />"],
     "description": "Create a dark Spinner that repeatedly grows and fades"
+  },
+  "Spinner Button": {
+    "prefix": "rb:spinner-button",
+    "body": [
+      "<Button variant=\"${2:primary}\" disabled>",
+      "\t<Spinner",
+      "\t\tas=\"span\"",
+      "\t\tanimation=\"${3:border}\"",
+      "\t\tsize=\"sm\"",
+      "\t\trole=\"status\"",
+      "\t\tclassName=\"mr-2\"",
+      "\t/>",
+      "\t${1:Loading...}",
+      "</Button>"
+    ],
+    "description": "Create a customizable disabled Button with a small Spinner inside"
   }
 }
