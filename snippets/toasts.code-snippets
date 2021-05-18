@@ -1,12 +1,100 @@
 {
-  // "Import Yyyyyyyyyyy": {
-  //   "prefix": "rb:import:Yyyyyyyyyyy",
-  //   "body": "import { Yyyyyyyyyyy } from 'react-bootstrap';",
-  //   "description": "Import Yyyyyyyyyyy from react-bootstrap"
-  // },
-  // "Yyyyyyyyyyy": {
-  //   "prefix": "rb:Yyyyyyyyyyy",
-  //   "body": ["<Yyyyyyyyyyy>", "\t${1}", "</Yyyyyyyyyyy>"],
-  //   "description": "Create a Yyyyyyyyyyy"
-  // }
+  "Import Toast": {
+    "prefix": "rb:import:toast",
+    "body": "import { Toast } from 'react-bootstrap';",
+    "description": "Import Toast from react-bootstrap"
+  },
+  "Toast": {
+    "prefix": "rb:toast",
+    "body": ["<Toast>", "\t${1:Toast.Header, Toast.Body, etc}", "</Toast>"],
+    "description": "Create a Toast"
+  },
+  "Toast.Header": {
+    "prefix": "rb:toast-header",
+    "body": [
+      "<Toast.Header>",
+      "\t${1:img, strong, small, etc}",
+      "</Toast.Header>"
+    ],
+    "description": "Create a Toast.Header"
+  },
+  "Toast.Body": {
+    "prefix": "rb:toast-body",
+    "body": ["<Toast.Body>", "\t${1:Toast body contents}", "</Toast.Body>"],
+    "description": "Create a Toast.Body"
+  },
+  "Toast Example": {
+    "prefix": "rb:toast-example",
+    "body": [
+      "<Toast>",
+      "\t<Toast.Header>",
+      "\t\t<img src=\"http://placeimg.com/20/20/any\" className=\"rounded mr-2\" alt=\"Placeholder image\" />",
+      "\t\t<strong className=\"mr-auto\">Bootstrap</strong>",
+      "\t\t<small>11 mins ago</small>",
+      "\t</Toast.Header>",
+      "\t<Toast.Body>Hello, world! This is a toast message.</Toast.Body>",
+      "</Toast>"
+    ],
+    "description": "Create a Toast example to build from"
+  },
+  "Upper-Right Toast Container": {
+    "prefix": "rb:toast-container-upper-right",
+    "body": [
+      "<div",
+      "\tstyle={{",
+      "\t\tposition: 'absolute',",
+      "\t\ttop: 0,",
+      "\t\tright: 0,",
+      "\t}}",
+      ">",
+      "\t${1:Toasts, etc}",
+      "</div>"
+    ],
+    "description": "Create an absolute div for stacking toasts in the upper-right"
+  },
+  "Upper-Left Toast Container": {
+    "prefix": "rb:toast-container-upper-left",
+    "body": [
+      "<div",
+      "\tstyle={{",
+      "\t\tposition: 'absolute',",
+      "\t\ttop: 0,",
+      "\t\tleft: 0,",
+      "\t}}",
+      ">",
+      "\t${1:Toasts, etc}",
+      "</div>"
+    ],
+    "description": "Create an absolute div for stacking toasts in the upper-left"
+  },
+  "Lower-Right Toast Container": {
+    "prefix": "rb:toast-container-lower-right",
+    "body": [
+      "<div",
+      "\tstyle={{",
+      "\t\tposition: 'absolute',",
+      "\t\tbottom: 0,",
+      "\t\tright: 0,",
+      "\t}}",
+      ">",
+      "\t${1:Toasts, etc}",
+      "</div>"
+    ],
+    "description": "Create an absolute div for stacking toasts in the lower-right"
+  },
+  "Lower-Left Toast Container": {
+    "prefix": "rb:toast-container-lower-left",
+    "body": [
+      "<div",
+      "\tstyle={{",
+      "\t\tposition: 'absolute',",
+      "\t\tbottom: 0,",
+      "\t\tleft: 0,",
+      "\t}}",
+      ">",
+      "\t${1:Toasts, etc}",
+      "</div>"
+    ],
+    "description": "Create an absolute div for stacking toasts in the lower-left"
+  }
 }
