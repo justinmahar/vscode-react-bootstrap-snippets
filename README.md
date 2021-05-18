@@ -1,6 +1,6 @@
 # React-Bootstrap Snippets
 
-[![Version](https://vsmarketplacebadge.apphb.com/version-short/justinmahar.react-bootstrap-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-bootstrap-snippets)
+[![Version](https://vsmarketplacebadge.apphb.com/version/justinmahar.react-bootstrap-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-bootstrap-snippets)
 
 It's finally here! 350+ [React-Bootstrap](https://react-bootstrap.github.io/) snippets for VS Code.
 
@@ -54,13 +54,13 @@ For instance, `rb:alert-example` will insert an example `Alert` to build upon.
 
 ## Release Notes
 
-### 1.0.0
+### [1.0.0] - 2021-05-17
 
-Initial release of React-Bootstrap snippets.
+- Initial release of React-Bootstrap snippets.
 
-### 1.0.1
+### [1.0.1]-[1.0.2] - 2021-05-17
 
-Update documentation.  Add demo gif.
+- Update documentation. Add demo gif.
 
 ## Contributing
 
