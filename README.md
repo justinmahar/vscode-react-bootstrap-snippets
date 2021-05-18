@@ -32,7 +32,7 @@ There are over 350 snippets available for components, imports, and examples. Rea
 
 All of React-Bootstrap's components are supported.
 
-For example, `rb:alert`, `rb:badge`, `rb:breadrcumb`, etc.
+For example, `rb:alert`, `rb:badge`, `rb:breadcrumb`, etc.
 
 Where applicable, suggestions are made for which components to use inside a given component, such as `thead` and `tbody` inside a `Table`.
 
@@ -68,7 +68,7 @@ And as always, happy coding!
 
 - Initial release of React-Bootstrap snippets.
 
-### [1.0.1]-[1.0.3] - 2021-05-18
+### [1.0.1]-[1.0.4] - 2021-05-18
 
 - Update documentation. 
 - Add demo gif.
