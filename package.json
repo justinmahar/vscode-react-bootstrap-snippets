@@ -1,8 +1,14 @@
 {
-  "name": "vscode-react-bootstrap-snippets",
+  "name": "justinmahar.vscode-react-bootstrap-snippets",
   "displayName": "React-Bootstrap Snippets",
   "description": "Code snippets for the React-Bootstrap library",
   "version": "1.0.0",
+  "publisher": "justinmahar",
+  "homepage": "https://github.com/justinmahar/vscode-react-bootstrap-snippets/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinmahar/vscode-react-bootstrap-snippets.git"
+  },
   "engines": {
     "vscode": "^1.56.0"
   },
@@ -756,10 +762,5 @@
         "path": "./snippets/transitions.code-snippets"
       }
     ]
-  },
-  "homepage": "https://github.com/justinmahar/vscode-react-bootstrap-snippets/blob/master/README.md",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/justinmahar/vscode-react-bootstrap-snippets.git"
   }
 }
