@@ -2,10 +2,10 @@
   "name": "react-bootstrap-snippets",
   "displayName": "React-Bootstrap Snippets",
   "description": "Code snippets for React-Bootstrap 🙌",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "icon": "images/icon.png",
   "galleryBanner": {
-    "color": "#000",
+    "color": "#1d0539",
     "theme": "dark"
   },
   "publisher": "justinmahar",
