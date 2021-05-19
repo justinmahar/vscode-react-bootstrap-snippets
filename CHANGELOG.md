@@ -6,7 +6,7 @@ All notable changes to the "react-bootstrap-snippets" extension will be document
 
 - Initial release of React-Bootstrap snippets.
 
-### [1.0.1]-[1.0.6] - 2021-05-18
+### [1.0.1]-[1.0.7] - 2021-05-18
 
 - Update documentation. 
 - Add demo gifs.

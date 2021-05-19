@@ -2,21 +2,21 @@
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/justinmahar.react-bootstrap-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-bootstrap-snippets)
 
-It's finally here! 350+ [React-Bootstrap](https://react-bootstrap.github.io/) snippets for VS Code.
+This extension includes 386 [React-Bootstrap](https://react-bootstrap.github.io/) snippets for VS Code.
 
-These snippets make building apps with React-Bootstrap an absolute pleasure.
+Build apps with React-Bootstrap at your fingertips.
 
 This extension supports:
 
-- 🙌 All `react-bootstrap` components. The complete package.
-- 💁‍♀️ `import` snippets, for quick and easy importing.
-- 🙋‍♂️ Example snippets from the docs for convenience.
+- 🙌 All `react-bootstrap` components. The complete picture.
+- 📦 `import` snippets, for quick and easy importing.
+- 💁‍♀️ Example snippets from the docs for convenience.
 
 **Just type `rb` and press <kbd>Ctrl</kbd>+<kbd>Space</kbd> for autocompletion. VS Code will autocomplete the component you need.**
 
 ![Demo](./images/demo.gif)
 
-Want to see what's included and more demo gifs? Scroll on!
+Read below for more information and gif demos.
 
 ## 📚 Supported languages (file extensions)
 - JavaScript (.js)
@@ -28,7 +28,7 @@ Want to see what's included and more demo gifs? Scroll on!
 
 **All snippets start with `rb` for React-Bootstrap.**
 
-There are over 350 snippets available for components, imports, and examples. Read more on each below.
+There are 386 snippets available for components, imports, and examples. Read more on each below.
 
 ### Component Snippets
 
@@ -80,8 +80,7 @@ const handleCloseAlert = () => setShowAlert(false);
 const handleShowAlert = () => setShowAlert(true);
 ```
 
-These pair nicely with the snippets for `rb:alert-dismissible` and `rb:modal`.
-
+These pair nicely with the snippets for `rb:modal` and `rb:alert-dismissible`.
 
 ### Table Utilities
 
@@ -91,19 +90,15 @@ Use `rb:table-row-X` and `rb:table-header-row-X`, where `X` is the number of col
 
 ![Tables](./images/tables.gif)
 
-## Note To You, The Developer
+## A Note To You, The Developer
 
 My goal was to make this one of the best snippets extensions available to you. As such, I spent countless hours reading the docs to make this as great as I could, and I truly hope you find it useful.
 
 That being said, if you find a bug or see a way to improve this extension, please feel free to [open an issue](https://github.com/justinmahar/vscode-react-bootstrap-snippets/issues) or submit a [pull request to the project](https://github.com/justinmahar/vscode-react-bootstrap-snippets).
 
-This is a brand new extension, so...
+If you found this extension helpful, consider **[rating it](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-bootstrap-snippets&ssr=false#review-details)** and **[give it a star](https://github.com/justinmahar/vscode-react-bootstrap-snippets)** so others can find it.
 
-## 🌟 If you found this extension helpful, please **[rate it](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-bootstrap-snippets&ssr=false#review-details)** and **[star it](https://github.com/justinmahar/vscode-react-bootstrap-snippets)** so others can find it. :)
-
-And as always, happy coding!
-
--Justin
+Happy coding 🖖
 
 ## Release Notes
 
@@ -111,7 +106,7 @@ And as always, happy coding!
 
 - Initial release of React-Bootstrap snippets.
 
-### [1.0.1]-[1.0.6] - 2021-05-18
+### [1.0.1]-[1.0.7] - 2021-05-18
 
 - Update documentation. 
 - Add demo gifs.
