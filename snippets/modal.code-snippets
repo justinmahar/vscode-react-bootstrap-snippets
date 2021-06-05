@@ -122,9 +122,9 @@
   "Modal Functions": {
     "prefix": "rb:modal-functions",
     "body": [
-      "const [showModal, setShowModal] = React.useState(false);",
-      "const handleCloseModal = () => setShowModal(false);",
-      "const handleShowModal = () => setShowModal(true);"
+      "const [show$1Modal, setShow$1Modal] = React.useState(false);",
+      "const handleClose$1Modal = () => setShow$1Modal(false);",
+      "const handleShow$1Modal = () => setShow$1Modal(true);"
     ],
     "description": "Create functions used to show and hide the modal."
   }

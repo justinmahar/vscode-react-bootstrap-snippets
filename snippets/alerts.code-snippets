@@ -175,9 +175,9 @@
   "Dismissible Alert Functions": {
     "prefix": "rb:alert-dismissible-functions",
     "body": [
-      "const [showAlert, setShowAlert] = React.useState(false);",
-      "const handleCloseAlert = () => setShowAlert(false);",
-      "const handleShowAlert = () => setShowAlert(true);"
+      "const [show$1Alert, setShow$1Alert] = React.useState(false);",
+      "const handleClose$1Alert = () => setShow$1Alert(false);",
+      "const handleShow$1Alert = () => setShow$1Alert(true);"
     ],
     "description": "Create functions used to show and hide the alert."
   }
