@@ -110,3 +110,8 @@ Happy coding 🖖
 
 - Update documentation. 
 - Add demo gifs.
+
+### [1.0.8] - 2021-06-05
+
+- Add tabstops to function snippets
+
