@@ -15,3 +15,6 @@ All notable changes to the "react-bootstrap-snippets" extension will be document
 
 - Add tabstops to function snippets
 
+### [1.0.9] - 2021-06-07
+
+- Remove languages VS Code does not indicate support for (jsx, jsx-attr). Update docs.

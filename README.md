@@ -18,6 +18,8 @@ This extension supports:
 
 Read below for more information and gif demos.
 
+> Loving it? **[Rate it here!](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-bootstrap-snippets&ssr=false#review-details)**
+
 ## 📚 Supported languages (file extensions)
 - JavaScript (.js)
 - JavaScript React (.jsx)
@@ -100,6 +102,10 @@ If you found this extension helpful, consider **[rating it](https://marketplace.
 
 Happy coding 🖖
 
+## You Might Also Like...
+
+- [React-Icons Snippets](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-icons-snippets) - Code snippets for React-Icons
+
 ## Release Notes
 
 ### [1.0.0] - 2021-05-17
@@ -114,4 +120,8 @@ Happy coding 🖖
 ### [1.0.8] - 2021-06-05
 
 - Add tabstops to function snippets
+
+### [1.0.9] - 2021-06-07
+
+- Remove languages VS Code does not indicate support for (jsx, jsx-attr). Update docs.
 
