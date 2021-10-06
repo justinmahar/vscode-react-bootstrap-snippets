@@ -18,3 +18,7 @@ All notable changes to the "react-bootstrap-snippets" extension will be document
 ### [1.0.9] - 2021-06-07
 
 - Remove languages VS Code does not indicate support for (jsx, jsx-attr). Update docs.
+
+### [2.0.0] - 2021-10-05
+
+- Update to v2.0.0-rc.0 (Bootstrap 5.1)
