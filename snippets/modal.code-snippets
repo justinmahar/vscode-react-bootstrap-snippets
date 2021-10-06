@@ -21,7 +21,7 @@
       "\t</Modal.Footer>",
       "</Modal>"
     ],
-    "description": "Create a Modal"
+    "description": "Create a medium sized Modal"
   },
   "Small Modal": {
     "prefix": "rb:modal-sm",
@@ -40,7 +40,7 @@
       "\t</Modal.Footer>",
       "</Modal>"
     ],
-    "description": "Create a Modal"
+    "description": "Create a small sized Modal"
   },
   "Large Modal": {
     "prefix": "rb:modal-lg",
@@ -59,7 +59,7 @@
       "\t</Modal.Footer>",
       "</Modal>"
     ],
-    "description": "Create a Modal"
+    "description": "Create a large sized Modal"
   },
   "Extra Large Modal": {
     "prefix": "rb:modal-xl",
@@ -78,7 +78,26 @@
       "\t</Modal.Footer>",
       "</Modal>"
     ],
-    "description": "Create a Modal"
+    "description": "Create an extra large sized Modal"
+  },
+  "Fullscreen Modal": {
+    "prefix": "rb:modal-fullscreen",
+    "body": [
+      "<Modal fullscreen show={${4:showModal}} onHide={${5:handleCloseModal}}>",
+      "\t<Modal.Header closeButton>",
+      "\t\t<Modal.Title>${1:Modal heading}</Modal.Title>",
+      "\t</Modal.Header>",
+      "\t<Modal.Body>",
+      "\t\t<p>${2:Modal body text}</p>",
+      "\t</Modal.Body>",
+      "\t<Modal.Footer>",
+      "\t\t<Button variant=\"secondary\" onClick={${5:handleCloseModal}}>",
+      "\t\t\t${3:Close}",
+      "\t\t</Button>",
+      "\t</Modal.Footer>",
+      "</Modal>"
+    ],
+    "description": "Create a fullscreen Modal"
   },
   "Modal.Dialog": {
     "prefix": "rb:modal-dialog",

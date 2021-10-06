@@ -1,0 +1,43 @@
+{
+  "Import Ratio": {
+    "prefix": "rb:import:ratio",
+    "body": "import { Ratio } from 'react-bootstrap';",
+    "description": "Import Ratio from react-bootstrap"
+  },
+  "Ratio (1x1)": {
+    "prefix": ["rb:ratio", "rb:ratio-1x1"],
+    "body": [
+      "<Ratio aspectRatio=\"1x1\">",
+      "\t${1:Embedded content}",
+      "</Ratio>"
+    ],
+    "description": "Create a Ratio"
+  },
+  "Ratio (4x3)": {
+    "prefix": "rb:ratio-4x3",
+    "body": [
+      "<Ratio aspectRatio=\"4x3\">",
+      "\t${1:Embedded content}",
+      "</Ratio>"
+    ],
+    "description": "Create a Ratio"
+  },
+  "Ratio (16x9)": {
+    "prefix": "rb:ratio-16x9",
+    "body": [
+      "<Ratio aspectRatio=\"16x9\">",
+      "\t${1:Embedded content}",
+      "</Ratio>"
+    ],
+    "description": "Create a Ratio"
+  },
+  "Ratio (21x9)": {
+    "prefix": "rb:ratio-21x9",
+    "body": [
+      "<Ratio aspectRatio=\"21x9\">",
+      "\t${1:Embedded content}",
+      "</Ratio>"
+    ],
+    "description": "Create a Ratio"
+  }
+}

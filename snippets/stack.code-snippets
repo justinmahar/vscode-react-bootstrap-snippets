@@ -1,0 +1,49 @@
+{
+  "Import Stack": {
+    "prefix": "rb:import:stack",
+    "body": "import { Stack } from 'react-bootstrap';",
+    "description": "Import Stack from react-bootstrap"
+  },
+  "Vertical Stack": {
+    "prefix": ["rb:stack", "rb:stack-vertical"],
+    "body": ["<Stack gap={${2:2}}>", "\t${1:div, etc}", "</Stack>"],
+    "description": "Create a vertical Stack"
+  },
+  "Horizontal Stack": {
+    "prefix": "rb:stack-horizontal",
+    "body": [
+      "<Stack direction=\"horizontal\" gap={${2:2}}>",
+      "\t${1:div, etc}",
+      "</Stack>"
+    ],
+    "description": "Create a horizontal Stack"
+  },
+  "Vertical Rule": {
+    "prefix": "rb:vertical-rule",
+    "body": ["<div className=\"vr\" />"],
+    "description": "Create a vertical rule"
+  },
+  "Vertical Stack Example": {
+    "prefix": "rb:stack-vertical-example",
+    "body": [
+      "<Stack gap={3}>",
+      "\t<div className=\"bg-light border\">First item</div>",
+      "\t<div className=\"bg-light border\">Second item</div>",
+      "\t<div className=\"bg-light border\">Third item</div>",
+      "</Stack>"
+    ],
+    "description": "Create an example vertical stack to build from"
+  },
+  "Horizontal Stack Example": {
+    "prefix": "rb:stack-horizontal-example",
+    "body": [
+      "<Stack direction=\"horizontal\" gap={3}>",
+      "\t<div className=\"bg-light border\">First item</div>",
+      "\t<div className=\"bg-light border ms-auto\">Second item</div>",
+      "\t<div className=\"vr\" />",
+      "\t<div className=\"bg-light border\">Third item</div>",
+      "</Stack>"
+    ],
+    "description": "Create an example horizontal stack to build from"
+  }
+}

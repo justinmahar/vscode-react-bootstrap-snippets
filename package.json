@@ -65,6 +65,10 @@
       },
       {
         "language": "javascriptreact",
+        "path": "./snippets/close-button.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
         "path": "./snippets/dropdowns.code-snippets"
       },
       {
@@ -121,6 +125,10 @@
       },
       {
         "language": "javascriptreact",
+        "path": "./snippets/placeholders.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
         "path": "./snippets/popovers.code-snippets"
       },
       {
@@ -129,11 +137,15 @@
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets/responsive-embed.code-snippets"
+        "path": "./snippets/ratio.code-snippets"
       },
       {
         "language": "javascriptreact",
         "path": "./snippets/spinners.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/stack.code-snippets"
       },
       {
         "language": "javascriptreact",
@@ -189,6 +201,10 @@
       },
       {
         "language": "javascript",
+        "path": "./snippets/close-button.code-snippets"
+      },
+      {
+        "language": "javascript",
         "path": "./snippets/dropdowns.code-snippets"
       },
       {
@@ -245,6 +261,10 @@
       },
       {
         "language": "javascript",
+        "path": "./snippets/placeholders.code-snippets"
+      },
+      {
+        "language": "javascript",
         "path": "./snippets/popovers.code-snippets"
       },
       {
@@ -253,11 +273,15 @@
       },
       {
         "language": "javascript",
-        "path": "./snippets/responsive-embed.code-snippets"
+        "path": "./snippets/ratio.code-snippets"
       },
       {
         "language": "javascript",
         "path": "./snippets/spinners.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/stack.code-snippets"
       },
       {
         "language": "javascript",
@@ -313,6 +337,10 @@
       },
       {
         "language": "typescript",
+        "path": "./snippets/close-button.code-snippets"
+      },
+      {
+        "language": "typescript",
         "path": "./snippets/dropdowns.code-snippets"
       },
       {
@@ -369,6 +397,10 @@
       },
       {
         "language": "typescript",
+        "path": "./snippets/placeholders.code-snippets"
+      },
+      {
+        "language": "typescript",
         "path": "./snippets/popovers.code-snippets"
       },
       {
@@ -377,11 +409,15 @@
       },
       {
         "language": "typescript",
-        "path": "./snippets/responsive-embed.code-snippets"
+        "path": "./snippets/ratio.code-snippets"
       },
       {
         "language": "typescript",
         "path": "./snippets/spinners.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/stack.code-snippets"
       },
       {
         "language": "typescript",
@@ -437,6 +473,10 @@
       },
       {
         "language": "typescriptreact",
+        "path": "./snippets/close-button.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
         "path": "./snippets/dropdowns.code-snippets"
       },
       {
@@ -493,6 +533,10 @@
       },
       {
         "language": "typescriptreact",
+        "path": "./snippets/placeholders.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
         "path": "./snippets/popovers.code-snippets"
       },
       {
@@ -501,11 +545,15 @@
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/responsive-embed.code-snippets"
+        "path": "./snippets/ratio.code-snippets"
       },
       {
         "language": "typescriptreact",
         "path": "./snippets/spinners.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/stack.code-snippets"
       },
       {
         "language": "typescriptreact",

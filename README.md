@@ -34,7 +34,7 @@ There are 386 snippets available for components, imports, and examples. Read mor
 
 ### Component Snippets
 
-All of React-Bootstrap's components are supported.
+All React-Bootstrap's components are supported as of version `v2.0.0-rc.0`.
 
 For example, `rb:alert`, `rb:badge`, `rb:breadcrumb`, etc.
 

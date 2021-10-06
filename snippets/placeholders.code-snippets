@@ -1,0 +1,37 @@
+{
+  "Import Placeholder": {
+    "prefix": "rb:import:placeholder",
+    "body": "import { Placeholder } from 'react-bootstrap';",
+    "description": "Import Placeholder from react-bootstrap"
+  },
+  "Placeholder": {
+    "prefix": "rb:placeholder",
+    "body": ["<Placeholder xs={${1:6}} />"],
+    "description": "Create a Placeholder"
+  },
+  "Placeholder (glow)": {
+    "prefix": "rb:placeholder-glow",
+    "body": ["<Placeholder animation=\"glow\" xs={${1:6}} />"],
+    "description": "Create a Placeholder with the glow animation"
+  },
+  "Placeholder (wave)": {
+    "prefix": "rb:placeholder-wave",
+    "body": ["<Placeholder animation=\"wave\" xs={${1:6}} />"],
+    "description": "Create a Placeholder with the wave animation"
+  },
+  "Placeholder Button": {
+    "prefix": "rb:placeholder-button",
+    "body": ["<Placeholder.Button xs={${1:4}} />"],
+    "description": "Create a Placeholder.Button"
+  },
+  "Placeholder Button (glow)": {
+    "prefix": "rb:placeholder-button-glow",
+    "body": ["<Placeholder.Button animation=\"glow\" xs={${1:4}} />"],
+    "description": "Create a Placeholder.Button with the glow animation"
+  },
+  "Placeholder Button (wave)": {
+    "prefix": "rb:placeholder-button-wave",
+    "body": ["<Placeholder.Button animation=\"wave\" xs={${1:4}} />"],
+    "description": "Create a Placeholder.Button with the wave animation"
+  }
+}

@@ -6,82 +6,82 @@
   },
   "Badge (primary)": {
     "prefix": ["rb:badge", "rb:badge-primary"],
-    "body": ["<Badge variant=\"primary\">${1:Primary}</Badge>"],
+    "body": ["<Badge bg=\"primary\">${1:Primary}</Badge>"],
     "description": "Create a primary Badge"
   },
   "Badge Pill (primary)": {
     "prefix": ["rb:badge-pill", "rb:badge-pill-primary"],
-    "body": ["<Badge pill variant=\"primary\">${1:Primary}</Badge>"],
+    "body": ["<Badge pill bg=\"primary\">${1:Primary}</Badge>"],
     "description": "Create a primary pill Badge"
   },
   "Badge (secondary)": {
     "prefix": "rb:badge-secondary",
-    "body": ["<Badge variant=\"secondary\">${1:Secondary}</Badge>"],
+    "body": ["<Badge bg=\"secondary\">${1:Secondary}</Badge>"],
     "description": "Create a secondary Badge"
   },
   "Badge Pill (secondary)": {
     "prefix": "rb:badge-pill-secondary",
-    "body": ["<Badge pill variant=\"secondary\">${1:Secondary}</Badge>"],
+    "body": ["<Badge pill bg=\"secondary\">${1:Secondary}</Badge>"],
     "description": "Create a secondary pill Badge"
   },
   "Badge (success)": {
     "prefix": "rb:badge-success",
-    "body": ["<Badge variant=\"success\">${1:Success}</Badge>"],
+    "body": ["<Badge bg=\"success\">${1:Success}</Badge>"],
     "description": "Create a success Badge"
   },
   "Badge Pill (success)": {
     "prefix": "rb:badge-pill-success",
-    "body": ["<Badge pill variant=\"success\">${1:Success}</Badge>"],
+    "body": ["<Badge pill bg=\"success\">${1:Success}</Badge>"],
     "description": "Create a success pill Badge"
   },
   "Badge (danger)": {
     "prefix": "rb:badge-danger",
-    "body": ["<Badge variant=\"danger\">${1:Danger}</Badge>"],
+    "body": ["<Badge bg=\"danger\">${1:Danger}</Badge>"],
     "description": "Create a danger Badge"
   },
   "Badge Pill (danger)": {
     "prefix": "rb:badge-pill-danger",
-    "body": ["<Badge pill variant=\"danger\">${1:Danger}</Badge>"],
+    "body": ["<Badge pill bg=\"danger\">${1:Danger}</Badge>"],
     "description": "Create a danger pill Badge"
   },
   "Badge (warning)": {
     "prefix": "rb:badge-warning",
-    "body": ["<Badge variant=\"warning\">${1:Warning}</Badge>"],
+    "body": ["<Badge bg=\"warning\">${1:Warning}</Badge>"],
     "description": "Create a warning Badge"
   },
   "Badge Pill (warning)": {
     "prefix": "rb:badge-pill-warning",
-    "body": ["<Badge pill variant=\"warning\">${1:Warning}</Badge>"],
+    "body": ["<Badge pill bg=\"warning\">${1:Warning}</Badge>"],
     "description": "Create a warning pill Badge"
   },
   "Badge (info)": {
     "prefix": "rb:badge-info",
-    "body": ["<Badge variant=\"info\">${1:Info}</Badge>"],
+    "body": ["<Badge bg=\"info\">${1:Info}</Badge>"],
     "description": "Create a info Badge"
   },
   "Badge Pill (info)": {
     "prefix": "rb:badge-pill-info",
-    "body": ["<Badge pill variant=\"info\">${1:Info}</Badge>"],
+    "body": ["<Badge pill bg=\"info\">${1:Info}</Badge>"],
     "description": "Create a info pill Badge"
   },
   "Badge (light)": {
     "prefix": "rb:badge-light",
-    "body": ["<Badge variant=\"light\">${1:Light}</Badge>"],
+    "body": ["<Badge bg=\"light\">${1:Light}</Badge>"],
     "description": "Create a light Badge"
   },
   "Badge Pill (light)": {
     "prefix": "rb:badge-pill-light",
-    "body": ["<Badge pill variant=\"light\">${1:Light}</Badge>"],
+    "body": ["<Badge pill bg=\"light\">${1:Light}</Badge>"],
     "description": "Create a light pill Badge"
   },
   "Badge (dark)": {
     "prefix": "rb:badge-dark",
-    "body": ["<Badge variant=\"dark\">${1:Dark}</Badge>"],
+    "body": ["<Badge bg=\"dark\">${1:Dark}</Badge>"],
     "description": "Create a dark Badge"
   },
   "Badge Pill (dark)": {
     "prefix": "rb:badge-pill-dark",
-    "body": ["<Badge pill variant=\"dark\">${1:Dark}</Badge>"],
+    "body": ["<Badge pill bg=\"dark\">${1:Dark}</Badge>"],
     "description": "Create a dark pill Badge"
   }
 }

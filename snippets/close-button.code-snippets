@@ -1,0 +1,19 @@
+{
+  "Import CloseButton": {
+    "prefix": "rb:import:close-button",
+    "body": "import { CloseButton } from 'react-bootstrap';",
+    "description": "Import CloseButton from react-bootstrap"
+  },
+  "CloseButton (dark)": {
+    "prefix": ["rb:close-button", "rb:close-button-dark"],
+    "body": ["<CloseButton onClick={${1:() => console.log(\"Close\")}} />"],
+    "description": "Create a dark CloseButton"
+  },
+  "CloseButton (white)": {
+    "prefix": "rb:close-button-white",
+    "body": [
+      "<CloseButton variant=\"white\" onClick={${1:() => console.log(\"Close\")}} />"
+    ],
+    "description": "Create a white CloseButton"
+  }
+}

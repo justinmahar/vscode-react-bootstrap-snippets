@@ -52,5 +52,15 @@
       "</Accordion>"
     ],
     "description": "Create an Accordion example to build from"
+  },
+  "Import useAccordionButton": {
+    "prefix": "rb:import:use-accordion-button",
+    "body": "import { useAccordionButton } from 'react-bootstrap/AccordionButton';",
+    "description": "Import useAccordionButton from react-bootstrap/AccordionButton"
+  },
+  "useAccordionButton": {
+    "prefix": "rb:use-accordion-button",
+    "body": ["const decoratedOnClick = useAccordionButton(eventKey, onClick);"],
+    "description": "Use the useAccordionButton hook"
   }
 }

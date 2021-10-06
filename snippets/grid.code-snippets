@@ -54,6 +54,11 @@
     "body": ["<Row xl={${1:2}}>", "\t${2: Cols, etc}", "</Row>"],
     "description": "Create a Row with the amount of columns that will fit next to each other specified for the xl breakpoint."
   },
+  "Row (xxl columns)": {
+    "prefix": "rb:row-xxl",
+    "body": ["<Row xxl={${1:2}}>", "\t${2: Cols, etc}", "</Row>"],
+    "description": "Create a Row with the amount of columns that will fit next to each other specified for the xxl breakpoint."
+  },
   "Import Col": {
     "prefix": "rb:import:col",
     "body": "import { Col } from 'react-bootstrap';",
@@ -113,6 +118,16 @@
     "prefix": "rb:col-xl-span-offset",
     "body": ["<Col xl={{ span: ${1:4}, offset: ${2:4} }}>${3:Column}</Col>"],
     "description": "Create a Col with an xl breakpoint span and offset"
+  },
+  "Col (xxl span)": {
+    "prefix": "rb:col-xxl",
+    "body": ["<Col xxl={${1:6}}>${2:Column}</Col>"],
+    "description": "Create a Col with an xxl breakpoint span"
+  },
+  "Col (xxl span/offset)": {
+    "prefix": "rb:col-xxl-span-offset",
+    "body": ["<Col xxl={{ span: ${1:4}, offset: ${2:4} }}>${3:Column}</Col>"],
+    "description": "Create a Col with an xxl breakpoint span and offset"
   },
   "Container With Row": {
     "prefix": "rb:container-row",

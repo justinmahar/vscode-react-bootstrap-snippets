@@ -37,64 +37,90 @@
     ],
     "description": "Create a Toast example to build from"
   },
-  "Upper-Right Toast Container": {
-    "prefix": "rb:toast-container-upper-right",
-    "body": [
-      "<div",
-      "\tstyle={{",
-      "\t\tposition: 'absolute',",
-      "\t\ttop: 0,",
-      "\t\tright: 0,",
-      "\t}}",
-      ">",
-      "\t${1:Toasts, etc}",
-      "</div>"
-    ],
-    "description": "Create an absolute div for stacking toasts in the upper-right"
+  "Import Toast Container": {
+    "prefix": "rb:import:toast-container",
+    "body": "import { ToastContainer } from 'react-bootstrap';",
+    "description": "Import ToastContainer from react-bootstrap"
   },
-  "Upper-Left Toast Container": {
-    "prefix": "rb:toast-container-upper-left",
+  "Toast Container (Top-Start Position)": {
+    "prefix": ["rb:toast-container", "rb:toast-container-top-start"],
     "body": [
-      "<div",
-      "\tstyle={{",
-      "\t\tposition: 'absolute',",
-      "\t\ttop: 0,",
-      "\t\tleft: 0,",
-      "\t}}",
-      ">",
+      "<ToastContainer position=\"top-start\">",
       "\t${1:Toasts, etc}",
-      "</div>"
+      "</ToastContainer>"
     ],
-    "description": "Create an absolute div for stacking toasts in the upper-left"
+    "description": "Create a Toast Container with toasts positioned top-start"
   },
-  "Lower-Right Toast Container": {
-    "prefix": "rb:toast-container-lower-right",
+  "Toast Container (Top-Center Position)": {
+    "prefix": "rb:toast-container-top-center",
     "body": [
-      "<div",
-      "\tstyle={{",
-      "\t\tposition: 'absolute',",
-      "\t\tbottom: 0,",
-      "\t\tright: 0,",
-      "\t}}",
-      ">",
+      "<ToastContainer position=\"top-center\">",
       "\t${1:Toasts, etc}",
-      "</div>"
+      "</ToastContainer>"
     ],
-    "description": "Create an absolute div for stacking toasts in the lower-right"
+    "description": "Create a Toast Container with toasts positioned top-center"
   },
-  "Lower-Left Toast Container": {
-    "prefix": "rb:toast-container-lower-left",
+  "Toast Container (Top-End Position)": {
+    "prefix": "rb:toast-container-top-end",
     "body": [
-      "<div",
-      "\tstyle={{",
-      "\t\tposition: 'absolute',",
-      "\t\tbottom: 0,",
-      "\t\tleft: 0,",
-      "\t}}",
-      ">",
+      "<ToastContainer position=\"top-end\">",
       "\t${1:Toasts, etc}",
-      "</div>"
+      "</ToastContainer>"
     ],
-    "description": "Create an absolute div for stacking toasts in the lower-left"
+    "description": "Create a Toast Container with toasts positioned top-end"
+  },
+  "Toast Container (Middle-Start Position)": {
+    "prefix": "rb:toast-container-middle-start",
+    "body": [
+      "<ToastContainer position=\"middle-start\">",
+      "\t${1:Toasts, etc}",
+      "</ToastContainer>"
+    ],
+    "description": "Create a Toast Container with toasts positioned middle-start"
+  },
+  "Toast Container (Middle-Center Position)": {
+    "prefix": "rb:toast-container-middle-center",
+    "body": [
+      "<ToastContainer position=\"middle-center\">",
+      "\t${1:Toasts, etc}",
+      "</ToastContainer>"
+    ],
+    "description": "Create a Toast Container with toasts positioned middle-center"
+  },
+  "Toast Container (Middle-End Position)": {
+    "prefix": "rb:toast-container-middle-end",
+    "body": [
+      "<ToastContainer position=\"middle-end\">",
+      "\t${1:Toasts, etc}",
+      "</ToastContainer>"
+    ],
+    "description": "Create a Toast Container with toasts positioned middle-end"
+  },
+  "Toast Container (Bottom-Start Position)": {
+    "prefix": "rb:toast-container-bottom-start",
+    "body": [
+      "<ToastContainer position=\"bottom-start\">",
+      "\t${1:Toasts, etc}",
+      "</ToastContainer>"
+    ],
+    "description": "Create a Toast Container with toasts positioned bottom-start"
+  },
+  "Toast Container (Bottom-Middle Position)": {
+    "prefix": "rb:toast-container-bottom-middle",
+    "body": [
+      "<ToastContainer position=\"bottom-middle\">",
+      "\t${1:Toasts, etc}",
+      "</ToastContainer>"
+    ],
+    "description": "Create a Toast Container with toasts positioned bottom-middle"
+  },
+  "Toast Container (Bottom-End Position)": {
+    "prefix": "rb:toast-container-bottom-end",
+    "body": [
+      "<ToastContainer position=\"bottom-end\">",
+      "\t${1:Toasts, etc}",
+      "</ToastContainer>"
+    ],
+    "description": "Create a Toast Container with toasts positioned bottom-end"
   }
 }

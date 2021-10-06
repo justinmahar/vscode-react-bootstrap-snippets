@@ -92,5 +92,15 @@
       "</Card>"
     ],
     "description": "Create an example Card to build from"
+  },
+  "Import CardGroup": {
+    "prefix": "rb:import:card-group",
+    "body": "import { CardGroup } from 'react-bootstrap';",
+    "description": "Import CardGroup from react-bootstrap"
+  },
+  "CardGroup": {
+    "prefix": "rb:card-group",
+    "body": ["<CardGroup>", "\t${1:Cards, etc}", "</CardGroup>"],
+    "description": "Create a CardGroup"
   }
 }
