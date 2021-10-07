@@ -16,8 +16,6 @@ This extension supports:
 
 ![Demo](./images/demo.gif)
 
-Support is for version `v2.0.0-rc.0` (Bootstrap 5.1).
-
 Read below for more information and gif demos.
 
 > Loving it? **[Rate it here!](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-bootstrap-snippets&ssr=false#review-details)**
@@ -27,6 +25,15 @@ Read below for more information and gif demos.
 - JavaScript React (.jsx)
 - TypeScript (.ts)
 - TypeScript React (.tsx)
+
+## react-boostrap Support
+
+| Extension Version | react-bootstrap Version       |
+| ----------------- | ----------------------------- |
+| Latest            | `v2.0.0-rc.0` (Bootstrap 5.1) |
+| `1.0.9`           | `1.64` (Bootstrap 4.6)        |
+
+> In VS Code, press Cmd+Shift+P and run *Extension: Install Specific Version of Extension...* to install a specific version.
 
 ## 📖 Snippets
 
@@ -133,6 +140,7 @@ Happy coding 🖖
 
 - Add support for v2.0.0-rc.0 (Bootstrap 5.1)
   
-### [2.0.1]-[2.0.2] - 2021-10-06
+### [2.0.1]-[2.0.3] - 2021-10-06
 
 - Fix components removed/changed in Bootstrap 5
+- Update README
