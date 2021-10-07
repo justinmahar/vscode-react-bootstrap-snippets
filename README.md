@@ -2,7 +2,7 @@
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/justinmahar.react-bootstrap-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-bootstrap-snippets)
 
-This extension includes 415 [React-Bootstrap](https://react-bootstrap.github.io/) snippets for VS Code.
+This extension includes 409 [React-Bootstrap](https://react-bootstrap.github.io/) snippets for VS Code.
 
 Build apps with React-Bootstrap at your fingertips.
 
@@ -39,7 +39,7 @@ Read below for more information and gif demos.
 
 **All snippets start with `rb` for React-Bootstrap.**
 
-There are 415 snippets available for components, imports, and examples. 
+There are 409 snippets available for components, imports, and examples. 
 
 Read more on each below.
 
@@ -140,7 +140,7 @@ Happy coding 🖖
 
 - Add support for v2.0.0-rc.0 (Bootstrap 5.1)
   
-### [2.0.1]-[2.0.3] - 2021-10-06
+### [2.0.1]-[2.0.4] - 2021-10-06
 
 - Fix components removed/changed in Bootstrap 5
 - Update README
