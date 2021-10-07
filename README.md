@@ -133,6 +133,6 @@ Happy coding 🖖
 
 - Add support for v2.0.0-rc.0 (Bootstrap 5.1)
   
-### [2.0.1] - 2021-10-06
+### [2.0.1]-[2.0.2] - 2021-10-06
 
 - Fix components removed/changed in Bootstrap 5
