@@ -18,9 +18,9 @@
     "body": [
       "<Card>",
       "\t<Card.Header>",
-      "\t\t<Accordion.Toggle as={Card.Header} variant=\"link\" eventKey=\"${3:0}\">",
+      "\t\t<Accordion.Button as={Card.Header} variant=\"link\" eventKey=\"${3:0}\">",
       "\t\t\t${1:Accordion toggle title}",
-      "\t\t</Accordion.Toggle>",
+      "\t\t</Accordion.Button>",
       "\t</Card.Header>",
       "\t<Accordion.Collapse eventKey=\"${3:0}\">",
       "\t\t<Card.Body>${2:Card body}</Card.Body>",
@@ -34,17 +34,17 @@
     "body": [
       "<Accordion defaultActiveKey=\"0\">",
       "\t<Card>",
-      "\t\t<Accordion.Toggle as={Card.Header} eventKey=\"0\">",
+      "\t\t<Accordion.Button as={Card.Header} eventKey=\"0\">",
       "\t\t\tClick me!",
-      "\t\t</Accordion.Toggle>",
+      "\t\t</Accordion.Button>",
       "\t\t<Accordion.Collapse eventKey=\"0\">",
       "\t\t\t<Card.Body>Hello! I'm the body</Card.Body>",
       "\t\t</Accordion.Collapse>",
       "\t</Card>",
       "\t<Card>",
-      "\t\t<Accordion.Toggle as={Card.Header} eventKey=\"1\">",
+      "\t\t<Accordion.Button as={Card.Header} eventKey=\"1\">",
       "\t\t\tClick me!",
-      "\t\t</Accordion.Toggle>",
+      "\t\t</Accordion.Button>",
       "\t\t<Accordion.Collapse eventKey=\"1\">",
       "\t\t\t<Card.Body>Hello! I'm another body</Card.Body>",
       "\t\t</Accordion.Collapse>",
@@ -61,6 +61,6 @@
   "useAccordionButton": {
     "prefix": "rb:use-accordion-button",
     "body": ["const decoratedOnClick = useAccordionButton(eventKey, onClick);"],
-    "description": "Use the useAccordionButton hook"
+    "description": "useAccordionButton hook"
   }
 }

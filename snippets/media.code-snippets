@@ -1,79 +1,16 @@
 {
-  "Import Media": {
-    "prefix": "rb:import:media",
-    "body": "import { Media } from 'react-bootstrap';",
-    "description": "Import Media from react-bootstrap"
-  },
   "Media": {
     "prefix": "rb:media",
-    "body": ["<Media>", "\t${1:img, Media.Body, etc}", "</Media>"],
-    "description": "Create a Media"
-  },
-  "Media.Body": {
-    "prefix": "rb:media-body",
-    "body": ["<Media.Body>", "\t${1:h5, p, etc}", "</Media.Body>"],
-    "description": "Create a Media.Body"
-  },
-  "Media List": {
-    "prefix": "rb:media-list",
     "body": [
-      "<ul className=\"list-unstyled\">",
-      "\t${1:Media list item, etc}",
-      "</ul>"
+      "<div class=\"d-flex\">",
+      "\t<div class=\"flex-shrink-0\">",
+      "\t\t${1:<img src=\"https://placekitten.com/100\" alt=\"Placekitten\">}",
+      "\t</div>",
+      "\t<div class=\"flex-grow-1 ms-3\">",
+      "\t\t${2:This is some content from a media component. You can replace this with any content and adjust it as needed.}",
+      "\t</div>",
+      "</div>"
     ],
-    "description": "Create a Media list"
-  },
-  "Media List Item": {
-    "prefix": "rb:media-list-item",
-    "body": ["<Media as=\"li\">", "\t${1:img, Media.Body, etc}", "</Media>"],
-    "description": "Create a Media list item"
-  },
-  "Media List Example": {
-    "prefix": "rb:media-list-example",
-    "body": [
-      "<ul className=\"list-unstyled\">",
-      "\t<Media as=\"li\">",
-      "\t\t<img",
-      "\t\t\twidth={64}",
-      "\t\t\theight={64}",
-      "\t\t\tclassName=\"mr-3\"",
-      "\t\t\tsrc=\"http://placeimg.com/64/64/any\"",
-      "\t\t\talt=\"Generic placeholder\"",
-      "\t\t/>",
-      "\t\t<Media.Body>",
-      "\t\t\t<h5>Media Heading</h5>",
-      "\t\t\t<p>",
-      "\t\t\t\tSic mundus creatus est. Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque",
-      "\t\t\t\tante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,",
-      "\t\t\t\ttempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.",
-      "\t\t\t</p>",
-      "\t\t</Media.Body>",
-      "\t</Media>",
-      "</ul>"
-    ],
-    "description": "Create a Media list"
-  },
-  "Media Example": {
-    "prefix": "rb:media-example",
-    "body": [
-      "<Media>",
-      "\t<img",
-      "\t\twidth={64}",
-      "\t\theight={64}",
-      "\t\tclassName=\"mr-3\"",
-      "\t\tsrc=\"http://placeimg.com/64/64/any\"",
-      "\t\talt=\"Generic placeholder\"",
-      "\t/>",
-      "\t<Media.Body>",
-      "\t\t<h5>Media Heading</h5>",
-      "\t\t<p>",
-      "\t\t\tSic mundus creatus est. Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque",
-      "\t\t\tante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,",
-      "\t\t\ttempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.",
-      "\t\t</p>",
-      "\t</Media.Body>",
-      "</Media>"
-    ],
-    "description": "Create a Media"
+    "description": "Create a Media object using utility classes"
   }
 }

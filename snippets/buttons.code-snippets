@@ -52,9 +52,11 @@
   "Block-level Button (outline-primary)": {
     "prefix": "rb:button-outline-primary-block",
     "body": [
-      "<Button block variant=\"outline-primary\" onClick={${2:() => console.log(\"${1:Primary}\")}}>",
-      "\t${1:Primary outline}",
-      "</Button>"
+      "<div className=\"d-grid\">",
+      "\t<Button variant=\"outline-primary\" onClick={${2:() => console.log(\"${1:Primary}\")}}>",
+      "\t\t${1:Primary outline}",
+      "\t</Button>",
+      "</div>"
     ],
     "description": "Create an outlined primary Button with no background color"
   },
@@ -79,9 +81,11 @@
   "Block-level Button (secondary)": {
     "prefix": "rb:button-secondary-block",
     "body": [
-      "<Button block variant=\"secondary\" onClick={${2:() => console.log(\"${1:Secondary}\")}}>",
-      "\t${1:Secondary}",
-      "</Button>"
+      "<div className=\"d-grid\">",
+      "\t<Button variant=\"secondary\" onClick={${2:() => console.log(\"${1:Secondary}\")}}>",
+      "\t\t${1:Secondary}",
+      "\t</Button>",
+      "</div>"
     ],
     "description": "Create a secondary Button"
   },
@@ -106,9 +110,11 @@
   "Block-level Button (outline-secondary)": {
     "prefix": "rb:button-outline-secondary-block",
     "body": [
-      "<Button block variant=\"outline-secondary\" onClick={${2:() => console.log(\"${1:Secondary}\")}}>",
-      "\t${1:Secondary outline}",
-      "</Button>"
+      "<div className=\"d-grid\">",
+      "\t<Button variant=\"outline-secondary\" onClick={${2:() => console.log(\"${1:Secondary}\")}}>",
+      "\t\t${1:Secondary outline}",
+      "\t</Button>",
+      "</div>"
     ],
     "description": "Create an outlined secondary Button with no background color"
   },
@@ -133,9 +139,11 @@
   "Block-level Button (success)": {
     "prefix": "rb:button-success-block",
     "body": [
-      "<Button block variant=\"success\" onClick={${2:() => console.log(\"${1:Success}\")}}>",
-      "\t${1:Success}",
-      "</Button>"
+      "<div className=\"d-grid\">",
+      "\t<Button variant=\"success\" onClick={${2:() => console.log(\"${1:Success}\")}}>",
+      "\t\t${1:Success}",
+      "\t</Button>",
+      "</div>"
     ],
     "description": "Create a success Button"
   },
@@ -160,9 +168,11 @@
   "Block-level Button (outline-success)": {
     "prefix": "rb:button-outline-success-block",
     "body": [
-      "<Button block variant=\"outline-success\" onClick={${2:() => console.log(\"${1:Success}\")}}>",
-      "\t${1:Success outline}",
-      "</Button>"
+      "<div className=\"d-grid\">",
+      "\t<Button variant=\"outline-success\" onClick={${2:() => console.log(\"${1:Success}\")}}>",
+      "\t\t${1:Success outline}",
+      "\t</Button>",
+      "</div>"
     ],
     "description": "Create an outlined success Button with no background color"
   },
@@ -187,9 +197,11 @@
   "Block-level Button (danger)": {
     "prefix": "rb:button-danger-block",
     "body": [
-      "<Button block variant=\"danger\" onClick={${2:() => console.log(\"${1:Danger}\")}}>",
-      "\t${1:Danger}",
-      "</Button>"
+      "<div className=\"d-grid\">",
+      "\t<Button variant=\"danger\" onClick={${2:() => console.log(\"${1:Danger}\")}}>",
+      "\t\t${1:Danger}",
+      "\t</Button>",
+      "</div>"
     ],
     "description": "Create a danger Button"
   },
@@ -214,9 +226,11 @@
   "Block-level Button (outline-danger)": {
     "prefix": "rb:button-outline-danger-block",
     "body": [
-      "<Button block variant=\"outline-danger\" onClick={${2:() => console.log(\"${1:Danger}\")}}>",
-      "\t${1:Danger outline}",
-      "</Button>"
+      "<div className=\"d-grid\">",
+      "\t<Button variant=\"outline-danger\" onClick={${2:() => console.log(\"${1:Danger}\")}}>",
+      "\t\t${1:Danger outline}",
+      "\t</Button>",
+      "</div>"
     ],
     "description": "Create an outlined danger Button with no background color"
   },
@@ -241,9 +255,11 @@
   "Block-level Button (warning)": {
     "prefix": "rb:button-warning-block",
     "body": [
-      "<Button block variant=\"warning\" onClick={${2:() => console.log(\"${1:Warning}\")}}>",
-      "\t${1:Warning}",
-      "</Button>"
+      "<div className=\"d-grid\">",
+      "\t<Button variant=\"warning\" onClick={${2:() => console.log(\"${1:Warning}\")}}>",
+      "\t\t${1:Warning}",
+      "\t</Button>",
+      "</div>"
     ],
     "description": "Create a warning Button"
   },
@@ -268,9 +284,11 @@
   "Block-level Button (outline-warning)": {
     "prefix": "rb:button-outline-warning-block",
     "body": [
-      "<Button block variant=\"outline-warning\" onClick={${2:() => console.log(\"${1:Warning}\")}}>",
-      "\t${1:Warning outline}",
-      "</Button>"
+      "<div className=\"d-grid\">",
+      "\t<Button variant=\"outline-warning\" onClick={${2:() => console.log(\"${1:Warning}\")}}>",
+      "\t\t${1:Warning outline}",
+      "\t</Button>",
+      "</div>"
     ],
     "description": "Create an outlined warning Button with no background color"
   },
@@ -295,9 +313,11 @@
   "Block-level Button (info)": {
     "prefix": "rb:button-info-block",
     "body": [
-      "<Button block variant=\"info\" onClick={${2:() => console.log(\"${1:Info}\")}}>",
-      "\t${1:Info}",
-      "</Button>"
+      "<div className=\"d-grid\">",
+      "\t<Button variant=\"info\" onClick={${2:() => console.log(\"${1:Info}\")}}>",
+      "\t\t${1:Info}",
+      "\t</Button>",
+      "</div>"
     ],
     "description": "Create a info Button"
   },
@@ -322,9 +342,11 @@
   "Block-level Button (outline-info)": {
     "prefix": "rb:button-outline-info-block",
     "body": [
-      "<Button block variant=\"outline-info\" onClick={${2:() => console.log(\"${1:Info}\")}}>",
-      "\t${1:Info outline}",
-      "</Button>"
+      "<div className=\"d-grid\">",
+      "\t<Button variant=\"outline-info\" onClick={${2:() => console.log(\"${1:Info}\")}}>",
+      "\t\t${1:Info outline}",
+      "\t</Button>",
+      "</div>"
     ],
     "description": "Create an outlined info Button with no background color"
   },
@@ -349,9 +371,11 @@
   "Block-level Button (light)": {
     "prefix": "rb:button-light-block",
     "body": [
-      "<Button block variant=\"light\" onClick={${2:() => console.log(\"${1:Light}\")}}>",
-      "\t${1:Light}",
-      "</Button>"
+      "<div className=\"d-grid\">",
+      "\t<Button variant=\"light\" onClick={${2:() => console.log(\"${1:Light}\")}}>",
+      "\t\t${1:Light}",
+      "\t</Button>",
+      "</div>"
     ],
     "description": "Create a light Button"
   },
@@ -376,9 +400,11 @@
   "Block-level Button (outline-light)": {
     "prefix": "rb:button-outline-light-block",
     "body": [
-      "<Button block variant=\"outline-light\" onClick={${2:() => console.log(\"${1:Light}\")}}>",
-      "\t${1:Light outline}",
-      "</Button>"
+      "<div className=\"d-grid\">",
+      "\t<Button variant=\"outline-light\" onClick={${2:() => console.log(\"${1:Light}\")}}>",
+      "\t\t${1:Light outline}",
+      "\t</Button>",
+      "</div>"
     ],
     "description": "Create an outlined light Button with no background color"
   },
@@ -403,9 +429,11 @@
   "Block-level Button (dark)": {
     "prefix": "rb:button-dark-block",
     "body": [
-      "<Button block variant=\"dark\" onClick={${2:() => console.log(\"${1:Dark}\")}}>",
-      "\t${1:Dark}",
-      "</Button>"
+      "<div className=\"d-grid\">",
+      "\t<Button variant=\"dark\" onClick={${2:() => console.log(\"${1:Dark}\")}}>",
+      "\t\t${1:Dark}",
+      "\t</Button>",
+      "</div>"
     ],
     "description": "Create a dark Button"
   },
@@ -430,9 +458,11 @@
   "Block-level Button (outline-dark)": {
     "prefix": "rb:button-outline-dark-block",
     "body": [
-      "<Button block variant=\"outline-dark\" onClick={${2:() => console.log(\"${1:Dark}\")}}>",
-      "\t${1:Dark outline}",
-      "</Button>"
+      "<div className=\"d-grid\">",
+      "\t<Button variant=\"outline-dark\" onClick={${2:() => console.log(\"${1:Dark}\")}}>",
+      "\t\t${1:Dark outline}",
+      "\t</Button>",
+      "</div>"
     ],
     "description": "Create an outlined dark Button with no background color"
   },
@@ -457,9 +487,11 @@
   "Block-level Button (link)": {
     "prefix": "rb:button-link-block",
     "body": [
-      "<Button block variant=\"link\" onClick={${2:() => console.log(\"${1:Link}\")}}>",
-      "\t${1:Link}",
-      "</Button>"
+      "<div className=\"d-grid\">",
+      "\t<Button variant=\"link\" onClick={${2:() => console.log(\"${1:Link}\")}}>",
+      "\t\t${1:Link}",
+      "\t</Button>",
+      "</div>"
     ],
     "description": "Create a link Button"
   },
