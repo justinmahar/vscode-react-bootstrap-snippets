@@ -21,4 +21,4 @@ All notable changes to the "react-bootstrap-snippets" extension will be document
 
 ### [2.0.0] - 2021-10-05
 
-- Update to v2.0.0-rc.0 (Bootstrap 5.1)
+- Add support for v2.0.0-rc.0 (Bootstrap 5.1)

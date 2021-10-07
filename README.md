@@ -16,6 +16,8 @@ This extension supports:
 
 ![Demo](./images/demo.gif)
 
+Support is for version `v2.0.0-rc.0` (Bootstrap 5.1).
+
 Read below for more information and gif demos.
 
 > Loving it? **[Rate it here!](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-bootstrap-snippets&ssr=false#review-details)**
@@ -31,8 +33,6 @@ Read below for more information and gif demos.
 **All snippets start with `rb` for React-Bootstrap.**
 
 There are 415 snippets available for components, imports, and examples. 
-
-Support is for version `v2.0.0-rc.0` (Bootstrap 5.1).
 
 Read more on each below.
 
@@ -131,4 +131,4 @@ Happy coding 🖖
 
 ### [2.0.0] - 2021-10-05
 
-- Update to v2.0.0-rc.0 (Bootstrap 5.1)
+- Add support for v2.0.0-rc.0 (Bootstrap 5.1)
