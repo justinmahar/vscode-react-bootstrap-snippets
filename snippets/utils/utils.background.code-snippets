@@ -1,0 +1,62 @@
+{
+  "Class: bg-primary": {
+    "prefix": "rb:utils:background:bg-primary",
+    "body": "bg-primary",
+    "description": "Primary background-color"
+  },
+  "Class: bg-secondary": {
+    "prefix": "rb:utils:background:bg-secondary",
+    "body": "bg-secondary",
+    "description": "Secondary background-color"
+  },
+  "Class: bg-success": {
+    "prefix": "rb:utils:background:bg-success",
+    "body": "bg-success",
+    "description": "Success background-color"
+  },
+  "Class: bg-danger": {
+    "prefix": "rb:utils:background:bg-danger",
+    "body": "bg-danger",
+    "description": "Danger background-color"
+  },
+  "Class: bg-warning": {
+    "prefix": "rb:utils:background:bg-warning",
+    "body": "bg-warning",
+    "description": "Warning background-color"
+  },
+  "Class: bg-info": {
+    "prefix": "rb:utils:background:bg-info",
+    "body": "bg-info",
+    "description": "Info background-color"
+  },
+  "Class: bg-light": {
+    "prefix": "rb:utils:background:bg-light",
+    "body": "bg-light",
+    "description": "Light background-color"
+  },
+  "Class: bg-dark": {
+    "prefix": "rb:utils:background:bg-dark",
+    "body": "bg-dark",
+    "description": "Dark background-color"
+  },
+  "Class: bg-body": {
+    "prefix": "rb:utils:background:bg-body",
+    "body": "bg-body",
+    "description": "Body background-color"
+  },
+  "Class: bg-white": {
+    "prefix": "rb:utils:background:bg-white",
+    "body": "bg-white",
+    "description": "White background-color"
+  },
+  "Class: bg-transparent": {
+    "prefix": "rb:utils:background:bg-transparent",
+    "body": "bg-transparent",
+    "description": "Transparent background-color"
+  },
+  "Class: bg-gradient": {
+    "prefix": "rb:utils:background:bg-gradient",
+    "body": "bg-gradient",
+    "description": "Linear gradient is added as background image to the backgrounds. This gradient starts with a semi-transparent white which fades out to the bottom."
+  }
+}

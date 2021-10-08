@@ -168,6 +168,66 @@
         "path": "./snippets/transitions.code-snippets"
       },
       {
+        "language": "javascriptreact",
+        "path": "./snippets/utils/utils.background.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/utils/utils.border.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/utils/utils.color.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/utils/utils.display.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/utils/utils.flex.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/utils/utils.float.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/utils/utils.interaction.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/utils/utils.overflow.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/utils/utils.position.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/utils/utils.shadows.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/utils/utils.sizing.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/utils/utils.spacing.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/utils/utils.text.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/utils/utils.vertical-align.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/utils/utils.visibility.code-snippets"
+      },
+      {
         "language": "javascript",
         "path": "./snippets/accordion.code-snippets"
       },
@@ -304,6 +364,66 @@
         "path": "./snippets/transitions.code-snippets"
       },
       {
+        "language": "javascript",
+        "path": "./snippets/utils/utils.background.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/utils/utils.border.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/utils/utils.color.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/utils/utils.display.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/utils/utils.flex.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/utils/utils.float.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/utils/utils.interaction.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/utils/utils.overflow.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/utils/utils.position.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/utils/utils.shadows.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/utils/utils.sizing.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/utils/utils.spacing.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/utils/utils.text.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/utils/utils.vertical-align.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/utils/utils.visibility.code-snippets"
+      },
+      {
         "language": "typescript",
         "path": "./snippets/accordion.code-snippets"
       },
@@ -440,6 +560,66 @@
         "path": "./snippets/transitions.code-snippets"
       },
       {
+        "language": "typescript",
+        "path": "./snippets/utils/utils.background.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/utils/utils.border.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/utils/utils.color.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/utils/utils.display.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/utils/utils.flex.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/utils/utils.float.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/utils/utils.interaction.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/utils/utils.overflow.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/utils/utils.position.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/utils/utils.shadows.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/utils/utils.sizing.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/utils/utils.spacing.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/utils/utils.text.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/utils/utils.vertical-align.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/utils/utils.visibility.code-snippets"
+      },
+      {
         "language": "typescriptreact",
         "path": "./snippets/accordion.code-snippets"
       },
@@ -574,6 +754,66 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/transitions.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/utils/utils.background.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/utils/utils.border.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/utils/utils.color.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/utils/utils.display.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/utils/utils.flex.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/utils/utils.float.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/utils/utils.interaction.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/utils/utils.overflow.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/utils/utils.position.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/utils/utils.shadows.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/utils/utils.sizing.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/utils/utils.spacing.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/utils/utils.text.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/utils/utils.vertical-align.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/utils/utils.visibility.code-snippets"
       }
     ]
   }

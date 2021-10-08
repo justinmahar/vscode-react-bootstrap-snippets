@@ -1,0 +1,160 @@
+{
+  "Class: text-start": {
+    "prefix": "rb:utils:text-start",
+    "body": "text-start",
+    "description": "Start aligned text on all viewport sizes."
+  },
+  "Class: text-center": {
+    "prefix": "rb:utils:text-center",
+    "body": "text-center",
+    "description": "Center aligned text on all viewport sizes."
+  },
+  "Class: text-end": {
+    "prefix": "rb:utils:text-end",
+    "body": "text-end",
+    "description": "End aligned text on all viewport sizes."
+  },
+  "Class: text-wrap": {
+    "prefix": "rb:utils:text-wrap",
+    "body": "text-wrap",
+    "description": "Text wraps"
+  },
+  "Class: text-nowrap": {
+    "prefix": "rb:utils:text-no-wrap",
+    "body": "text-nowrap",
+    "description": "Text doesn't wrap"
+  },
+  "Class: text-break": {
+    "prefix": "rb:utils:text-break",
+    "body": "text-break",
+    "description": "Prevent long strings from breaking layouts"
+  },
+  "Class: text-lowercase": {
+    "prefix": "rb:utils:text-lowercase",
+    "body": "text-lowercase",
+    "description": "Lowercased text"
+  },
+  "Class: text-uppercase": {
+    "prefix": "rb:utils:text-uppercase",
+    "body": "text-uppercase",
+    "description": "Uppercased text"
+  },
+  "Class: text-capitalize": {
+    "prefix": "rb:utils:text-capitalize",
+    "body": "text-capitalize",
+    "description": "CapiTaliZed text"
+  },
+  "Class: fs-1": {
+    "prefix": "rb:utils:text:font-size-1",
+    "body": "fs-1",
+    "description": "Font size 1"
+  },
+  "Class: fs-2": {
+    "prefix": "rb:utils:text:font-size-2",
+    "body": "fs-2",
+    "description": "Font size 2"
+  },
+  "Class: fs-3": {
+    "prefix": "rb:utils:text:font-size-3",
+    "body": "fs-3",
+    "description": "Font size 3"
+  },
+  "Class: fs-4": {
+    "prefix": "rb:utils:text:font-size-4",
+    "body": "fs-4",
+    "description": "Font size 4"
+  },
+  "Class: fs-5": {
+    "prefix": "rb:utils:text:font-size-5",
+    "body": "fs-5",
+    "description": "Font size 5"
+  },
+  "Class: fs-6": {
+    "prefix": "rb:utils:text:font-size-6",
+    "body": "fs-6",
+    "description": "Font size 6"
+  },
+  "Class: fw-bold": {
+    "prefix": "rb:utils:text:font-weight-bold",
+    "body": "fw-bold",
+    "description": "Bold text."
+  },
+  "Class: fw-bolder": {
+    "prefix": "rb:utils:text:font-weight-bolder",
+    "body": "fw-bolder",
+    "description": "Bolder weight text (relative to the parent element)."
+  },
+  "Class: fw-normal": {
+    "prefix": "rb:utils:text:font-weight-normal",
+    "body": "fw-normal",
+    "description": "Normal weight text."
+  },
+  "Class: fw-light": {
+    "prefix": "rb:utils:text:font-weight-light",
+    "body": "fw-light",
+    "description": "Light weight text."
+  },
+  "Class: fw-lighter": {
+    "prefix": "rb:utils:text:font-weight-lighter",
+    "body": "fw-lighter",
+    "description": "Lighter weight text (relative to the parent element)."
+  },
+  "Class: fst-italic": {
+    "prefix": "rb:utils:text:font-style-italic",
+    "body": "fst-italic",
+    "description": "Italic text."
+  },
+  "Class: fst-normal": {
+    "prefix": "rb:utils:text:font-style-normal",
+    "body": "fst-normal",
+    "description": "Text with normal font style"
+  },
+  "Class: lh-1": {
+    "prefix": "rb:utils:text:line-height-1",
+    "body": "lh-1",
+    "description": "Line height 1"
+  },
+  "Class: lh-sm": {
+    "prefix": "rb:utils:text:line-height-sm",
+    "body": "lh-sm",
+    "description": "Line height small"
+  },
+  "Class: lh-base": {
+    "prefix": "rb:utils:text:line-height-base",
+    "body": "lh-base",
+    "description": "Line height base"
+  },
+  "Class: lh-lg": {
+    "prefix": "rb:utils:text:line-height-lg",
+    "body": "lh-lg",
+    "description": "Line height large"
+  },
+  "Class: font-monospace": {
+    "prefix": "rb:utils:text:font-monospace",
+    "body": "font-monospace",
+    "description": "Monospace fond"
+  },
+  "Class: text-reset": {
+    "prefix": ["rb:utils:text-reset", "rb:utils:text-inherit-color"],
+    "body": "text-reset",
+    "description": "Reset a text or link color to inherit from parent"
+  },
+  "Class: text-decoration-underline": {
+    "prefix": "rb:utils:text-decoration-underline",
+    "body": "text-decoration-underline",
+    "description": "Underlined text"
+  },
+  "Class: text-decoration-line-through": {
+    "prefix": [
+      "rb:utils:text-decoration-line-through",
+      "rb:utils:text-strikethrough"
+    ],
+    "body": "text-decoration-line-through",
+    "description": "Strikethrough"
+  },
+  "Class: text-decoration-none": {
+    "prefix": ["rb:utils:text-decoration-none", "rb:utils:text-no-underline"],
+    "body": "text-decoration-none",
+    "description": "No underline"
+  }
+}

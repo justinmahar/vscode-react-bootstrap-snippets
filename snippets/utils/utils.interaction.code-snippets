@@ -1,0 +1,27 @@
+{
+  "Class: user-select-all": {
+    "prefix": "rb:utils:select:user-select-all",
+    "body": "user-select-all",
+    "description": "Entirely selected when clicked by the user"
+  },
+  "Class: user-select-auto": {
+    "prefix": "rb:utils:select:user-select-auto",
+    "body": "user-select-auto",
+    "description": "Default select behavior"
+  },
+  "Class: user-select-none": {
+    "prefix": "rb:utils:select:user-select-none",
+    "body": "user-select-none",
+    "description": "Not selectable when clicked by the user"
+  },
+  "Class: pe-none": {
+    "prefix": "rb:utils:pointer:pe-none",
+    "body": "pe-none",
+    "description": "Pointer event set to not clickable."
+  },
+  "Class: pe-auto": {
+    "prefix": "rb:utils:pointer:pe-auto",
+    "body": "pe-auto",
+    "description": "Pointer event set to default (clickable)"
+  }
+}

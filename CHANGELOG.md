@@ -27,3 +27,7 @@ All notable changes to the "react-bootstrap-snippets" extension will be document
 
 - Fix components removed/changed in Bootstrap 5
 - Update README
+
+### [2.0.5] - 2021-10-07
+
+- Add utility CSS class snippets

@@ -1,0 +1,227 @@
+{
+  // Direction
+  "Class: flex-row": {
+    "prefix": "rb:utils:flex:direction:flex-row",
+    "body": "flex-row",
+    "description": "Set direction to flex-row"
+  },
+  "Class: flex-row-reverse": {
+    "prefix": "rb:utils:flex:direction:flex-row-reverse",
+    "body": "flex-row-reverse",
+    "description": "Set direction to flex-row-reverse"
+  },
+  "Class: flex-column": {
+    "prefix": "rb:utils:flex:direction:flex-column",
+    "body": "flex-column",
+    "description": "Set direction to flex-column"
+  },
+  "Class: flex-column-reverse": {
+    "prefix": "rb:utils:flex:direction:flex-column-reverse",
+    "body": "flex-column-reverse",
+    "description": "Set direction to flex-column-reverse"
+  },
+
+  // Justify
+  "Class: justify-content-start": {
+    "prefix": "rb:utils:flex:justify-content-start",
+    "body": "justify-content-start",
+    "description": "Flex justify as justify-content-start"
+  },
+  "Class: justify-content-end": {
+    "prefix": "rb:utils:flex:content-end",
+    "body": "justify-content-end",
+    "description": "Flex justify as justify-content-end"
+  },
+  "Class: justify-content-center": {
+    "prefix": "rb:utils:flex:justify-content-center",
+    "body": "justify-content-center",
+    "description": "Flex justify as justify-content-center"
+  },
+  "Class: justify-content-between": {
+    "prefix": "rb:utils:flex:justify-content-between",
+    "body": "justify-content-between",
+    "description": "Flex justify as justify-content-between"
+  },
+  "Class: justify-content-around": {
+    "prefix": "rb:utils:flex:justify-content-around",
+    "body": "justify-content-around",
+    "description": "Flex justify as justify-content-around"
+  },
+  "Class: justify-content-evenly": {
+    "prefix": "rb:utils:flex:justify-content-evenly",
+    "body": "justify-content-evenly",
+    "description": "Flex justify as justify-content-evenly"
+  },
+
+  // Align Items
+
+  "Class: align-items-start": {
+    "prefix": "rb:utils:flex:align-items-start",
+    "body": "align-items-start",
+    "description": "Flex align-items-start"
+  },
+  "Class: align-items-end": {
+    "prefix": "rb:utils:flex:align-items-end",
+    "body": "align-items-end",
+    "description": "Flex align-items-end"
+  },
+  "Class: align-items-center": {
+    "prefix": "rb:utils:flex:align-items-center",
+    "body": "align-items-center",
+    "description": "Flex align-items-center"
+  },
+  "Class: align-items-baseline": {
+    "prefix": "rb:utils:flex:align-items-baseline",
+    "body": "align-items-baseline",
+    "description": "Flex align-items-baseline"
+  },
+  "Class: align-items-stretch": {
+    "prefix": "rb:utils:flex:align-items-stretch",
+    "body": "align-items-stretch",
+    "description": "Flex align-items-stretch"
+  },
+
+  // Align Self
+  "Class: align-self-start": {
+    "prefix": "rb:utils:flex:align-self-start",
+    "body": "align-self-start",
+    "description": "Flex align-self-start"
+  },
+  "Class: align-self-end": {
+    "prefix": "rb:utils:flex:align-self-end",
+    "body": "align-self-end",
+    "description": "Flex align-self-end"
+  },
+  "Class: align-self-center": {
+    "prefix": "rb:utils:flex:align-self-center",
+    "body": "align-self-center",
+    "description": "Flex align-self-center"
+  },
+  "Class: align-self-baseline": {
+    "prefix": "rb:utils:flex:align-self-baseline",
+    "body": "align-self-baseline",
+    "description": "Flex align-self-baseline"
+  },
+  "Class: align-self-stretch": {
+    "prefix": "rb:utils:flex:align-self-stretch",
+    "body": "align-self-stretch",
+    "description": "Flex align-self-stretch"
+  },
+
+  // Fill
+  "Class: flex-fill": {
+    "prefix": "rb:utils:flex:fill:flex-fill",
+    "body": "flex-fill",
+    "description": "Flex fill flex-fill"
+  },
+
+  // Grow
+  "Class: flex-grow-0": {
+    "prefix": "rb:utils:flex:grow:flex-grow-0",
+    "body": "flex-grow-0",
+    "description": "Flex grow flex-grow-0"
+  },
+  "Class: flex-grow-1": {
+    "prefix": "rb:utils:flex:grow:flex-grow-1",
+    "body": "flex-grow-1",
+    "description": "Flex grow flex-grow-1"
+  },
+
+  // Shrink
+  "Class: flex-shrink-0": {
+    "prefix": "rb:utils:flex:shrink:flex-shrink-0",
+    "body": "flex-shrink-0",
+    "description": "Flex shrink flex-shrink-0"
+  },
+  "Class: flex-shrink-1": {
+    "prefix": "rb:utils:flex:shrink:flex-shrink-1",
+    "body": "flex-shrink-1",
+    "description": "Flex shrink flex-shrink-1"
+  },
+
+  // Wrap
+  "Class: flex-nowrap": {
+    "prefix": "rb:utils:flex:wrap:flex-nowrap",
+    "body": "flex-nowrap",
+    "description": "Flex wrap flex-nowrap"
+  },
+  "Class: flex-wrap": {
+    "prefix": "rb:utils:flex:wrap:flex-wrap",
+    "body": "flex-wrap",
+    "description": "Flex wrap flex-wrap"
+  },
+  "Class: flex-wrap-reverse": {
+    "prefix": "rb:utils:flex:wrap:flex-wrap-reverse",
+    "body": "flex-wrap-reverse",
+    "description": "Flex wrap flex-wrap-reverse"
+  },
+
+  // Order
+  "Class: order-0": {
+    "prefix": "rb:utils:flex:order-0",
+    "body": "order-0",
+    "description": "Flex order-0"
+  },
+  "Class: order-1": {
+    "prefix": "rb:utils:flex:order-1",
+    "body": "order-1",
+    "description": "Flex order-1"
+  },
+  "Class: order-2": {
+    "prefix": "rb:utils:flex:order-2",
+    "body": "order-2",
+    "description": "Flex order-2"
+  },
+  "Class: order-3": {
+    "prefix": "rb:utils:flex:order-3",
+    "body": "order-3",
+    "description": "Flex order-3"
+  },
+  "Class: order-4": {
+    "prefix": "rb:utils:flex:order-4",
+    "body": "order-4",
+    "description": "Flex order-4"
+  },
+  "Class: order-5": {
+    "prefix": "rb:utils:flex:order-5",
+    "body": "order-5",
+    "description": "Flex order-5"
+  },
+  "Class: order-first": {
+    "prefix": "rb:utils:flex:order-first",
+    "body": "order-first",
+    "description": "Flex order-first"
+  },
+  "Class: order-last": {
+    "prefix": "rb:utils:flex:order-last",
+    "body": "order-last",
+    "description": "Flex order-last"
+  },
+
+  // Align Content
+  "Class: align-content-start": {
+    "prefix": "rb:utils:flex:align-content-start",
+    "body": "align-content-start",
+    "description": "Flex align-content-start"
+  },
+  "Class: align-content-end": {
+    "prefix": "rb:utils:flex:align-content-end",
+    "body": "align-content-end",
+    "description": "Flex align-content-end"
+  },
+  "Class: align-content-center": {
+    "prefix": "rb:utils:flex:align-content-center",
+    "body": "align-content-center",
+    "description": "Flex align-content-center"
+  },
+  "Class: align-content-around": {
+    "prefix": "rb:utils:flex:align-content-around",
+    "body": "align-content-around",
+    "description": "Flex align-content-around"
+  },
+  "Class: align-content-stretch": {
+    "prefix": "rb:utils:flex:align-content-stretch",
+    "body": "align-content-stretch",
+    "description": "Flex align-content-stretch"
+  }
+}

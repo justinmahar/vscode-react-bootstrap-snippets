@@ -2,7 +2,7 @@
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/justinmahar.react-bootstrap-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-bootstrap-snippets)
 
-This extension includes 409 [React-Bootstrap](https://react-bootstrap.github.io/) snippets for VS Code.
+This extension includes 708 [React-Bootstrap](https://react-bootstrap.github.io/) snippets for VS Code.
 
 Build apps with React-Bootstrap at your fingertips.
 
@@ -11,6 +11,7 @@ This extension supports:
 - 🙌 All `react-bootstrap` components. The complete picture.
 - 📦 `import` snippets, for quick and easy importing.
 - 💁‍♀️ Example snippets from the docs for convenience.
+- 🧰 [Bootstrap utility CSS class](https://getbootstrap.com/docs/5.0/utilities) snippets for even more convenience!
 
 **Just type `rb` and press <kbd>Ctrl</kbd>+<kbd>Space</kbd> for autocompletion. VS Code will autocomplete the component you need.**
 
@@ -39,7 +40,7 @@ Read below for more information and gif demos.
 
 **All snippets start with `rb` for React-Bootstrap.**
 
-There are 409 snippets available for components, imports, and examples. 
+There are 708 snippets available for components, imports, examples, and utility CSS classes. 
 
 Read more on each below.
 
@@ -103,6 +104,14 @@ Use `rb:table-row-X` and `rb:table-header-row-X`, where `X` is the number of col
 
 ![Tables](./images/tables.gif)
 
+### Bootstrap Utility CSS Class Snippets
+
+Handy snippets are included for all [Bootstrap utility CSS classes](https://getbootstrap.com/docs/5.0/utilities).
+
+Use the `rb:utils` prefix to quickly look up and use any of Bootstrap's utility classes while building.
+
+![Examples](./images/rbutils.gif)
+
 ## A Note To You, The Developer
 
 My goal was to make this one of the best snippets extensions available to you. As such, I spent countless hours reading the docs to make this as great as I could, and I truly hope you find it useful.
@@ -144,3 +153,7 @@ Happy coding 🖖
 
 - Fix components removed/changed in Bootstrap 5
 - Update README
+
+### [2.0.5] - 2021-10-07
+
+- Add utility CSS class snippets

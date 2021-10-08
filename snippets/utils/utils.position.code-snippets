@@ -1,0 +1,82 @@
+{
+  "Class: position-static": {
+    "prefix": "rb:utils:position-static",
+    "body": "position-static",
+    "description": "position-static"
+  },
+  "Class: position-relative": {
+    "prefix": "rb:utils:position-relative",
+    "body": "position-relative",
+    "description": "position-relative"
+  },
+  "Class: position-absolute": {
+    "prefix": "rb:utils:position-absolute",
+    "body": "position-absolute",
+    "description": "position-absolute"
+  },
+  "Class: position-fixed": {
+    "prefix": "rb:utils:position-fixed",
+    "body": "position-fixed",
+    "description": "position-fixed"
+  },
+  "Class: position-sticky": {
+    "prefix": "rb:utils:position-sticky",
+    "body": "position-sticky",
+    "description": "position-sticky"
+  },
+  "Class: top-0": {
+    "prefix": "rb:utils:position:top-0",
+    "body": "top-0",
+    "description": "top-0"
+  },
+  "Class: start-0": {
+    "prefix": "rb:utils:position:start-0",
+    "body": "start-0",
+    "description": "start-0"
+  },
+  "Class: end-0": {
+    "prefix": "rb:utils:position:end-0",
+    "body": "end-0",
+    "description": "end-0"
+  },
+  "Class: bottom-0": {
+    "prefix": "rb:utils:position:bottom-0",
+    "body": "bottom-0",
+    "description": "bottom-0"
+  },
+  "Class: top-50": {
+    "prefix": "rb:utils:position:top-50",
+    "body": "top-50",
+    "description": "top-50"
+  },
+  "Class: start-50": {
+    "prefix": "rb:utils:position:start-50",
+    "body": "start-50",
+    "description": "start-50"
+  },
+  "Class: end-50": {
+    "prefix": "rb:utils:position:end-50",
+    "body": "end-50",
+    "description": "end-50"
+  },
+  "Class: bottom-50": {
+    "prefix": "rb:utils:position:bottom-50",
+    "body": "bottom-50",
+    "description": "bottom-50"
+  },
+  "Class: translate-middle": {
+    "prefix": "rb:utils:position:translate-middle",
+    "body": "translate-middle",
+    "description": "translate-middle"
+  },
+  "Class: translate-middle-x": {
+    "prefix": "rb:utils:position:translate-middle-x",
+    "body": "translate-middle-x",
+    "description": "translate-middle-x"
+  },
+  "Class: translate-middle-y": {
+    "prefix": "rb:utils:position:translate-middle-y",
+    "body": "translate-middle-y",
+    "description": "translate-middle-y"
+  }
+}

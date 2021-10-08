@@ -1,0 +1,177 @@
+{
+  "Class: border": {
+    "prefix": "rb:utils:border",
+    "body": "border",
+    "description": "Add border to all sides"
+  },
+  "Class: border-top": {
+    "prefix": "rb:utils:border-top",
+    "body": "border-top",
+    "description": "Add top border"
+  },
+  "Class: border-end": {
+    "prefix": "rb:utils:border-end",
+    "body": "border-end",
+    "description": "Add end border"
+  },
+  "Class: border-bottom": {
+    "prefix": "rb:utils:border-bottom",
+    "body": "border-bottom",
+    "description": "Add bottom border"
+  },
+  "Class: border-start": {
+    "prefix": "rb:utils:border-start",
+    "body": "border-start",
+    "description": "Add start border"
+  },
+  "Class: border-0": {
+    "prefix": "rb:utils:border-0",
+    "body": "border-0",
+    "description": "Subtract border from all sides"
+  },
+  "Class: border-top-0": {
+    "prefix": "rb:utils:border-top-0",
+    "body": "border-top-0",
+    "description": "Subtract border from top"
+  },
+  "Class: border-end-0": {
+    "prefix": "rb:utils:border-end-0",
+    "body": "border-end-0",
+    "description": "Subtract border from end"
+  },
+  "Class: border-bottom-0": {
+    "prefix": "rb:utils:border-bottom-0",
+    "body": "border-bottom-0",
+    "description": "Subtract border from bottom"
+  },
+  "Class: border-start-0": {
+    "prefix": "rb:utils:border-start-0",
+    "body": "border-start-0",
+    "description": "Subtract border from start"
+  },
+  "Class: border-primary": {
+    "prefix": "rb:utils:border-primary",
+    "body": "border-primary",
+    "description": "Primary border color"
+  },
+  "Class: border-secondary": {
+    "prefix": "rb:utils:border-secondary",
+    "body": "border-secondary",
+    "description": "Secondary border color"
+  },
+  "Class: border-success": {
+    "prefix": "rb:utils:border-success",
+    "body": "border-success",
+    "description": "Success border color"
+  },
+  "Class: border-danger": {
+    "prefix": "rb:utils:border-danger",
+    "body": "border-danger",
+    "description": "Danger border color"
+  },
+  "Class: border-warning": {
+    "prefix": "rb:utils:border-warning",
+    "body": "border-warning",
+    "description": "Warning border color"
+  },
+  "Class: border-info": {
+    "prefix": "rb:utils:border-info",
+    "body": "border-info",
+    "description": "Info border color"
+  },
+  "Class: border-light": {
+    "prefix": "rb:utils:border-light",
+    "body": "border-light",
+    "description": "Light border color"
+  },
+  "Class: border-dark": {
+    "prefix": "rb:utils:border-dark",
+    "body": "border-dark",
+    "description": "Dark border color"
+  },
+  "Class: border-white": {
+    "prefix": "rb:utils:border-white",
+    "body": "border-white",
+    "description": "White border color"
+  },
+  "Class: border-1": {
+    "prefix": "rb:utils:border-1",
+    "body": "border-1",
+    "description": "Border size of 1"
+  },
+  "Class: border-2": {
+    "prefix": "rb:utils:border-2",
+    "body": "border-2",
+    "description": "Border size of 2"
+  },
+  "Class: border-3": {
+    "prefix": "rb:utils:border-3",
+    "body": "border-3",
+    "description": "Border size of 3"
+  },
+  "Class: border-4": {
+    "prefix": "rb:utils:border-4",
+    "body": "border-4",
+    "description": "Border size of 4"
+  },
+  "Class: border-5": {
+    "prefix": "rb:utils:border-5",
+    "body": "border-5",
+    "description": "Border size of 5"
+  },
+  "Class: rounded": {
+    "prefix": "rb:utils:border:radius:rounded",
+    "body": "rounded",
+    "description": "Add border radius to all sides"
+  },
+  "Class: rounded-top": {
+    "prefix": "rb:utils:border:radius:rounded-top",
+    "body": "rounded-top",
+    "description": "Add border radius to top"
+  },
+  "Class: rounded-end": {
+    "prefix": "rb:utils:border:radius:rounded-end",
+    "body": "rounded-end",
+    "description": "Add border radius to end"
+  },
+  "Class: rounded-bottom": {
+    "prefix": "rb:utils:border:radius:rounded-bottom",
+    "body": "rounded-bottom",
+    "description": "Add border radius to bottom"
+  },
+  "Class: rounded-start": {
+    "prefix": "rb:utils:border:radius:rounded-start",
+    "body": "rounded-start",
+    "description": "Add border radius to start"
+  },
+  "Class: rounded-circle": {
+    "prefix": "rb:utils:border:radius:rounded-circle",
+    "body": "rounded-circle",
+    "description": "Add border radius creating a circle"
+  },
+  "Class: rounded-pill": {
+    "prefix": "rb:utils:border:radius:rounded-pill",
+    "body": "rounded-pill",
+    "description": "Add border radius creating a pill"
+  },
+  "Class: rounded-0": {
+    "prefix": "rb:utils:border:radius:size:rounded-0",
+    "body": "rounded-0",
+    "description": "Set border radius size to 0"
+  },
+  "Class: rounded-1": {
+    "prefix": "rb:utils:border:radius:size:rounded-1",
+    "body": "rounded-1",
+    "description": "Set border radius size to 1"
+  },
+  "Class: rounded-2": {
+    "prefix": "rb:utils:border:radius:size:rounded-2",
+    "body": "rounded-2",
+    "description": "Set border radius size to 2"
+  },
+  "Class: rounded-3": {
+    "prefix": "rb:utils:border:radius:size:rounded-3",
+    "body": "rounded-3",
+    "description": "Set border radius size to 3"
+  }
+}

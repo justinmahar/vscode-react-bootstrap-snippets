@@ -1,0 +1,22 @@
+{
+  "Class: shadow-none": {
+    "prefix": "rb:utils:shadow-none",
+    "body": "shadow-none",
+    "description": "No shadow"
+  },
+  "Class: shadow-sm": {
+    "prefix": "rb:utils:shadow-sm",
+    "body": "shadow-sm",
+    "description": "Small shadow"
+  },
+  "Class: shadow": {
+    "prefix": "rb:utils:shadow",
+    "body": "shadow",
+    "description": "Regular shadow"
+  },
+  "Class: shadow-lg": {
+    "prefix": "rb:utils:shadow-lg",
+    "body": "shadow-lg",
+    "description": "Larger shadow"
+  }
+}

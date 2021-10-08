@@ -1,0 +1,104 @@
+{
+  "Class: d-none": {
+    "prefix": "rb:utils:display:d-none",
+    "body": "d-none",
+    "description": "Set display to none for xs breakpoint and up"
+  },
+  "Class: d-inline": {
+    "prefix": "rb:utils:display:d-inline",
+    "body": "d-inline",
+    "description": "Set display to inline for xs breakpoint and up"
+  },
+  "Class: d-inline-block": {
+    "prefix": "rb:utils:display:d-inline-block",
+    "body": "d-inline-block",
+    "description": "Set display to inline-block for xs breakpoint and up"
+  },
+  "Class: d-block": {
+    "prefix": "rb:utils:display:d-block",
+    "body": "d-block",
+    "description": "Set display to block for xs breakpoint and up"
+  },
+  "Class: d-grid": {
+    "prefix": "rb:utils:display:d-grid",
+    "body": "d-grid",
+    "description": "Set display to grid for xs breakpoint and up"
+  },
+  "Class: d-table": {
+    "prefix": "rb:utils:display:d-table",
+    "body": "d-table",
+    "description": "Set display to table for xs breakpoint and up"
+  },
+  "Class: d-table-cell": {
+    "prefix": "rb:utils:display:d-table-cell",
+    "body": "d-table-cell",
+    "description": "Set display to table-cell for xs breakpoint and up"
+  },
+  "Class: d-table-row": {
+    "prefix": "rb:utils:display:d-table-row",
+    "body": "d-table-row",
+    "description": "Set display to table-row for xs breakpoint and up"
+  },
+  "Class: d-flex": {
+    "prefix": ["rb:utils:display:d-flex", "rb:utils:flex:d-flex"],
+    "body": "d-flex",
+    "description": "Set display to flex for xs breakpoint and up"
+  },
+  "Class: d-inline-flex": {
+    "prefix": ["rb:utils:display:d-inline-flex", "rb:utils:flex:d-inline-flex"],
+    "body": "d-inline-flex",
+    "description": "Set display to inline-flex for xs breakpoint and up"
+  },
+
+  // Printing
+  "Class: d-print-none": {
+    "prefix": "rb:utils:display:print:d-print-none",
+    "body": "d-print-none",
+    "description": "Set display to none for printing"
+  },
+  "Class: d-print-inline": {
+    "prefix": "rb:utils:display:print:d-print-inline",
+    "body": "d-print-inline",
+    "description": "Set display to inline for printing"
+  },
+  "Class: d-print-inline-block": {
+    "prefix": "rb:utils:display:print:d-print-inline-block",
+    "body": "d-print-inline-block",
+    "description": "Set display to inline-block for printing"
+  },
+  "Class: d-print-block": {
+    "prefix": "rb:utils:display:print:d-print-block",
+    "body": "d-print-block",
+    "description": "Set display to block for printing"
+  },
+  "Class: d-print-grid": {
+    "prefix": "rb:utils:display:print:d-print-grid",
+    "body": "d-print-grid",
+    "description": "Set display to grid for printing"
+  },
+  "Class: d-print-table": {
+    "prefix": "rb:utils:display:print:d-print-table",
+    "body": "d-print-table",
+    "description": "Set display to table for printing"
+  },
+  "Class: d-print-table-cell": {
+    "prefix": "rb:utils:display:print:d-print-table-cell",
+    "body": "d-print-table-cell",
+    "description": "Set display to table-cell for printing"
+  },
+  "Class: d-print-table-row": {
+    "prefix": "rb:utils:display:print:d-print-table-row",
+    "body": "d-print-table-row",
+    "description": "Set display to table-row for printing"
+  },
+  "Class: d-print-flex": {
+    "prefix": "rb:utils:display:print:d-print-flex",
+    "body": "d-print-flex",
+    "description": "Set display to flex for printing"
+  },
+  "Class: d-print-inline-flex": {
+    "prefix": "rb:utils:display:print:d-print-inline-flex",
+    "body": "d-print-inline-flex",
+    "description": "Set display to inline-flex for printing"
+  }
+}

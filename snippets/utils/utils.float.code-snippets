@@ -1,0 +1,17 @@
+{
+  "Class: float-start": {
+    "prefix": "rb:utils:float-start",
+    "body": "float-start",
+    "description": "Set float to float-start"
+  },
+  "Class: float-end": {
+    "prefix": "rb:utils:float-end",
+    "body": "float-end",
+    "description": "Set float to float-end"
+  },
+  "Class: float-none": {
+    "prefix": "rb:utils:float-none",
+    "body": "float-none",
+    "description": "Set float to float-none"
+  }
+}

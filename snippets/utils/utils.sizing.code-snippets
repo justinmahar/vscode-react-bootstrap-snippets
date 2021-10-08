@@ -1,0 +1,82 @@
+{
+  "Class: w-25": {
+    "prefix": "rb:utils:width:w-25",
+    "body": "w-25",
+    "description": "Width 25%"
+  },
+  "Class: w-50": {
+    "prefix": "rb:utils:width:w-50",
+    "body": "w-50",
+    "description": "Width 50%"
+  },
+  "Class: w-75": {
+    "prefix": "rb:utils:width:w-75",
+    "body": "w-75",
+    "description": "Width 75%"
+  },
+  "Class: w-100": {
+    "prefix": "rb:utils:width:w-100",
+    "body": "w-100",
+    "description": "Width 100%"
+  },
+  "Class: w-auto": {
+    "prefix": "rb:utils:width:w-auto",
+    "body": "w-auto",
+    "description": "Width auto"
+  },
+  "Class: h-25": {
+    "prefix": "rb:utils:height:h-25",
+    "body": "h-25",
+    "description": "Height 25%"
+  },
+  "Class: h-50": {
+    "prefix": "rb:utils:height:h-50",
+    "body": "h-50",
+    "description": "Height 50%"
+  },
+  "Class: h-75": {
+    "prefix": "rb:utils:height:h-75",
+    "body": "h-75",
+    "description": "Height 75%"
+  },
+  "Class: h-100": {
+    "prefix": "rb:utils:height:h-100",
+    "body": "h-100",
+    "description": "Height 100%"
+  },
+  "Class: h-auto": {
+    "prefix": "rb:utils:height:h-auto",
+    "body": "h-auto",
+    "description": "Height auto"
+  },
+  "Class: mw-100": {
+    "prefix": "rb:utils:width:mw-100",
+    "body": "mw-100",
+    "description": "Max-width 100%"
+  },
+  "Class: mh-100": {
+    "prefix": "rb:utils:height:mh-100",
+    "body": "mh-100",
+    "description": "Max-height 100%"
+  },
+  "Class: min-vw-100": {
+    "prefix": "rb:utils:width:min-vw-100",
+    "body": "min-vw-100",
+    "description": "Min-width 100vw"
+  },
+  "Class: min-vh-100": {
+    "prefix": "rb:utils:height:min-vh-100",
+    "body": "min-vh-100",
+    "description": "Min-height 100vh"
+  },
+  "Class: vw-100": {
+    "prefix": "rb:utils:width:vw-100",
+    "body": "vw-100",
+    "description": "Width 100vw"
+  },
+  "Class: vh-100": {
+    "prefix": "rb:utils:height:vh-100",
+    "body": "vh-100",
+    "description": "Height 100vh"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Class: visible": {
+    "prefix": "rb:utils:visible",
+    "body": "visible",
+    "description": "Make visible"
+  },
+  "Class: invisible": {
+    "prefix": "rb:utils:invisible",
+    "body": "invisible",
+    "description": "Make invisible"
+  }
+}

@@ -1,0 +1,462 @@
+{
+  // Margin
+  "Class: m-0": {
+    "prefix": "rb:utils:margin:m-0",
+    "body": "m-0",
+    "description": "Margin m-0"
+  },
+  "Class: m-1": {
+    "prefix": "rb:utils:margin:m-1",
+    "body": "m-1",
+    "description": "Margin m-1"
+  },
+  "Class: m-2": {
+    "prefix": "rb:utils:margin:m-2",
+    "body": "m-2",
+    "description": "Margin m-2"
+  },
+  "Class: m-3": {
+    "prefix": "rb:utils:margin:m-3",
+    "body": "m-3",
+    "description": "Margin m-3"
+  },
+  "Class: m-4": {
+    "prefix": "rb:utils:margin:m-4",
+    "body": "m-4",
+    "description": "Margin m-4"
+  },
+  "Class: m-5": {
+    "prefix": "rb:utils:margin:m-5",
+    "body": "m-5",
+    "description": "Margin m-5"
+  },
+  "Class: mt-0": {
+    "prefix": "rb:utils:margin:mt-0",
+    "body": "mt-0",
+    "description": "Margin mt-0"
+  },
+  "Class: mt-1": {
+    "prefix": "rb:utils:margin:mt-1",
+    "body": "mt-1",
+    "description": "Margin mt-1"
+  },
+  "Class: mt-2": {
+    "prefix": "rb:utils:margin:mt-2",
+    "body": "mt-2",
+    "description": "Margin mt-2"
+  },
+  "Class: mt-3": {
+    "prefix": "rb:utils:margin:mt-3",
+    "body": "mt-3",
+    "description": "Margin mt-3"
+  },
+  "Class: mt-4": {
+    "prefix": "rb:utils:margin:mt-4",
+    "body": "mt-4",
+    "description": "Margin mt-4"
+  },
+  "Class: mt-5": {
+    "prefix": "rb:utils:margin:mt-5",
+    "body": "mt-5",
+    "description": "Margin mt-5"
+  },
+  "Class: mb-0": {
+    "prefix": "rb:utils:margin:mb-0",
+    "body": "mb-0",
+    "description": "Margin mb-0"
+  },
+  "Class: mb-1": {
+    "prefix": "rb:utils:margin:mb-1",
+    "body": "mb-1",
+    "description": "Margin mb-1"
+  },
+  "Class: mb-2": {
+    "prefix": "rb:utils:margin:mb-2",
+    "body": "mb-2",
+    "description": "Margin mb-2"
+  },
+  "Class: mb-3": {
+    "prefix": "rb:utils:margin:mb-3",
+    "body": "mb-3",
+    "description": "Margin mb-3"
+  },
+  "Class: mb-4": {
+    "prefix": "rb:utils:margin:mb-4",
+    "body": "mb-4",
+    "description": "Margin mb-4"
+  },
+  "Class: mb-5": {
+    "prefix": "rb:utils:margin:mb-5",
+    "body": "mb-5",
+    "description": "Margin mb-5"
+  },
+  "Class: ms-0": {
+    "prefix": "rb:utils:margin:ms-0",
+    "body": "ms-0",
+    "description": "Margin ms-0"
+  },
+  "Class: ms-1": {
+    "prefix": "rb:utils:margin:ms-1",
+    "body": "ms-1",
+    "description": "Margin ms-1"
+  },
+  "Class: ms-2": {
+    "prefix": "rb:utils:margin:ms-2",
+    "body": "ms-2",
+    "description": "Margin ms-2"
+  },
+  "Class: ms-3": {
+    "prefix": "rb:utils:margin:ms-3",
+    "body": "ms-3",
+    "description": "Margin ms-3"
+  },
+  "Class: ms-4": {
+    "prefix": "rb:utils:margin:ms-4",
+    "body": "ms-4",
+    "description": "Margin ms-4"
+  },
+  "Class: ms-5": {
+    "prefix": "rb:utils:margin:ms-5",
+    "body": "ms-5",
+    "description": "Margin ms-5"
+  },
+  "Class: me-0": {
+    "prefix": "rb:utils:margin:me-0",
+    "body": "me-0",
+    "description": "Margin me-0"
+  },
+  "Class: me-1": {
+    "prefix": "rb:utils:margin:me-1",
+    "body": "me-1",
+    "description": "Margin me-1"
+  },
+  "Class: me-2": {
+    "prefix": "rb:utils:margin:me-2",
+    "body": "me-2",
+    "description": "Margin me-2"
+  },
+  "Class: me-3": {
+    "prefix": "rb:utils:margin:me-3",
+    "body": "me-3",
+    "description": "Margin me-3"
+  },
+  "Class: me-4": {
+    "prefix": "rb:utils:margin:me-4",
+    "body": "me-4",
+    "description": "Margin me-4"
+  },
+  "Class: me-5": {
+    "prefix": "rb:utils:margin:me-5",
+    "body": "me-5",
+    "description": "Margin me-5"
+  },
+  "Class: mx-0": {
+    "prefix": "rb:utils:margin:mx-0",
+    "body": "mx-0",
+    "description": "Margin mx-0"
+  },
+  "Class: mx-1": {
+    "prefix": "rb:utils:margin:mx-1",
+    "body": "mx-1",
+    "description": "Margin mx-1"
+  },
+  "Class: mx-2": {
+    "prefix": "rb:utils:margin:mx-2",
+    "body": "mx-2",
+    "description": "Margin mx-2"
+  },
+  "Class: mx-3": {
+    "prefix": "rb:utils:margin:mx-3",
+    "body": "mx-3",
+    "description": "Margin mx-3"
+  },
+  "Class: mx-4": {
+    "prefix": "rb:utils:margin:mx-4",
+    "body": "mx-4",
+    "description": "Margin mx-4"
+  },
+  "Class: mx-5": {
+    "prefix": "rb:utils:margin:mx-5",
+    "body": "mx-5",
+    "description": "Margin mx-5"
+  },
+  "Class: mx-auto": {
+    "prefix": "rb:utils:margin:mx-auto",
+    "body": "mx-auto",
+    "description": "Margin mx-auto"
+  },
+  "Class: my-0": {
+    "prefix": "rb:utils:margin:my-0",
+    "body": "my-0",
+    "description": "Margin my-0"
+  },
+  "Class: my-1": {
+    "prefix": "rb:utils:margin:my-1",
+    "body": "my-1",
+    "description": "Margin my-1"
+  },
+  "Class: my-2": {
+    "prefix": "rb:utils:margin:my-2",
+    "body": "my-2",
+    "description": "Margin my-2"
+  },
+  "Class: my-3": {
+    "prefix": "rb:utils:margin:my-3",
+    "body": "my-3",
+    "description": "Margin my-3"
+  },
+  "Class: my-4": {
+    "prefix": "rb:utils:margin:my-4",
+    "body": "my-4",
+    "description": "Margin my-4"
+  },
+  "Class: my-5": {
+    "prefix": "rb:utils:margin:my-5",
+    "body": "my-5",
+    "description": "Margin my-5"
+  },
+
+  // Padding
+  "Class: p-0": {
+    "prefix": "rb:utils:padding:p-0",
+    "body": "p-0",
+    "description": "Padding p-0"
+  },
+  "Class: p-1": {
+    "prefix": "rb:utils:padding:p-1",
+    "body": "p-1",
+    "description": "Padding p-1"
+  },
+  "Class: p-2": {
+    "prefix": "rb:utils:padding:p-2",
+    "body": "p-2",
+    "description": "Padding p-2"
+  },
+  "Class: p-3": {
+    "prefix": "rb:utils:padding:p-3",
+    "body": "p-3",
+    "description": "Padding p-3"
+  },
+  "Class: p-4": {
+    "prefix": "rb:utils:padding:p-4",
+    "body": "p-4",
+    "description": "Padding p-4"
+  },
+  "Class: p-5": {
+    "prefix": "rb:utils:padding:p-5",
+    "body": "p-5",
+    "description": "Padding p-5"
+  },
+  "Class: pt-0": {
+    "prefix": "rb:utils:padding:pt-0",
+    "body": "pt-0",
+    "description": "Padding pt-0"
+  },
+  "Class: pt-1": {
+    "prefix": "rb:utils:padding:pt-1",
+    "body": "pt-1",
+    "description": "Padding pt-1"
+  },
+  "Class: pt-2": {
+    "prefix": "rb:utils:padding:pt-2",
+    "body": "pt-2",
+    "description": "Padding pt-2"
+  },
+  "Class: pt-3": {
+    "prefix": "rb:utils:padding:pt-3",
+    "body": "pt-3",
+    "description": "Padding pt-3"
+  },
+  "Class: pt-4": {
+    "prefix": "rb:utils:padding:pt-4",
+    "body": "pt-4",
+    "description": "Padding pt-4"
+  },
+  "Class: pt-5": {
+    "prefix": "rb:utils:padding:pt-5",
+    "body": "pt-5",
+    "description": "Padding pt-5"
+  },
+  "Class: pb-0": {
+    "prefix": "rb:utils:padding:pb-0",
+    "body": "pb-0",
+    "description": "Padding pb-0"
+  },
+  "Class: pb-1": {
+    "prefix": "rb:utils:padding:pb-1",
+    "body": "pb-1",
+    "description": "Padding pb-1"
+  },
+  "Class: pb-2": {
+    "prefix": "rb:utils:padding:pb-2",
+    "body": "pb-2",
+    "description": "Padding pb-2"
+  },
+  "Class: pb-3": {
+    "prefix": "rb:utils:padding:pb-3",
+    "body": "pb-3",
+    "description": "Padding pb-3"
+  },
+  "Class: pb-4": {
+    "prefix": "rb:utils:padding:pb-4",
+    "body": "pb-4",
+    "description": "Padding pb-4"
+  },
+  "Class: pb-5": {
+    "prefix": "rb:utils:padding:pb-5",
+    "body": "pb-5",
+    "description": "Padding pb-5"
+  },
+  "Class: ps-0": {
+    "prefix": "rb:utils:padding:ps-0",
+    "body": "ps-0",
+    "description": "Padding ps-0"
+  },
+  "Class: ps-1": {
+    "prefix": "rb:utils:padding:ps-1",
+    "body": "ps-1",
+    "description": "Padding ps-1"
+  },
+  "Class: ps-2": {
+    "prefix": "rb:utils:padding:ps-2",
+    "body": "ps-2",
+    "description": "Padding ps-2"
+  },
+  "Class: ps-3": {
+    "prefix": "rb:utils:padding:ps-3",
+    "body": "ps-3",
+    "description": "Padding ps-3"
+  },
+  "Class: ps-4": {
+    "prefix": "rb:utils:padding:ps-4",
+    "body": "ps-4",
+    "description": "Padding ps-4"
+  },
+  "Class: ps-5": {
+    "prefix": "rb:utils:padding:ps-5",
+    "body": "ps-5",
+    "description": "Padding ps-5"
+  },
+  "Class: pe-0": {
+    "prefix": "rb:utils:padding:pe-0",
+    "body": "pe-0",
+    "description": "Padding pe-0"
+  },
+  "Class: pe-1": {
+    "prefix": "rb:utils:padding:pe-1",
+    "body": "pe-1",
+    "description": "Padding pe-1"
+  },
+  "Class: pe-2": {
+    "prefix": "rb:utils:padding:pe-2",
+    "body": "pe-2",
+    "description": "Padding pe-2"
+  },
+  "Class: pe-3": {
+    "prefix": "rb:utils:padding:pe-3",
+    "body": "pe-3",
+    "description": "Padding pe-3"
+  },
+  "Class: pe-4": {
+    "prefix": "rb:utils:padding:pe-4",
+    "body": "pe-4",
+    "description": "Padding pe-4"
+  },
+  "Class: pe-5": {
+    "prefix": "rb:utils:padding:pe-5",
+    "body": "pe-5",
+    "description": "Padding pe-5"
+  },
+  "Class: px-0": {
+    "prefix": "rb:utils:padding:px-0",
+    "body": "px-0",
+    "description": "Padding px-0"
+  },
+  "Class: px-1": {
+    "prefix": "rb:utils:padding:px-1",
+    "body": "px-1",
+    "description": "Padding px-1"
+  },
+  "Class: px-2": {
+    "prefix": "rb:utils:padding:px-2",
+    "body": "px-2",
+    "description": "Padding px-2"
+  },
+  "Class: px-3": {
+    "prefix": "rb:utils:padding:px-3",
+    "body": "px-3",
+    "description": "Padding px-3"
+  },
+  "Class: px-4": {
+    "prefix": "rb:utils:padding:px-4",
+    "body": "px-4",
+    "description": "Padding px-4"
+  },
+  "Class: px-5": {
+    "prefix": "rb:utils:padding:px-5",
+    "body": "px-5",
+    "description": "Padding px-5"
+  },
+  "Class: py-0": {
+    "prefix": "rb:utils:padding:py-0",
+    "body": "py-0",
+    "description": "Padding py-0"
+  },
+  "Class: py-1": {
+    "prefix": "rb:utils:padding:py-1",
+    "body": "py-1",
+    "description": "Padding py-1"
+  },
+  "Class: py-2": {
+    "prefix": "rb:utils:padding:py-2",
+    "body": "py-2",
+    "description": "Padding py-2"
+  },
+  "Class: py-3": {
+    "prefix": "rb:utils:padding:py-3",
+    "body": "py-3",
+    "description": "Padding py-3"
+  },
+  "Class: py-4": {
+    "prefix": "rb:utils:padding:py-4",
+    "body": "py-4",
+    "description": "Padding py-4"
+  },
+  "Class: py-5": {
+    "prefix": "rb:utils:padding:py-5",
+    "body": "py-5",
+    "description": "Padding py-5"
+  },
+
+  // Grid Gap
+  "Class: gap-0": {
+    "prefix": "rb:utils:grid:gap-0",
+    "body": "gap-0",
+    "description": "Grid gap-0"
+  },
+  "Class: gap-1": {
+    "prefix": "rb:utils:grid:gap-1",
+    "body": "gap-1",
+    "description": "Grid gap-1"
+  },
+  "Class: gap-2": {
+    "prefix": "rb:utils:grid:gap-2",
+    "body": "gap-2",
+    "description": "Grid gap-2"
+  },
+  "Class: gap-3": {
+    "prefix": "rb:utils:grid:gap-3",
+    "body": "gap-3",
+    "description": "Grid gap-3"
+  },
+  "Class: gap-4": {
+    "prefix": "rb:utils:grid:gap-4",
+    "body": "gap-4",
+    "description": "Grid gap-4"
+  },
+  "Class: gap-5": {
+    "prefix": "rb:utils:grid:gap-5",
+    "body": "gap-5",
+    "description": "Grid gap-5"
+  }
+}

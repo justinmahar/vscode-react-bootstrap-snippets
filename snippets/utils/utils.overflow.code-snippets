@@ -1,0 +1,22 @@
+{
+  "Class: overflow-auto": {
+    "prefix": "rb:utils:overflow-auto",
+    "body": "overflow-auto",
+    "description": "Set overflow to auto"
+  },
+  "Class: overflow-hidden": {
+    "prefix": "rb:utils:overflow-hidden",
+    "body": "overflow-hidden",
+    "description": "Set overflow to hidden"
+  },
+  "Class: overflow-visible": {
+    "prefix": "rb:utils:overflow-visible",
+    "body": "overflow-visible",
+    "description": "Set overflow to visible"
+  },
+  "Class: overflow-scroll": {
+    "prefix": "rb:utils:overflow-scroll",
+    "body": "overflow-scroll",
+    "description": "Set overflow to scroll"
+  }
+}

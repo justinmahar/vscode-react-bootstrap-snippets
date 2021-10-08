@@ -1,0 +1,67 @@
+{
+  "Class: text-primary": {
+    "prefix": "rb:utils:color:text-primary",
+    "body": "text-primary",
+    "description": "Primary text color"
+  },
+  "Class: text-secondary": {
+    "prefix": "rb:utils:color:text-secondary",
+    "body": "text-secondary",
+    "description": "Secondary text color"
+  },
+  "Class: text-success": {
+    "prefix": "rb:utils:color:text-success",
+    "body": "text-success",
+    "description": "Success text color"
+  },
+  "Class: text-danger": {
+    "prefix": "rb:utils:color:text-danger",
+    "body": "text-danger",
+    "description": "Danger text color"
+  },
+  "Class: text-warning": {
+    "prefix": "rb:utils:color:text-warning",
+    "body": "text-warning",
+    "description": "Warning text color"
+  },
+  "Class: text-info": {
+    "prefix": "rb:utils:color:text-info",
+    "body": "text-info",
+    "description": "Info text color"
+  },
+  "Class: text-light": {
+    "prefix": "rb:utils:color:text-light",
+    "body": "text-light",
+    "description": "Light text color"
+  },
+  "Class: text-dark": {
+    "prefix": "rb:utils:color:text-dark",
+    "body": "text-dark",
+    "description": "Dark text color"
+  },
+  "Class: text-body": {
+    "prefix": "rb:utils:color:text-body",
+    "body": "text-body",
+    "description": "Body text color"
+  },
+  "Class: text-muted": {
+    "prefix": "rb:utils:color:text-muted",
+    "body": "text-muted",
+    "description": "Muted text color"
+  },
+  "Class: text-white": {
+    "prefix": "rb:utils:color:text-white",
+    "body": "text-white",
+    "description": "White text color"
+  },
+  "Class: text-black-50": {
+    "prefix": "rb:utils:color:text-black-50",
+    "body": "text-black-50",
+    "description": "Black text color with 50% transparency"
+  },
+  "Class: text-white-50": {
+    "prefix": "rb:utils:color:text-white-50",
+    "body": "text-white-50",
+    "description": "White text color with 50% transparency"
+  }
+}
