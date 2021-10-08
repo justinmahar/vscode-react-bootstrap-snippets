@@ -22,7 +22,7 @@
   "Class: w-auto": {
     "prefix": "rb:utils:width:w-auto",
     "body": "w-auto",
-    "description": "Width auto"
+    "description": "Automatic width"
   },
   "Class: h-25": {
     "prefix": "rb:utils:height:h-25",
@@ -47,7 +47,7 @@
   "Class: h-auto": {
     "prefix": "rb:utils:height:h-auto",
     "body": "h-auto",
-    "description": "Height auto"
+    "description": "Automatic height"
   },
   "Class: mw-100": {
     "prefix": "rb:utils:width:mw-100",
@@ -62,21 +62,21 @@
   "Class: min-vw-100": {
     "prefix": "rb:utils:width:min-vw-100",
     "body": "min-vw-100",
-    "description": "Min-width 100vw"
+    "description": "Min-width 100vw (viewport width)"
   },
   "Class: min-vh-100": {
     "prefix": "rb:utils:height:min-vh-100",
     "body": "min-vh-100",
-    "description": "Min-height 100vh"
+    "description": "Min-height 100vh (viewport height)"
   },
   "Class: vw-100": {
     "prefix": "rb:utils:width:vw-100",
     "body": "vw-100",
-    "description": "Width 100vw"
+    "description": "Width 100vw (viewport width)"
   },
   "Class: vh-100": {
     "prefix": "rb:utils:height:vh-100",
     "body": "vh-100",
-    "description": "Height 100vh"
+    "description": "Height 100vh (viewport height)"
   }
 }

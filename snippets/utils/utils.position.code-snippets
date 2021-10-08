@@ -2,81 +2,101 @@
   "Class: position-static": {
     "prefix": "rb:utils:position-static",
     "body": "position-static",
-    "description": "position-static"
+    "description": "Set position to static"
   },
   "Class: position-relative": {
     "prefix": "rb:utils:position-relative",
     "body": "position-relative",
-    "description": "position-relative"
+    "description": "Set position to relative"
   },
   "Class: position-absolute": {
     "prefix": "rb:utils:position-absolute",
     "body": "position-absolute",
-    "description": "position-absolute"
+    "description": "Set position to absolute"
   },
   "Class: position-fixed": {
     "prefix": "rb:utils:position-fixed",
     "body": "position-fixed",
-    "description": "position-fixed"
+    "description": "Set position to fixed"
   },
   "Class: position-sticky": {
     "prefix": "rb:utils:position-sticky",
     "body": "position-sticky",
-    "description": "position-sticky"
+    "description": "Set position to sticky"
   },
   "Class: top-0": {
     "prefix": "rb:utils:position:top-0",
     "body": "top-0",
-    "description": "top-0"
+    "description": "Vertical top position at 0% from edge"
   },
   "Class: start-0": {
     "prefix": "rb:utils:position:start-0",
     "body": "start-0",
-    "description": "start-0"
+    "description": "Horizontal left position (in LTR) at 0% from edge"
   },
   "Class: end-0": {
     "prefix": "rb:utils:position:end-0",
     "body": "end-0",
-    "description": "end-0"
+    "description": "Horizontal right position (in LTR) at 0% from edge"
   },
   "Class: bottom-0": {
     "prefix": "rb:utils:position:bottom-0",
     "body": "bottom-0",
-    "description": "bottom-0"
+    "description": "Vertical bottom position at 0% from edge"
   },
   "Class: top-50": {
     "prefix": "rb:utils:position:top-50",
     "body": "top-50",
-    "description": "top-50"
+    "description": "Vertical top position at 50% from edge"
   },
   "Class: start-50": {
     "prefix": "rb:utils:position:start-50",
     "body": "start-50",
-    "description": "start-50"
+    "description": "Horizontal left position (in LTR) at 50% from edge"
   },
   "Class: end-50": {
     "prefix": "rb:utils:position:end-50",
     "body": "end-50",
-    "description": "end-50"
+    "description": "Horizontal right position (in LTR) at 50% from edge"
   },
   "Class: bottom-50": {
     "prefix": "rb:utils:position:bottom-50",
     "body": "bottom-50",
-    "description": "bottom-50"
+    "description": "Vertical bottom position at 50% from edge"
+  },
+  "Class: top-100": {
+    "prefix": "rb:utils:position:top-100",
+    "body": "top-100",
+    "description": "Vertical top position at 100% from edge"
+  },
+  "Class: start-100": {
+    "prefix": "rb:utils:position:start-100",
+    "body": "start-100",
+    "description": "Horizontal left position (in LTR) at 100% from edge"
+  },
+  "Class: end-100": {
+    "prefix": "rb:utils:position:end-100",
+    "body": "end-100",
+    "description": "Horizontal right position (in LTR) at 100% from edge"
+  },
+  "Class: bottom-100": {
+    "prefix": "rb:utils:position:bottom-100",
+    "body": "bottom-100",
+    "description": "Vertical bottom position at 100% from edge"
   },
   "Class: translate-middle": {
     "prefix": "rb:utils:position:translate-middle",
     "body": "translate-middle",
-    "description": "translate-middle"
+    "description": "Applies the transformations translateX(-50%) and translateY(-50%)"
   },
   "Class: translate-middle-x": {
     "prefix": "rb:utils:position:translate-middle-x",
     "body": "translate-middle-x",
-    "description": "translate-middle-x"
+    "description": "Applies the transformation translateX(-50%)"
   },
   "Class: translate-middle-y": {
     "prefix": "rb:utils:position:translate-middle-y",
     "body": "translate-middle-y",
-    "description": "translate-middle-y"
+    "description": "Applies the transformation translateY(-50%)"
   }
 }

@@ -2,31 +2,31 @@
   "Class: align-baseline": {
     "prefix": "rb:utils:vertical:align-baseline",
     "body": "align-baseline",
-    "description": "Vertical align baseline"
+    "description": "Vertical align to baseline"
   },
   "Class: align-top": {
     "prefix": "rb:utils:vertical:align-top",
     "body": "align-top",
-    "description": "Vertical align top"
+    "description": "Vertical align to top"
   },
   "Class: align-middle": {
     "prefix": "rb:utils:vertical:align-middle",
     "body": "align-middle",
-    "description": "Vertical align middle"
+    "description": "Vertical align to middle"
   },
   "Class: align-bottom": {
     "prefix": "rb:utils:vertical:align-bottom",
     "body": "align-bottom",
-    "description": "Vertical align bottom"
+    "description": "Vertical align to bottom"
   },
   "Class: align-text-top": {
     "prefix": "rb:utils:vertical:align-text-top",
     "body": "align-text-top",
-    "description": "Vertical align text-top"
+    "description": "Vertical align to text top"
   },
   "Class: align-text-bottom": {
     "prefix": "rb:utils:vertical:align-text-bottom",
     "body": "align-text-bottom",
-    "description": "Vertical align text-bottom"
+    "description": "Vertical align to text bottom"
   }
 }

@@ -154,6 +154,7 @@ Happy coding 🖖
 - Fix components removed/changed in Bootstrap 5
 - Update README
 
-### [2.0.5] - 2021-10-07
+### [2.0.5]-[2.0.6] - 2021-10-07
 
-- Add utility CSS class snippets
+- Add Bootstrap utility CSS class snippets
+- Improve utility snippet descriptions
