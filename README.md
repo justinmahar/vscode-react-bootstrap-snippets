@@ -163,4 +163,4 @@ Happy coding 🖖
 ### [2.0.8]-[2.0.9] - 2021-10-09
 
 - Fix justify-content-end utility class snippet
-- Add additional text utilities from Typography docs
+- Add additional text utility classes from Typography docs
