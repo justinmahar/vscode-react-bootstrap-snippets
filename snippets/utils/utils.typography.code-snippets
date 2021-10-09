@@ -1,0 +1,72 @@
+{
+  "Class: display-1": {
+    "prefix": "rb:utils:text:heading:display-1",
+    "body": "display-1",
+    "description": "A larger, slightly more opinionated heading style, size 1. Use in heading tag."
+  },
+  "Class: display-2": {
+    "prefix": "rb:utils:text:heading:display-2",
+    "body": "display-2",
+    "description": "A larger, slightly more opinionated heading style, size 2. Use in heading tag."
+  },
+  "Class: display-3": {
+    "prefix": "rb:utils:text:heading:display-3",
+    "body": "display-3",
+    "description": "A larger, slightly more opinionated heading style, size 3. Use in heading tag."
+  },
+  "Class: display-4": {
+    "prefix": "rb:utils:text:heading:display-4",
+    "body": "display-4",
+    "description": "A larger, slightly more opinionated heading style, size 4. Use in heading tag."
+  },
+  "Class: lead": {
+    "prefix": "rb:utils:text:lead",
+    "body": "lead",
+    "description": "Make a paragraph stand out"
+  },
+  "Class: mark": {
+    "prefix": "rb:utils:text:color:highlight-mark",
+    "body": "mark",
+    "description": "Highlight the text"
+  },
+  "Class: small": {
+    "prefix": "rb:utils:text:small",
+    "body": "small",
+    "description": "Make the text into smaller, fine print"
+  },
+  "Class: initialism": {
+    "prefix": "rb:utils:text:abbr:initialism",
+    "body": "initialism",
+    "description": "Gives an abbreviation a slightly smaller font-size. Use in abbr tag."
+  },
+  "Class: blockquote": {
+    "prefix": "rb:utils:text:blockquote",
+    "body": "blockquote",
+    "description": "For quoting blocks of content from another source within your document. Use in blockquote tag."
+  },
+  "Class: blockquote-footer": {
+    "prefix": "rb:utils:text:blockquote-footer",
+    "body": "blockquote-footer",
+    "description": "For identifying the blockquote source. Use in footer tag. Wrap the name of the source work in <cite>."
+  },
+  "Class: list-unstyled": {
+    "prefix": "rb:utils:text:list-unstyled",
+    "body": "list-unstyled",
+    "description": "Remove the default list-style and left margin on list items (immediate children only)"
+  },
+  "Class: list-inline": {
+    "prefix": "rb:utils:text:list-inline",
+    "body": "list-inline",
+    "description": "Remove a list's bullets and apply some light margin with a combination of two classes, .list-inline and .list-inline-item."
+  },
+  "Class: list-inline-item": {
+    "prefix": "rb:utils:text:list-inline-item",
+    "body": "list-inline-item",
+    "description": "Remove a list's bullets and apply some light margin with a combination of two classes, .list-inline and .list-inline-item."
+  },
+  "Class: text-truncate": {
+    "prefix": "rb:utils:text-truncate",
+    "body": "text-truncate",
+    "description": "Truncate the text with an ellipsis"
+  }
+}

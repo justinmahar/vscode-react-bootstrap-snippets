@@ -135,7 +135,10 @@
     "description": "Monospace fond"
   },
   "Class: text-reset": {
-    "prefix": ["rb:utils:text-reset", "rb:utils:text-inherit-color"],
+    "prefix": [
+      "rb:utils:text:color:text-reset",
+      "rb:utils:text:color:text-inherit-color"
+    ],
     "body": "text-reset",
     "description": "Reset a text or link color to inherit from parent"
   },

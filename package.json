@@ -2,7 +2,7 @@
   "name": "react-bootstrap-snippets",
   "displayName": "React-Bootstrap Snippets",
   "description": "Code snippets for React-Bootstrap 🙌",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#1d0539",
@@ -221,6 +221,10 @@
       },
       {
         "language": "javascriptreact",
+        "path": "./snippets/utils/utils.typography.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
         "path": "./snippets/utils/utils.vertical-align.code-snippets"
       },
       {
@@ -417,6 +421,10 @@
       },
       {
         "language": "javascript",
+        "path": "./snippets/utils/utils.typography.code-snippets"
+      },
+      {
+        "language": "javascript",
         "path": "./snippets/utils/utils.vertical-align.code-snippets"
       },
       {
@@ -613,6 +621,10 @@
       },
       {
         "language": "typescript",
+        "path": "./snippets/utils/utils.typography.code-snippets"
+      },
+      {
+        "language": "typescript",
         "path": "./snippets/utils/utils.vertical-align.code-snippets"
       },
       {
@@ -806,6 +818,10 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/utils/utils.text.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/utils/utils.typography.code-snippets"
       },
       {
         "language": "typescriptreact",
