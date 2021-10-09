@@ -160,7 +160,7 @@ Happy coding 🖖
 - Improve utility snippet descriptions
 - Update README
 
-### [2.0.8]-[2.0.9] - 2021-10-09
+### [2.0.8]-[2.0.10] - 2021-10-09
 
 - Fix justify-content-end utility class snippet
 - Add additional text utility classes from Typography docs
