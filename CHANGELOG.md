@@ -33,3 +33,7 @@ All notable changes to the "react-bootstrap-snippets" extension will be document
 - Add Bootstrap utility CSS class snippets
 - Improve utility snippet descriptions
 - Update README
+
+### [2.0.8] - 2021-10-09
+
+- Fix justify-content-end utility class snippet

@@ -28,7 +28,7 @@
     "description": "Flex justify to the start (left edge in LTR)"
   },
   "Class: justify-content-end": {
-    "prefix": "rb:utils:flex:content-end",
+    "prefix": "rb:utils:flex:justify-content-end",
     "body": "justify-content-end",
     "description": "Flex justify to the end (right edge in LTR)"
   },
