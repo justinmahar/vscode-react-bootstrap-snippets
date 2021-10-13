@@ -15,7 +15,7 @@ This extension supports:
 
 **Just type `rb` and press <kbd>Ctrl</kbd>+<kbd>Space</kbd> for autocompletion. VS Code will autocomplete the component you need.**
 
-![Demo](./images/demo.gif)
+![Demo](https://raw.githubusercontent.com/justinmahar/vscode-react-bootstrap-snippets/master/images/demo.gif)
 
 Read below for more information and gif demos.
 
@@ -60,7 +60,7 @@ All imports begin with `rb:import` followed by the component name. For example, 
 
 Since it's such a common use case, you can also use `rb:import:grid` to import `Container`, `Row`, and `Col` all at once.
 
-![Imports](./images/imports.gif)
+![Imports](https://raw.githubusercontent.com/justinmahar/vscode-react-bootstrap-snippets/master/images/imports.gif)
 
 ### Example Snippets
 
@@ -70,13 +70,13 @@ Example snippets all end with `-example`.
 
 For instance, `rb:alert-example` will insert an example `Alert` to build upon.
 
-![Examples](./images/examples.gif)
+![Examples](https://raw.githubusercontent.com/justinmahar/vscode-react-bootstrap-snippets/master/images/examples.gif)
 
 ### Alert and Modal Functions
 
 For convenience, function snippets are included for the show/hide functions needed for modals and dismissible alerts.
 
-![Functions](./images/functions.gif)
+![Functions](https://raw.githubusercontent.com/justinmahar/vscode-react-bootstrap-snippets/master/images/functions.gif)
 
 Use `rb:modal-functions` for the following:
 
@@ -102,7 +102,7 @@ This extension includes utilities for tables so you can quickly build table head
 
 Use `rb:table-row-X` and `rb:table-header-row-X`, where `X` is the number of columns from 2-9, to quickly build rows in your `thead` and `tbody`.
 
-![Tables](./images/tables.gif)
+![Tables](https://raw.githubusercontent.com/justinmahar/vscode-react-bootstrap-snippets/master/images/tables.gif)
 
 ### Bootstrap Utility CSS Class Snippets
 
@@ -110,7 +110,7 @@ Handy snippets are included for all [Bootstrap utility CSS classes](https://getb
 
 Use the `rb:utils` prefix to quickly look up and use any of Bootstrap's utility classes while building.
 
-![Examples](./images/rbutils.gif)
+![Utilities](https://raw.githubusercontent.com/justinmahar/vscode-react-bootstrap-snippets/master/images/rbutils.gif)
 
 ## A Note To You, The Developer
 
@@ -164,3 +164,7 @@ Happy coding 🖖
 
 - Fix justify-content-end utility class snippet
 - Add additional text utility classes from Typography docs
+
+### [2.0.11] - 2021-10-13
+
+- Change demo gif sources to absolute paths

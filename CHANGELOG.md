@@ -38,3 +38,7 @@ All notable changes to the "react-bootstrap-snippets" extension will be document
 
 - Fix justify-content-end utility class snippet
 - Add additional text utility classes from Typography docs
+
+### [2.0.11] - 2021-10-13
+
+- Change demo gif sources to absolute paths
