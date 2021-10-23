@@ -169,6 +169,6 @@ Happy coding 🖖
 
 - Change demo gif sources to absolute paths
 
-### [2.0.12] - 2021-10-23
+### [2.0.12]-[2.0.13] - 2021-10-23
 
 - Update accordion snippets
