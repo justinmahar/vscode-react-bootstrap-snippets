@@ -42,3 +42,7 @@ All notable changes to the "react-bootstrap-snippets" extension will be document
 ### [2.0.11] - 2021-10-13
 
 - Change demo gif sources to absolute paths
+
+### [2.0.12] - 2021-10-23
+
+- Update accordion snippets
