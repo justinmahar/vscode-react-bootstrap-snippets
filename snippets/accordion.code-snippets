@@ -1,54 +1,71 @@
 {
   "Import Accordion": {
     "prefix": "rb:import:accordion",
-    "body": "import { Accordion, Card } from 'react-bootstrap';",
-    "description": "Import Accordion and Card from react-bootstrap"
+    "body": "import { Accordion, AccordionItem, AccordionHeader, AccordionBody, AccordionButton, AccordionCollapse } from 'react-bootstrap';",
+    "description": "Import Accordion components from react-bootstrap"
   },
   "Accordion": {
     "prefix": "rb:accordion",
-    "body": [
-      "<Accordion defaultActiveKey=\"${1:0}\">",
-      "\t${2:Accordion cards, etc}",
-      "</Accordion>"
-    ],
-    "description": "Create an Accordion with a single Card inside"
+    "body": ["<Accordion>", "\t${2:AccordionItem, Card, etc}", "</Accordion>"],
+    "description": "Create an Accordion"
   },
-  "Accordion Card": {
-    "prefix": "rb:accordion-card",
+  "AccordionItem": {
+    "prefix": "rb:accordion-item",
     "body": [
-      "<Card>",
-      "\t<Card.Header>",
-      "\t\t<Accordion.Button as={Card.Header} variant=\"link\" eventKey=\"${3:0}\">",
-      "\t\t\t${1:Accordion toggle title}",
-      "\t\t</Accordion.Button>",
-      "\t</Card.Header>",
-      "\t<Accordion.Collapse eventKey=\"${3:0}\">",
-      "\t\t<Card.Body>${2:Card body}</Card.Body>",
-      "\t</Accordion.Collapse>",
-      "</Card>"
+      "<AccordionItem>",
+      "\t${2:AccordionHeader, AccordionBody, etc}",
+      "</AccordionItem>"
     ],
-    "description": "Create a Card for use inside an Accordion"
+    "description": "Create an AccordionItem"
+  },
+  "AccordionHeader": {
+    "prefix": "rb:accordion-header",
+    "body": [
+      "<AccordionHeader>",
+      "\t${2:Header contents}",
+      "</AccordionHeader>"
+    ],
+    "description": "Create an AccordionHeader"
+  },
+  "AccordionBody": {
+    "prefix": "rb:accordion-body",
+    "body": ["<AccordionBody>", "\t${2:Body contents}", "</AccordionBody>"],
+    "description": "Create an AccordionBody"
+  },
+  "AccordionButton": {
+    "prefix": "rb:accordion-button",
+    "body": [
+      "<AccordionButton>",
+      "\t${2:Button contents}",
+      "</AccordionButton>"
+    ],
+    "description": "Create an AccordionButton"
+  },
+  "AccordionCollapse": {
+    "prefix": "rb:accordion-collapse",
+    "body": [
+      "<AccordionCollapse>",
+      "\t${2:Body to collapse}",
+      "</AccordionCollapse>"
+    ],
+    "description": "Create an AccordionCollapse"
   },
   "Accordion Example": {
     "prefix": "rb:accordion-example",
     "body": [
       "<Accordion defaultActiveKey=\"0\">",
-      "\t<Card>",
-      "\t\t<Accordion.Button as={Card.Header} eventKey=\"0\">",
-      "\t\t\tClick me!",
-      "\t\t</Accordion.Button>",
-      "\t\t<Accordion.Collapse eventKey=\"0\">",
-      "\t\t\t<Card.Body>Hello! I'm the body</Card.Body>",
-      "\t\t</Accordion.Collapse>",
-      "\t</Card>",
-      "\t<Card>",
-      "\t\t<Accordion.Button as={Card.Header} eventKey=\"1\">",
-      "\t\t\tClick me!",
-      "\t\t</Accordion.Button>",
-      "\t\t<Accordion.Collapse eventKey=\"1\">",
-      "\t\t\t<Card.Body>Hello! I'm another body</Card.Body>",
-      "\t\t</Accordion.Collapse>",
-      "\t</Card>",
+      "\t<AccordionItem eventKey=\"0\">",
+      "\t\t<AccordionHeader>Accordion Item #1</AccordionHeader>",
+      "\t\t<AccordionBody>",
+      "\t\t\tLorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "\t\t</AccordionBody>",
+      "\t</AccordionItem>",
+      "\t<AccordionItem eventKey=\"1\">",
+      "\t\t<AccordionHeader>Accordion Item #2</AccordionHeader>",
+      "\t\t<AccordionBody>",
+      "\t\t\tDuis aute irure dolor in reprehenderit in voluptate velit. ",
+      "\t\t</AccordionBody>",
+      "\t</AccordionItem>",
       "</Accordion>"
     ],
     "description": "Create an Accordion example to build from"
