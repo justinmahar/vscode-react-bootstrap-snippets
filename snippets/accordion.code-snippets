@@ -1,71 +1,71 @@
 {
   "Import Accordion": {
     "prefix": "rb:import:accordion",
-    "body": "import { Accordion, AccordionItem, AccordionHeader, AccordionBody, AccordionButton, AccordionCollapse } from 'react-bootstrap';",
-    "description": "Import Accordion components from react-bootstrap"
+    "body": "import { Accordion } from 'react-bootstrap';",
+    "description": "Import Accordion from react-bootstrap"
   },
   "Accordion": {
     "prefix": "rb:accordion",
-    "body": ["<Accordion>", "\t${2:AccordionItem, Card, etc}", "</Accordion>"],
+    "body": ["<Accordion>", "\t${2:Accordion.Item, Card, etc}", "</Accordion>"],
     "description": "Create an Accordion"
   },
   "AccordionItem": {
     "prefix": "rb:accordion-item",
     "body": [
-      "<AccordionItem>",
-      "\t${2:AccordionHeader, AccordionBody, etc}",
-      "</AccordionItem>"
+      "<Accordion.Item>",
+      "\t${2:Accordion.Header, Accordion.Body, etc}",
+      "</Accordion.Item>"
     ],
-    "description": "Create an AccordionItem"
+    "description": "Create an Accordion Item"
   },
-  "AccordionHeader": {
+  "Accordion Header": {
     "prefix": "rb:accordion-header",
     "body": [
-      "<AccordionHeader>",
+      "<Accordion.Header>",
       "\t${2:Header contents}",
-      "</AccordionHeader>"
+      "</Accordion.Header>"
     ],
-    "description": "Create an AccordionHeader"
+    "description": "Create an Accordion Header"
   },
-  "AccordionBody": {
+  "Accordion Body": {
     "prefix": "rb:accordion-body",
-    "body": ["<AccordionBody>", "\t${2:Body contents}", "</AccordionBody>"],
-    "description": "Create an AccordionBody"
+    "body": ["<Accordion.Body>", "\t${2:Body contents}", "</Accordion.Body>"],
+    "description": "Create an Accordion Body"
   },
-  "AccordionButton": {
+  "Accordion Button": {
     "prefix": "rb:accordion-button",
     "body": [
-      "<AccordionButton>",
+      "<Accordion.Button>",
       "\t${2:Button contents}",
-      "</AccordionButton>"
+      "</Accordion.Button>"
     ],
-    "description": "Create an AccordionButton"
+    "description": "Create an Accordion Button"
   },
-  "AccordionCollapse": {
+  "Accordion Collapse": {
     "prefix": "rb:accordion-collapse",
     "body": [
-      "<AccordionCollapse>",
-      "\t${2:Body to collapse}",
-      "</AccordionCollapse>"
+      "<Accordion.Collapse>",
+      "\t${2:<div>Body element to collapse</div>}",
+      "</Accordion.Collapse>"
     ],
-    "description": "Create an AccordionCollapse"
+    "description": "Create an Accordion Collapse"
   },
   "Accordion Example": {
     "prefix": "rb:accordion-example",
     "body": [
       "<Accordion defaultActiveKey=\"0\">",
-      "\t<AccordionItem eventKey=\"0\">",
-      "\t\t<AccordionHeader>Accordion Item #1</AccordionHeader>",
-      "\t\t<AccordionBody>",
+      "\t<Accordion.Item eventKey=\"0\">",
+      "\t\t<Accordion.Header>Accordion Item #1</Accordion.Header>",
+      "\t\t<Accordion.Body>",
       "\t\t\tLorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "\t\t</AccordionBody>",
-      "\t</AccordionItem>",
-      "\t<AccordionItem eventKey=\"1\">",
-      "\t\t<AccordionHeader>Accordion Item #2</AccordionHeader>",
-      "\t\t<AccordionBody>",
+      "\t\t</Accordion.Body>",
+      "\t</Accordion.Item>",
+      "\t<Accordion.Item eventKey=\"1\">",
+      "\t\t<Accordion.Header>Accordion Item #2</Accordion.Header>",
+      "\t\t<Accordion.Body>",
       "\t\t\tDuis aute irure dolor in reprehenderit in voluptate velit. ",
-      "\t\t</AccordionBody>",
-      "\t</AccordionItem>",
+      "\t\t</Accordion.Body>",
+      "\t</Accordion.Item>",
       "</Accordion>"
     ],
     "description": "Create an Accordion example to build from"
