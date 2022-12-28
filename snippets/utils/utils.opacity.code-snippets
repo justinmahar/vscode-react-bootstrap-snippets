@@ -1,0 +1,27 @@
+{
+  "Class: opacity-100": {
+    "prefix": ["rb:utils:opacity-100", "rb:utils:transparency-0"],
+    "body": "opacity-100",
+    "description": "Set the opacity to 100% (transparency 0%)"
+  },
+  "Class: opacity-75": {
+    "prefix": ["rb:utils:opacity-75", "rb:utils:transparency-25"],
+    "body": "opacity-75",
+    "description": "Set the opacity to 75% (transparency 25%)"
+  },
+  "Class: opacity-50": {
+    "prefix": ["rb:utils:opacity-50", "rb:utils:transparency-50"],
+    "body": "opacity-50",
+    "description": "Set the opacity to 50% (transparency 50%)"
+  },
+  "Class: opacity-25": {
+    "prefix": ["rb:utils:opacity-25", "rb:utils:transparency-75"],
+    "body": "opacity-25",
+    "description": "Set the opacity to 25% (transparency 75%)"
+  },
+  "Class: opacity-0": {
+    "prefix": ["rb:utils:opacity-0", "rb:utils:transparency-100"],
+    "body": "opacity-0",
+    "description": "Set the opacity to 0% (transparency 100%)"
+  }
+}
