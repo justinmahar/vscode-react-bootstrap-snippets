@@ -2,11 +2,11 @@
   "Media": {
     "prefix": "rb:media",
     "body": [
-      "<div class=\"d-flex\">",
-      "\t<div class=\"flex-shrink-0\">",
+      "<div className=\"d-flex\">",
+      "\t<div className=\"flex-shrink-0\">",
       "\t\t${1:<img src=\"https://placekitten.com/100\" alt=\"Placekitten\" />}",
       "\t</div>",
-      "\t<div class=\"flex-grow-1 ms-3\">",
+      "\t<div className=\"flex-grow-1 ms-3\">",
       "\t\t${2:This is some content from a media component. You can replace this with any content and adjust it as needed.}",
       "\t</div>",
       "</div>"

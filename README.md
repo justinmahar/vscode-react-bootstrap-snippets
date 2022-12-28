@@ -122,53 +122,22 @@ If you found this extension helpful, consider **[rating it](https://marketplace.
 
 Happy coding 🖖
 
-## You Might Also Like...
+## Donate 
 
-- [React-Icons Snippets](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-icons-snippets) - Code snippets for React-Icons
+I hope this project makes your life a little easier! If it does and you'd like to show your appreciation, consider supporting the project with a coffee or sponsorship. 
+
+Your support helps keep the project going and will earn you some serious virtual high fives. Maybe even a virtual fist bump if you're feeling extra cool.
+
+<a href="https://github.com/sponsors/justinmahar">
+  <img src="https://justinmahar.github.io/react-kindling/support/sponsor.png" alt="Sponsor via GitHub" height="35" />
+</a> <a href="https://paypal.me/thejustinmahar/5">
+  <img src="https://justinmahar.github.io/react-kindling/support/coffee-1.png" alt="Buy me a coffee" height="35" />
+</a> <a href="https://paypal.me/thejustinmahar/15">
+  <img src="https://justinmahar.github.io/react-kindling/support/coffee-3.png" alt="Buy me 3 coffees" height="35" />
+</a> <a href="https://paypal.me/thejustinmahar/25">
+  <img src="https://justinmahar.github.io/react-kindling/support/coffee-5.png" alt="Buy me 5 coffees" height="35" />
+</a>
 
 ## Release Notes
 
-### [1.0.0] - 2021-05-17
-
-- Initial release of React-Bootstrap snippets.
-
-### [1.0.1]-[1.0.7] - 2021-05-18
-
-- Update documentation. 
-- Add demo gifs.
-
-### [1.0.8] - 2021-06-05
-
-- Add tabstops to function snippets
-
-### [1.0.9] - 2021-06-07
-
-- Remove languages VS Code does not indicate support for (jsx, jsx-attr). Update docs.
-
-### [2.0.0] - 2021-10-05
-
-- Add support for v2.0.0-rc.0 (Bootstrap 5.1)
-  
-### [2.0.1]-[2.0.4] - 2021-10-06
-
-- Fix components removed/changed in Bootstrap 5
-- Update README
-
-### [2.0.5]-[2.0.7] - 2021-10-07
-
-- Add Bootstrap utility CSS class snippets
-- Improve utility snippet descriptions
-- Update README
-
-### [2.0.8]-[2.0.10] - 2021-10-09
-
-- Fix justify-content-end utility class snippet
-- Add additional text utility classes from Typography docs
-
-### [2.0.11] - 2021-10-13
-
-- Change demo gif sources to absolute paths
-
-### [2.0.12]-[2.0.13] - 2021-10-23
-
-- Update accordion snippets
+See the [CHANGELOG](https://marketplace.visualstudio.com/items/justinmahar.react-bootstrap-snippets/changelog) for release notes.
