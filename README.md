@@ -27,10 +27,10 @@ Read below for more information and gif demos.
 
 ## react-boostrap Support
 
-| Extension Version | react-bootstrap Version       |
-| ----------------- | ----------------------------- |
-| Latest            | `v2.0.0-rc.0` (Bootstrap 5.1) |
-| `1.0.9`           | `1.64` (Bootstrap 4.6)        |
+| Extension Version | react-bootstrap Version |
+| ----------------- | ----------------------- |
+| Latest            | `2.7.0` (Bootstrap 5.2) |
+| `1.0.9`           | `1.64` (Bootstrap 4.6)  |
 
 > In VS Code, press Cmd+Shift+P and run *Extension: Install Specific Version of Extension...* to install a specific version.
 
