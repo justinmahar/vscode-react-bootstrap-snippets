@@ -1,7 +1,5 @@
 # React-Bootstrap Snippets
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/justinmahar.react-bootstrap-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-bootstrap-snippets)
-
 This extension includes 712 [React-Bootstrap](https://react-bootstrap.github.io/) snippets for VS Code.
 
 Build apps with React-Bootstrap at your fingertips.
