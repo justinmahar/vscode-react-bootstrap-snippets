@@ -47,6 +47,6 @@ All notable changes to the "react-bootstrap-snippets" extension will be document
 
 - Update accordion snippets
 
-### [2.0.14] - 2022-12-27
+### [2.0.14]-[2.0.15] - 2022-12-28
 
 - Update media snippet and README
