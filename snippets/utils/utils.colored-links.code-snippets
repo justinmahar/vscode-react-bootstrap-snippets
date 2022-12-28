@@ -1,0 +1,42 @@
+{
+  "Class: link-primary": {
+    "prefix": "rb:utils:color:link-primary",
+    "body": "link-primary",
+    "description": "Colorize link as primary color"
+  },
+  "Class: link-secondary": {
+    "prefix": "rb:utils:color:link-secondary",
+    "body": "link-secondary",
+    "description": "Colorize link as secondary color"
+  },
+  "Class: link-success": {
+    "prefix": "rb:utils:color:link-success",
+    "body": "link-success",
+    "description": "Colorize link as success color"
+  },
+  "Class: link-danger": {
+    "prefix": "rb:utils:color:link-danger",
+    "body": "link-danger",
+    "description": "Colorize link as danger color"
+  },
+  "Class: link-warning": {
+    "prefix": "rb:utils:color:link-warning",
+    "body": "link-warning",
+    "description": "Colorize link as warning color"
+  },
+  "Class: link-info": {
+    "prefix": "rb:utils:color:link-info",
+    "body": "link-info",
+    "description": "Colorize link as info color"
+  },
+  "Class: link-light": {
+    "prefix": "rb:utils:color:link-light",
+    "body": "link-light",
+    "description": "Colorize link as light color"
+  },
+  "Class: link-dark": {
+    "prefix": "rb:utils:color:link-dark",
+    "body": "link-dark",
+    "description": "Colorize link as dark color"
+  }
+}

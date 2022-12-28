@@ -2,7 +2,7 @@
   "name": "react-bootstrap-snippets",
   "displayName": "React-Bootstrap Snippets",
   "description": "Code snippets for React-Bootstrap 🙌",
-  "version": "2.0.17",
+  "version": "2.0.18",
   "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#1d0539",
@@ -177,7 +177,15 @@
       },
       {
         "language": "javascriptreact",
+        "path": "./snippets/utils/utils.color-and-background.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
         "path": "./snippets/utils/utils.color.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/utils/utils.colored-links.code-snippets"
       },
       {
         "language": "javascriptreact",
@@ -209,6 +217,10 @@
       },
       {
         "language": "javascriptreact",
+        "path": "./snippets/utils/utils.position-helpers.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
         "path": "./snippets/utils/utils.shadows.code-snippets"
       },
       {
@@ -218,6 +230,10 @@
       {
         "language": "javascriptreact",
         "path": "./snippets/utils/utils.spacing.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/utils/utils.stretched-link.code-snippets"
       },
       {
         "language": "javascriptreact",
@@ -234,6 +250,10 @@
       {
         "language": "javascriptreact",
         "path": "./snippets/utils/utils.visibility.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/utils/utils.visually-hidden.code-snippets"
       },
       {
         "language": "javascript",
@@ -381,7 +401,15 @@
       },
       {
         "language": "javascript",
+        "path": "./snippets/utils/utils.color-and-background.code-snippets"
+      },
+      {
+        "language": "javascript",
         "path": "./snippets/utils/utils.color.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/utils/utils.colored-links.code-snippets"
       },
       {
         "language": "javascript",
@@ -413,6 +441,10 @@
       },
       {
         "language": "javascript",
+        "path": "./snippets/utils/utils.position-helpers.code-snippets"
+      },
+      {
+        "language": "javascript",
         "path": "./snippets/utils/utils.shadows.code-snippets"
       },
       {
@@ -422,6 +454,10 @@
       {
         "language": "javascript",
         "path": "./snippets/utils/utils.spacing.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/utils/utils.stretched-link.code-snippets"
       },
       {
         "language": "javascript",
@@ -438,6 +474,10 @@
       {
         "language": "javascript",
         "path": "./snippets/utils/utils.visibility.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/utils/utils.visually-hidden.code-snippets"
       },
       {
         "language": "typescript",
@@ -585,7 +625,15 @@
       },
       {
         "language": "typescript",
+        "path": "./snippets/utils/utils.color-and-background.code-snippets"
+      },
+      {
+        "language": "typescript",
         "path": "./snippets/utils/utils.color.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/utils/utils.colored-links.code-snippets"
       },
       {
         "language": "typescript",
@@ -617,6 +665,10 @@
       },
       {
         "language": "typescript",
+        "path": "./snippets/utils/utils.position-helpers.code-snippets"
+      },
+      {
+        "language": "typescript",
         "path": "./snippets/utils/utils.shadows.code-snippets"
       },
       {
@@ -626,6 +678,10 @@
       {
         "language": "typescript",
         "path": "./snippets/utils/utils.spacing.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/utils/utils.stretched-link.code-snippets"
       },
       {
         "language": "typescript",
@@ -642,6 +698,10 @@
       {
         "language": "typescript",
         "path": "./snippets/utils/utils.visibility.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/utils/utils.visually-hidden.code-snippets"
       },
       {
         "language": "typescriptreact",
@@ -789,7 +849,15 @@
       },
       {
         "language": "typescriptreact",
+        "path": "./snippets/utils/utils.color-and-background.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
         "path": "./snippets/utils/utils.color.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/utils/utils.colored-links.code-snippets"
       },
       {
         "language": "typescriptreact",
@@ -821,6 +889,10 @@
       },
       {
         "language": "typescriptreact",
+        "path": "./snippets/utils/utils.position-helpers.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
         "path": "./snippets/utils/utils.shadows.code-snippets"
       },
       {
@@ -830,6 +902,10 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/utils/utils.spacing.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/utils/utils.stretched-link.code-snippets"
       },
       {
         "language": "typescriptreact",
@@ -846,6 +922,10 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/utils/utils.visibility.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/utils/utils.visually-hidden.code-snippets"
       }
     ]
   }

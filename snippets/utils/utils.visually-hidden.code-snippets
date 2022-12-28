@@ -1,0 +1,12 @@
+{
+  "Class: visually-hidden": {
+    "prefix": "rb:utils:visually-hidden",
+    "body": "visually-hidden",
+    "description": "Visually hide an element while still allowing it to be exposed to assistive technologies (such as screen readers)"
+  },
+  "Class: visually-hidden-focusable": {
+    "prefix": "rb:utils:visually-hidden-focusable",
+    "body": "visually-hidden-focusable",
+    "description": "Visually hide an element by default, but display it when it's focused (e.g. by a keyboard-only user)"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Class: text-bg-primary": {
+    "prefix": "rb:utils:color:text-bg-primary",
+    "body": "text-bg-primary",
+    "description": "Primary background color with contrasting text color"
+  },
+  "Class: text-bg-secondary": {
+    "prefix": "rb:utils:color:text-bg-secondary",
+    "body": "text-bg-secondary",
+    "description": "Secondary background color with contrasting text color"
+  },
+  "Class: text-bg-success": {
+    "prefix": "rb:utils:color:text-bg-success",
+    "body": "text-bg-success",
+    "description": "Success background color with contrasting text color"
+  },
+  "Class: text-bg-danger": {
+    "prefix": "rb:utils:color:text-bg-danger",
+    "body": "text-bg-danger",
+    "description": "Danger background color with contrasting text color"
+  },
+  "Class: text-bg-warning": {
+    "prefix": "rb:utils:color:text-bg-warning",
+    "body": "text-bg-warning",
+    "description": "Warning background color with contrasting text color"
+  },
+  "Class: text-bg-info": {
+    "prefix": "rb:utils:color:text-bg-info",
+    "body": "text-bg-info",
+    "description": "Info background color with contrasting text color"
+  },
+  "Class: text-bg-light": {
+    "prefix": "rb:utils:color:text-bg-light",
+    "body": "text-bg-light",
+    "description": "Light background color with contrasting text color"
+  },
+  "Class: text-bg-dark": {
+    "prefix": "rb:utils:color:text-bg-dark",
+    "body": "text-bg-dark",
+    "description": "Dark background color with contrasting text color"
+  }
+}

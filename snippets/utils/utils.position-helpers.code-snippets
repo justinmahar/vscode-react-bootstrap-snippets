@@ -1,0 +1,22 @@
+{
+  "Class: fixed-top": {
+    "prefix": "rb:utils:position:fixed-top",
+    "body": "fixed-top",
+    "description": "Position an element at the top of the viewport, from edge to edge"
+  },
+  "Class: fixed-bottom": {
+    "prefix": "rb:utils:position:fixed-bottom",
+    "body": "fixed-bottom",
+    "description": "Position an element at the bottom of the viewport, from edge to edge"
+  },
+  "Class: sticky-top": {
+    "prefix": "rb:utils:position:sticky-top",
+    "body": "sticky-top",
+    "description": "Position an element at the top of the viewport, from edge to edge, but only after you scroll past it."
+  },
+  "Class: sticky-bottom": {
+    "prefix": "rb:utils:position:sticky-bottom",
+    "body": "sticky-bottom",
+    "description": "Position an element at the bottom of the viewport, from edge to edge"
+  }
+}

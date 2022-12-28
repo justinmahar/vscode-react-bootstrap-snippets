@@ -1,0 +1,7 @@
+{
+  "Class: stretched-link": {
+    "prefix": "rb:utils:stretched-link",
+    "body": "stretched-link",
+    "description": "Add .stretched-link to a link to make its containing block clickable via a ::after pseudo element. In most cases, this means that an element with position: relative; that contains a link with the .stretched-link class is clickable."
+  }
+}
