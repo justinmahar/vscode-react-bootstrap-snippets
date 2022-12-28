@@ -9,7 +9,7 @@ This extension supports:
 - 🙌 All `react-bootstrap` components. The complete picture.
 - 📦 `import` snippets, for quick and easy importing.
 - 💁‍♀️ Example snippets from the docs for convenience.
-- 🧰 [Bootstrap utility CSS class](https://getbootstrap.com/docs/5.0/utilities) snippets for even more convenience!
+- 🧰 [Bootstrap utility CSS class](https://getbootstrap.com/docs/5.2/utilities/api/) snippets for even more convenience!
 
 **Just type `rb` and press <kbd>Ctrl</kbd>+<kbd>Space</kbd> for autocompletion. VS Code will autocomplete the component you need.**
 
@@ -25,12 +25,12 @@ Read below for more information and gif demos.
 - TypeScript (.ts)
 - TypeScript React (.tsx)
 
-## react-boostrap Support
+## react-bootstrap Support
 
 | Extension Version | react-bootstrap Version |
 | ----------------- | ----------------------- |
 | Latest            | `2.7.0` (Bootstrap 5.2) |
-| `1.0.9`           | `1.64` (Bootstrap 4.6)  |
+| `1.0.9`           | `1.6.4` (Bootstrap 4.6) |
 
 > In VS Code, press Cmd+Shift+P and run *Extension: Install Specific Version of Extension...* to install a specific version.
 
@@ -104,7 +104,7 @@ Use `rb:table-row-X` and `rb:table-header-row-X`, where `X` is the number of col
 
 ### Bootstrap Utility CSS Class Snippets
 
-Handy snippets are included for all [Bootstrap utility CSS classes](https://getbootstrap.com/docs/5.0/utilities).
+Handy snippets are included for all [Bootstrap utility CSS classes](https://getbootstrap.com/docs/5.2/utilities/api/).
 
 Use the `rb:utils` prefix to quickly look up and use any of Bootstrap's utility classes while building.
 
