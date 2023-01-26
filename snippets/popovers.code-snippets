@@ -4,6 +4,11 @@
     "body": "import { Popover } from 'react-bootstrap';",
     "description": "Import Popover from react-bootstrap"
   },
+  "Import Popover Only": {
+    "prefix": "rb:import:only:popover",
+    "body": "import Popover from 'react-bootstrap/Popover';",
+    "description": "Import Popover from react-bootstrap/Popover"
+  },
   "Popover": {
     "prefix": "rb:popover",
     "body": [

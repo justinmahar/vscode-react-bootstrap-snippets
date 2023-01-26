@@ -4,6 +4,11 @@
     "body": "import { Overlay } from 'react-bootstrap';",
     "description": "Import Overlay from react-bootstrap"
   },
+  "Import Overlay Only": {
+    "prefix": "rb:import:only:overlay",
+    "body": "import Overlay from 'react-bootstrap/Overlay';",
+    "description": "Import Overlay from react-bootstrap/Overlay"
+  },
   "Overlay": {
     "prefix": "rb:overlay",
     "body": [
@@ -30,6 +35,11 @@
     "prefix": "rb:import:overlay-trigger",
     "body": "import { OverlayTrigger } from 'react-bootstrap';",
     "description": "Import OverlayTrigger from react-bootstrap"
+  },
+  "Import OverlayTrigger Only": {
+    "prefix": "rb:import:only:overlay-trigger",
+    "body": "import OverlayTrigger from 'react-bootstrap/OverlayTrigger';",
+    "description": "Import OverlayTrigger from react-bootstrap/OverlayTrigger"
   },
   "OverlayTrigger (Tooltip)": {
     "prefix": ["rb:overlay-trigger", "rb:overlay-trigger-tooltip"],

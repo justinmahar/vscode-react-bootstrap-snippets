@@ -4,6 +4,11 @@
     "body": "import { Tooltip } from 'react-bootstrap';",
     "description": "Import Tooltip from react-bootstrap"
   },
+  "Import Tooltip Only": {
+    "prefix": "rb:import:only:tooltip",
+    "body": "import Tooltip from 'react-bootstrap/Tooltip';",
+    "description": "Import Tooltip from react-bootstrap/Tooltip"
+  },
   "Tooltip": {
     "prefix": "rb:tooltip",
     "body": [

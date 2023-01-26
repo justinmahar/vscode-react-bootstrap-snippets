@@ -4,10 +4,20 @@
     "body": "import { Container, Row, Col } from 'react-bootstrap';",
     "description": "Import grid components Container, Row, and Col from react-bootstrap"
   },
+  "Import Grid Only (Container, Row, Col)": {
+    "prefix": ["rb:import:only:grid", "rb:import:only:grid-container-row-col"],
+    "body": "import Container from 'react-bootstrap/Container';\nimport Row from 'react-bootstrap/Row';, import Col from 'react-bootstrap/Col';",
+    "description": "Import grid components Container, Row, and Col separately from react-bootstrap"
+  },
   "Import Container": {
     "prefix": "rb:import:container",
     "body": "import { Container } from 'react-bootstrap';",
     "description": "Import Container from react-bootstrap"
+  },
+  "Import Container Only": {
+    "prefix": "rb:import:only:container",
+    "body": "import Container from 'react-bootstrap/Container';",
+    "description": "Import Container from react-bootstrap/Container"
   },
   "Container": {
     "prefix": "rb:container",
@@ -23,6 +33,11 @@
     "prefix": "rb:import:row",
     "body": "import { Row } from 'react-bootstrap';",
     "description": "Import Row from react-bootstrap"
+  },
+  "Import Row Only": {
+    "prefix": "rb:import:only:row",
+    "body": "import Row from 'react-bootstrap/Row';",
+    "description": "Import Row from react-bootstrap/Row"
   },
   "Row": {
     "prefix": "rb:row",
@@ -63,6 +78,11 @@
     "prefix": "rb:import:col",
     "body": "import { Col } from 'react-bootstrap';",
     "description": "Import Col from react-bootstrap"
+  },
+  "Import Col Only": {
+    "prefix": "rb:import:only:col",
+    "body": "import Col from 'react-bootstrap/Col';",
+    "description": "Import Col from react-bootstrap/Col"
   },
   "Col": {
     "prefix": "rb:col",

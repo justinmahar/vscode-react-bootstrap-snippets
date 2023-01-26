@@ -4,6 +4,11 @@
     "body": "import { ProgressBar } from 'react-bootstrap';",
     "description": "Import ProgressBar from react-bootstrap"
   },
+  "Import ProgressBar Only": {
+    "prefix": "rb:import:only:progress-bar",
+    "body": "import ProgressBar from 'react-bootstrap/ProgressBar';",
+    "description": "Import ProgressBar from react-bootstrap/ProgressBar"
+  },
   "ProgressBar (primary)": {
     "prefix": ["rb:progress-bar", "rb:progress-bar-primary"],
     "body": ["<ProgressBar variant=\"primary\" now={${1:40}} label=\"$2\" />"],

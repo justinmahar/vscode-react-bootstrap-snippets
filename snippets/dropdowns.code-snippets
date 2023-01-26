@@ -4,6 +4,11 @@
     "body": "import { Dropdown, DropdownButton } from 'react-bootstrap';",
     "description": "Import DropdownButton and Dropdown from react-bootstrap"
   },
+  "Import DropdownButton Only": {
+    "prefix": "rb:import:only:dropdown-button",
+    "body": "import Dropdown from 'react-bootstrap/Dropdown';\nimport DropdownButton from 'react-bootstrap/DropdownButton';",
+    "description": "Import DropdownButton and Dropdown separately from react-bootstrap"
+  },
   "DropdownButton": {
     "prefix": "rb:dropdown-button",
     "body": [
@@ -18,6 +23,11 @@
     "body": "import { Dropdown, SplitButton } from 'react-bootstrap';",
     "description": "Import SplitButton and Dropdown from react-bootstrap"
   },
+  "Import SplitButton Only": {
+    "prefix": ["rb:import:only:dropdown-split-button"],
+    "body": "import Dropdown from 'react-bootstrap/Dropdown';\nimport SplitButton from 'react-bootstrap/SplitButton';",
+    "description": "Import SplitButton and Dropdown separately from react-bootstrap"
+  },
   "SplitButton": {
     "prefix": ["rb:dropdown-split-button"],
     "body": [
@@ -31,6 +41,11 @@
     "prefix": "rb:import:dropdown",
     "body": "import { Dropdown } from 'react-bootstrap';",
     "description": "Import Dropdown from react-bootstrap"
+  },
+  "Import Dropdown Only": {
+    "prefix": "rb:import:only:dropdown",
+    "body": "import Dropdown from 'react-bootstrap/Dropdown';",
+    "description": "Import Dropdown from react-bootstrap/Dropdown"
   },
   "Dropdown": {
     "prefix": "rb:dropdown",

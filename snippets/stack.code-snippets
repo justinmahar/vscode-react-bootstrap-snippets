@@ -4,6 +4,11 @@
     "body": "import { Stack } from 'react-bootstrap';",
     "description": "Import Stack from react-bootstrap"
   },
+  "Import Stack Only": {
+    "prefix": "rb:import:only:stack",
+    "body": "import Stack from 'react-bootstrap/Stack';",
+    "description": "Import Stack from react-bootstrap/Stack"
+  },
   "Vertical Stack": {
     "prefix": ["rb:stack", "rb:stack-vertical"],
     "body": ["<Stack gap={${2:2}}>", "\t${1:div, etc}", "</Stack>"],

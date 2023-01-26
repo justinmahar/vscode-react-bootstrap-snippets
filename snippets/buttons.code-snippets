@@ -4,6 +4,11 @@
     "body": "import { Button } from 'react-bootstrap';",
     "description": "Import Button from react-bootstrap"
   },
+  "Import Button Only": {
+    "prefix": "rb:import:only:button",
+    "body": "import Button from 'react-bootstrap/Button';",
+    "description": "Import Button from react-bootstrap/Button"
+  },
   "Button (primary)": {
     "prefix": ["rb:button", "rb:button-primary"],
     "body": [
@@ -500,6 +505,11 @@
     "body": "import { ToggleButton } from 'react-bootstrap';",
     "description": "Import ToggleButton from react-bootstrap"
   },
+  "Import ToggleButton Only": {
+    "prefix": "rb:import:only:toggle-button",
+    "body": "import ToggleButton from 'react-bootstrap/ToggleButton';",
+    "description": "Import ToggleButton from react-bootstrap/ToggleButton"
+  },
   "ToggleButton": {
     "prefix": "rb:toggle-button",
     "body": [
@@ -511,6 +521,11 @@
     "prefix": "rb:import:toggle-button-group",
     "body": "import { ToggleButtonGroup } from 'react-bootstrap';",
     "description": "Import ToggleButtonGroup from react-bootstrap"
+  },
+  "Import ToggleButtonGroup Only": {
+    "prefix": "rb:import:only:toggle-button-group",
+    "body": "import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup';",
+    "description": "Import ToggleButtonGroup from react-bootstrap/ToggleButtonGroup"
   },
   "Radio ToggleButtonGroup": {
     "prefix": ["rb:toggle-button-group", "rb:toggle-button-group-radio"],

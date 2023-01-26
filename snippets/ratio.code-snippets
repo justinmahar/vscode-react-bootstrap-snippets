@@ -4,6 +4,11 @@
     "body": "import { Ratio } from 'react-bootstrap';",
     "description": "Import Ratio from react-bootstrap"
   },
+  "Import Ratio Only": {
+    "prefix": "rb:import:only:ratio",
+    "body": "import Ratio from 'react-bootstrap/Ratio';",
+    "description": "Import Ratio from react-bootstrap/Ratio"
+  },
   "Ratio (1x1)": {
     "prefix": ["rb:ratio", "rb:ratio-1x1"],
     "body": [

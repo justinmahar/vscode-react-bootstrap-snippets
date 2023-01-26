@@ -4,6 +4,11 @@
     "body": "import { Alert } from 'react-bootstrap';",
     "description": "Import Alert from react-bootstrap"
   },
+  "Import Alert Only": {
+    "prefix": "rb:import:only:alert",
+    "body": "import Alert from 'react-bootstrap/Alert';",
+    "description": "Import Alert from react-bootstrap/Alert"
+  },
   "Alert (primary)": {
     "prefix": ["rb:alert", "rb:alert-primary"],
     "body": [

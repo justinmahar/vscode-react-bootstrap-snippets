@@ -4,6 +4,11 @@
     "body": "import { Badge } from 'react-bootstrap';",
     "description": "Import Badge from react-bootstrap"
   },
+  "Import Badge Only": {
+    "prefix": "rb:import:only:badge",
+    "body": "import Badge from 'react-bootstrap/Badge';",
+    "description": "Import Badge from react-bootstrap/Badge"
+  },
   "Badge (primary)": {
     "prefix": ["rb:badge", "rb:badge-primary"],
     "body": ["<Badge bg=\"primary\">${1:Primary}</Badge>"],

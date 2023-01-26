@@ -4,6 +4,11 @@
     "body": "import { Figure } from 'react-bootstrap';",
     "description": "Import Figure from react-bootstrap"
   },
+  "Import Figure Only": {
+    "prefix": "rb:import:only:figure",
+    "body": "import Figure from 'react-bootstrap/Figure';",
+    "description": "Import Figure from react-bootstrap/Figure"
+  },
   "Figure": {
     "prefix": "rb:figure",
     "body": [

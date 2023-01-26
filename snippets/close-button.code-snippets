@@ -4,6 +4,11 @@
     "body": "import { CloseButton } from 'react-bootstrap';",
     "description": "Import CloseButton from react-bootstrap"
   },
+  "Import CloseButton Only": {
+    "prefix": "rb:import:only:close-button",
+    "body": "import CloseButton from 'react-bootstrap/CloseButton';",
+    "description": "Import CloseButton from react-bootstrap/CloseButton"
+  },
   "CloseButton (dark)": {
     "prefix": ["rb:close-button", "rb:close-button-dark"],
     "body": ["<CloseButton onClick={${1:() => console.log(\"Close\")}} />"],

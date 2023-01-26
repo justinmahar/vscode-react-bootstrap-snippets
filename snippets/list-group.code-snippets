@@ -4,6 +4,11 @@
     "body": "import { ListGroup } from 'react-bootstrap';",
     "description": "Import ListGroup from react-bootstrap"
   },
+  "Import ListGroup Only": {
+    "prefix": "rb:import:only:list-group",
+    "body": "import ListGroup from 'react-bootstrap/ListGroup';",
+    "description": "Import ListGroup from react-bootstrap/ListGroup"
+  },
   "ListGroup": {
     "prefix": "rb:list-group",
     "body": [

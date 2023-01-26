@@ -4,6 +4,11 @@
     "body": "import { Nav } from 'react-bootstrap';",
     "description": "Import Nav from react-bootstrap"
   },
+  "Import Nav Only": {
+    "prefix": "rb:import:only:nav",
+    "body": "import Nav from 'react-bootstrap/Nav';",
+    "description": "Import Nav from react-bootstrap/Nav"
+  },
   "Nav": {
     "prefix": "rb:nav",
     "body": [
@@ -77,6 +82,11 @@
     "prefix": "rb:import:nav-dropdown",
     "body": "import { NavDropdown } from 'react-bootstrap';",
     "description": "Import NavDropdown from react-bootstrap"
+  },
+  "Import NavDropdown Only": {
+    "prefix": "rb:import:only:nav-dropdown",
+    "body": "import NavDropdown from 'react-bootstrap/NavDropdown';",
+    "description": "Import NavDropdown from react-bootstrap/NavDropdown"
   },
   "NavDropdown": {
     "prefix": "rb:nav-dropdown",
