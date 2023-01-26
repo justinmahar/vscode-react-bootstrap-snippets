@@ -4,6 +4,11 @@
     "body": "import { Navbar } from 'react-bootstrap';",
     "description": "Import Navbar from react-bootstrap"
   },
+  "Import Navbar Only": {
+    "prefix": "rb:import:only:navbar",
+    "body": "import Navbar from 'react-bootstrap/Navbar';",
+    "description": "Import Navbar from react-bootstrap/Navbar"
+  },
   "Navbar (light)": {
     "prefix": ["rb:navbar", "rb:navbar-light"],
     "body": [

@@ -4,6 +4,11 @@
     "body": "import { Modal } from 'react-bootstrap';",
     "description": "Import Modal from react-bootstrap"
   },
+  "Import Modal Only": {
+    "prefix": "rb:import:only:modal",
+    "body": "import Modal from 'react-bootstrap/Modal';",
+    "description": "Import Modal from react-bootstrap/Modal"
+  },
   "Modal": {
     "prefix": ["rb:modal", "rb:modal-md"],
     "body": [

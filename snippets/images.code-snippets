@@ -4,6 +4,11 @@
     "body": "import { Image } from 'react-bootstrap';",
     "description": "Import Image from react-bootstrap"
   },
+  "Import Image Only": {
+    "prefix": "rb:import:only:image",
+    "body": "import Image from 'react-bootstrap/Image';",
+    "description": "Import Image from react-bootstrap/Image"
+  },
   "Image": {
     "prefix": "rb:image",
     "body": ["<Image src=\"${1:https://placeimg.com/171/180/any}\" />"],

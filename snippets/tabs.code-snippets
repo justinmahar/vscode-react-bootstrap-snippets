@@ -4,6 +4,11 @@
     "body": "import { Tabs } from 'react-bootstrap';",
     "description": "Import Tabs from react-bootstrap"
   },
+  "Import Tabs Only": {
+    "prefix": "rb:import:only:tabs",
+    "body": "import Tabs from 'react-bootstrap/Tabs';",
+    "description": "Import Tabs from react-bootstrap/Tabs"
+  },
   "Tabs": {
     "prefix": "rb:tabs",
     "body": [
@@ -17,6 +22,11 @@
     "prefix": "rb:import:tab",
     "body": "import { Tab } from 'react-bootstrap';",
     "description": "Import Tab from react-bootstrap"
+  },
+  "Import Tab Only": {
+    "prefix": "rb:import:only:tab",
+    "body": "import Tab from 'react-bootstrap/Tab';",
+    "description": "Import Tab from react-bootstrap/Tab"
   },
   "Tab": {
     "prefix": "rb:tab",

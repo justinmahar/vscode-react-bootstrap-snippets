@@ -4,6 +4,11 @@
     "body": "import { Carousel } from 'react-bootstrap';",
     "description": "Import Carousel from react-bootstrap"
   },
+  "Import Carousel Only": {
+    "prefix": "rb:import:only:carousel",
+    "body": "import Carousel from 'react-bootstrap/Carousel';",
+    "description": "Import Carousel from react-bootstrap/Carousel"
+  },
   "Carousel": {
     "prefix": "rb:carousel",
     "body": ["<Carousel>${1:Carousel items}</Carousel>"],

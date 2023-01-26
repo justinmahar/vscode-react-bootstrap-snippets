@@ -4,6 +4,11 @@
     "body": "import { Pagination } from 'react-bootstrap';",
     "description": "Import Pagination from react-bootstrap"
   },
+  "Import Pagination Only": {
+    "prefix": "rb:import:only:pagination",
+    "body": "import Pagination from 'react-bootstrap/Pagination';",
+    "description": "Import Pagination from react-bootstrap/Pagination"
+  },
   "Pagination": {
     "prefix": "rb:pagination",
     "body": [

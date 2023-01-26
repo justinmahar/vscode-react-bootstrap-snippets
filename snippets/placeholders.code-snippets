@@ -4,6 +4,11 @@
     "body": "import { Placeholder } from 'react-bootstrap';",
     "description": "Import Placeholder from react-bootstrap"
   },
+  "Import Placeholder Only": {
+    "prefix": "rb:import:only:placeholder",
+    "body": "import Placeholder from 'react-bootstrap/Placeholder';",
+    "description": "Import Placeholder from react-bootstrap/Placeholder"
+  },
   "Placeholder": {
     "prefix": "rb:placeholder",
     "body": ["<Placeholder xs={${1:6}} />"],

@@ -4,6 +4,11 @@
     "body": "import { Spinner } from 'react-bootstrap';",
     "description": "Import Spinner from react-bootstrap"
   },
+  "Import Spinner Only": {
+    "prefix": "rb:import:only:spinner",
+    "body": "import Spinner from 'react-bootstrap/Spinner';",
+    "description": "Import Spinner from react-bootstrap/Spinner"
+  },
   "Border Spinner": {
     "prefix": ["rb:spinner", "rb:spinner-border"],
     "body": ["<Spinner animation=\"border\" role=\"status\" />"],

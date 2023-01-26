@@ -4,6 +4,11 @@
     "body": "import { Collapse } from 'react-bootstrap';",
     "description": "Import Collapse from react-bootstrap"
   },
+  "Import Collapse Only": {
+    "prefix": "rb:import:only:collapse",
+    "body": "import Collapse from 'react-bootstrap/Collapse';",
+    "description": "Import Collapse from react-bootstrap/Collapse"
+  },
   "Collapse": {
     "prefix": "rb:collapse",
     "body": [
@@ -21,6 +26,11 @@
     "prefix": "rb:import:fade",
     "body": "import { Fade } from 'react-bootstrap';",
     "description": "Import Fade from react-bootstrap"
+  },
+  "Import Fade Only": {
+    "prefix": "rb:import:only:fade",
+    "body": "import Fade from 'react-bootstrap/Fade';",
+    "description": "Import Fade from react-bootstrap/Fade"
   },
   "Fade": {
     "prefix": "rb:fade",

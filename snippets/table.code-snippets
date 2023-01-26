@@ -4,6 +4,11 @@
     "body": "import { Table } from 'react-bootstrap';",
     "description": "Import Table from react-bootstrap"
   },
+  "Import Table Only": {
+    "prefix": "rb:import:only:table",
+    "body": "import Table from 'react-bootstrap/Table';",
+    "description": "Import Table from react-bootstrap/Table"
+  },
   "Table": {
     "prefix": ["rb:table", "rb:table-striped-bordered-responsive"],
     "body": [

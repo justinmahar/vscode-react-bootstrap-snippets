@@ -4,6 +4,11 @@
     "body": "import { InputGroup } from 'react-bootstrap';",
     "description": "Import InputGroup from react-bootstrap"
   },
+  "Import InputGroup Only": {
+    "prefix": "rb:import:only:input-group",
+    "body": "import InputGroup from 'react-bootstrap/InputGroup';",
+    "description": "Import InputGroup from react-bootstrap/InputGroup"
+  },
   "InputGroup": {
     "prefix": "rb:input-group",
     "body": [

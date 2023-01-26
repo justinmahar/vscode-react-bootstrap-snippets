@@ -4,6 +4,11 @@
     "body": "import { ButtonGroup } from 'react-bootstrap';",
     "description": "Import ButtonGroup from react-bootstrap"
   },
+  "Import ButtonGroup Only": {
+    "prefix": "rb:import:only:button-group",
+    "body": "import ButtonGroup from 'react-bootstrap/ButtonGroup';",
+    "description": "Import ButtonGroup from react-bootstrap/ButtonGroup"
+  },
   "ButtonGroup": {
     "prefix": "rb:button-group",
     "body": ["<ButtonGroup>${1:Buttons}</ButtonGroup>"],
@@ -24,6 +29,11 @@
     "prefix": "rb:import:button-toolbar",
     "body": "import { ButtonToolbar } from 'react-bootstrap';",
     "description": "Import ButtonToolbar from react-bootstrap"
+  },
+  "Import ButtonToolbar Only": {
+    "prefix": "rb:import:only:button-toolbar",
+    "body": "import ButtonToolbar from 'react-bootstrap/ButtonToolbar';",
+    "description": "Import ButtonToolbar from react-bootstrap/ButtonToolbar"
   },
   "ButtonToolbar": {
     "prefix": "rb:button-toolbar",

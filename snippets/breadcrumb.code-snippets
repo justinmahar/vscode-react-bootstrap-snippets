@@ -1,4 +1,14 @@
 {
+  "Import Breadcrumb": {
+    "prefix": "rb:import:breadcrumb",
+    "body": "import { Breadcrumb } from 'react-bootstrap';",
+    "description": "Import Breadcrumb from react-bootstrap"
+  },
+  "Import Breadcrumb Only": {
+    "prefix": "rb:import:only:breadcrumb",
+    "body": "import Breadcrumb from 'react-bootstrap/Breadcrumb';",
+    "description": "Import Breadcrumb from react-bootstrap/Breadcrumb"
+  },
   "Breadcrumb": {
     "prefix": "rb:breadcrumb",
     "body": [

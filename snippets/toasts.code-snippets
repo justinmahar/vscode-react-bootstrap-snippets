@@ -4,6 +4,11 @@
     "body": "import { Toast } from 'react-bootstrap';",
     "description": "Import Toast from react-bootstrap"
   },
+  "Import Toast Only": {
+    "prefix": "rb:import:only:toast",
+    "body": "import Toast from 'react-bootstrap/Toast';",
+    "description": "Import Toast from react-bootstrap/Toast"
+  },
   "Toast": {
     "prefix": "rb:toast",
     "body": ["<Toast>", "\t${1:Toast.Header, Toast.Body, etc}", "</Toast>"],

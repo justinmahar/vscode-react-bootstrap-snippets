@@ -4,6 +4,11 @@
     "body": "import { Form } from 'react-bootstrap';",
     "description": "Import Form from react-bootstrap"
   },
+  "Import Form Only": {
+    "prefix": "rb:import:only:form",
+    "body": "import Form from 'react-bootstrap/Form';",
+    "description": "Import Form from react-bootstrap/Form"
+  },
   "Form": {
     "prefix": "rb:form",
     "body": ["<Form>", "\t${1:Form.Group, Row, etc}", "</Form>"],
@@ -22,6 +27,11 @@
     "prefix": "rb:import:form-floating-label",
     "body": "import { FloatingLabel } from 'react-bootstrap';",
     "description": "Import FloatingLabel from react-bootstrap"
+  },
+  "Import FloatingLabel Only": {
+    "prefix": "rb:import:only:form-floating-label",
+    "body": "import FloatingLabel from 'react-bootstrap/FloatingLabel';",
+    "description": "Import FloatingLabel from react-bootstrap/FloatingLabel"
   },
   "FloatingLabel": {
     "prefix": "rb:form-floating-label",

@@ -4,6 +4,11 @@
     "body": "import { Accordion } from 'react-bootstrap';",
     "description": "Import Accordion from react-bootstrap"
   },
+  "Import Accordion Only": {
+    "prefix": "rb:import:only:accordion",
+    "body": "import Accordion from 'react-bootstrap/Accordion';",
+    "description": "Import Accordion from react-bootstrap/Accordion"
+  },
   "Accordion": {
     "prefix": "rb:accordion",
     "body": ["<Accordion>", "\t${2:Accordion.Item, Card, etc}", "</Accordion>"],

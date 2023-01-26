@@ -4,6 +4,11 @@
     "body": "import { Card } from 'react-bootstrap';",
     "description": "Import Card from react-bootstrap"
   },
+  "Import Card Only": {
+    "prefix": "rb:import:only:card",
+    "body": "import Card from 'react-bootstrap/Card';",
+    "description": "Import Card from react-bootstrap/Card"
+  },
   "Card": {
     "prefix": "rb:card",
     "body": [
@@ -97,6 +102,11 @@
     "prefix": "rb:import:card-group",
     "body": "import { CardGroup } from 'react-bootstrap';",
     "description": "Import CardGroup from react-bootstrap"
+  },
+  "Import CardGroup Only": {
+    "prefix": "rb:import:only:card-group",
+    "body": "import CardGroup from 'react-bootstrap/CardGroup';",
+    "description": "Import CardGroup from react-bootstrap/CardGroup"
   },
   "CardGroup": {
     "prefix": "rb:card-group",
