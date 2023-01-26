@@ -53,7 +53,7 @@ All notable changes to the "react-bootstrap-snippets" extension will be document
 - Fix legacy media snippet
 - Update README
 
-### [2.0.19] - 2023-01-26
+### [2.1.0] - 2023-01-26
 
 - Add support for `rb:import:only` snippets that import individual components.
 - Add simple card example snippet.
