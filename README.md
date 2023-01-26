@@ -60,6 +60,16 @@ Since it's such a common use case, you can also use `rb:import:grid` to import `
 
 ![Imports](https://raw.githubusercontent.com/justinmahar/vscode-react-bootstrap-snippets/master/images/imports.gif)
 
+#### Individual Import Snippets
+
+[According to the docs](https://react-bootstrap.github.io/getting-started/introduction/#importing-components):
+
+> You should import individual components like: `react-bootstrap/Button` rather than the entire library. Doing so pulls in only the specific components that you use, which can significantly reduce the amount of code you end up sending to the client.
+
+All snippets for individual imports begin with `rb:import:only` followed by the component name. 
+
+For example, `rb:import:only:button`, `rb:import:only:grid`, etc.
+
 ### Example Snippets
 
 Where applicable, examples from the docs are provided as snippets. These can be very helpful as a starting point when working with more complex components, or for use as quick placeholders.
