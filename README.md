@@ -1,6 +1,6 @@
 # React-Bootstrap Snippets
 
-This extension includes 712 [React-Bootstrap](https://react-bootstrap.github.io/) snippets for VS Code.
+This extension includes 806 [React-Bootstrap](https://react-bootstrap.github.io/) snippets for VS Code.
 
 Build apps with React-Bootstrap at your fingertips.
 
@@ -38,7 +38,7 @@ Read below for more information and gif demos.
 
 **All snippets start with `rb` for React-Bootstrap.**
 
-There are 712 snippets available for components, imports, examples, and utility CSS classes. 
+There are 806 snippets available for components, imports, examples, and utility CSS classes. 
 
 Read more on each below.
 
