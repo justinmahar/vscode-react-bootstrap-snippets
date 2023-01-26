@@ -6,7 +6,11 @@
   },
   "Import Grid Only (Container, Row, Col)": {
     "prefix": ["rb:import:only:grid", "rb:import:only:grid-container-row-col"],
-    "body": "import Container from 'react-bootstrap/Container';\nimport Row from 'react-bootstrap/Row';, import Col from 'react-bootstrap/Col';",
+    "body": [
+      "import Container from 'react-bootstrap/Container';",
+      "import Row from 'react-bootstrap/Row';",
+      "import Col from 'react-bootstrap/Col';"
+    ],
     "description": "Import grid components Container, Row, and Col separately from react-bootstrap"
   },
   "Import Container": {

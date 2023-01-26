@@ -6,7 +6,10 @@
   },
   "Import DropdownButton Only": {
     "prefix": "rb:import:only:dropdown-button",
-    "body": "import Dropdown from 'react-bootstrap/Dropdown';\nimport DropdownButton from 'react-bootstrap/DropdownButton';",
+    "body": [
+      "import Dropdown from 'react-bootstrap/Dropdown';",
+      "import DropdownButton from 'react-bootstrap/DropdownButton';"
+    ],
     "description": "Import DropdownButton and Dropdown separately from react-bootstrap"
   },
   "DropdownButton": {
@@ -25,7 +28,10 @@
   },
   "Import SplitButton Only": {
     "prefix": ["rb:import:only:dropdown-split-button"],
-    "body": "import Dropdown from 'react-bootstrap/Dropdown';\nimport SplitButton from 'react-bootstrap/SplitButton';",
+    "body": [
+      "import Dropdown from 'react-bootstrap/Dropdown';",
+      "import SplitButton from 'react-bootstrap/SplitButton';"
+    ],
     "description": "Import SplitButton and Dropdown separately from react-bootstrap"
   },
   "SplitButton": {

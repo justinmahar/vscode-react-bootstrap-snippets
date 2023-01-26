@@ -98,6 +98,21 @@
     ],
     "description": "Create an example Card to build from"
   },
+  "Card Example Simple": {
+    "prefix": "rb:card-example-simple",
+    "body": [
+      "<Card>",
+      "\t<Card.Header>Header</Card.Header>",
+      "\t<Card.Body>",
+      "\t\t<Card.Text>",
+      "\t\t\tSome quick example text to build the card out and make up the bulk of",
+      "\t\t\tthe card's content.",
+      "\t\t</Card.Text>",
+      "\t</Card.Body>",
+      "</Card>"
+    ],
+    "description": "Create a simple example Card to build from"
+  },
   "Import CardGroup": {
     "prefix": "rb:import:card-group",
     "body": "import { CardGroup } from 'react-bootstrap';",
