@@ -1,6 +1,6 @@
 # React-Bootstrap Snippets
 
-This extension includes 806 [React-Bootstrap](https://react-bootstrap.github.io/) snippets for VS Code.
+This [extension](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-bootstrap-snippets) includes 806 [React-Bootstrap](https://react-bootstrap.github.io/) snippets for VS Code.
 
 Build apps with React-Bootstrap at your fingertips.
 

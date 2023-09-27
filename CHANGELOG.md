@@ -62,3 +62,4 @@ All notable changes to the "react-bootstrap-snippets" extension will be document
 ### [2.1.1] - 2023-09-27
 
 - Add `user-select-none` Bootstrap utility class to checkboxes.
+- Update README
