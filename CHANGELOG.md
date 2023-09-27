@@ -58,3 +58,7 @@ All notable changes to the "react-bootstrap-snippets" extension will be document
 - Add support for `rb:import:only` snippets that import individual components.
 - Add simple card example snippet.
 - Update README
+
+### [2.1.1] - 2023-09-27
+
+- Add `user-select-none` Bootstrap utility class to checkboxes.

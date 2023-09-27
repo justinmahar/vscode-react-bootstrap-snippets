@@ -181,42 +181,42 @@
   "Checkbox": {
     "prefix": "rb:form-control-checkbox",
     "body": [
-      "<Form.Check label=\"${1:Checkbox label}\" id=\"${2:checkbox-id}\" />"
+      "<Form.Check label=\"${1:Checkbox label}\" className=\"user-select-none\" id=\"${2:checkbox-id}\" />"
     ],
     "description": "Create a checkbox Form.Check"
   },
   "Inline Checkbox": {
     "prefix": "rb:form-control-checkbox-inline",
     "body": [
-      "<Form.Check inline label=\"${1:Checkbox label}\" id=\"${2:checkbox-id}\" />"
+      "<Form.Check inline label=\"${1:Checkbox label}\" className=\"user-select-none\" id=\"${2:checkbox-id}\" />"
     ],
     "description": "Create a checkbox Form.Check"
   },
   "Radio Button": {
     "prefix": "rb:form-control-radio-button",
     "body": [
-      "<Form.Check type=\"radio\" label=\"${1:Radio button label}\" id=\"${2:radio-button-id}\" />"
+      "<Form.Check type=\"radio\" label=\"${1:Radio button label}\" className=\"user-select-none\" id=\"${2:radio-button-id}\" />"
     ],
     "description": "Create a radio button Form.Check"
   },
   "Inline Radio Button": {
     "prefix": "rb:form-control-radio-button-inline",
     "body": [
-      "<Form.Check inline type=\"radio\" label=\"${1:Radio button label}\" id=\"${2:radio-button-id}\" />"
+      "<Form.Check inline type=\"radio\" label=\"${1:Radio button label}\" className=\"user-select-none\" id=\"${2:radio-button-id}\" />"
     ],
     "description": "Create a radio button Form.Check"
   },
   "Toggle Switch Checkbox": {
     "prefix": "rb:form-control-checkbox-toggle-switch",
     "body": [
-      "<Form.Check type=\"switch\" label=\"${1:Switch label}\" id=\"${2:toggle-switch-id}\" />"
+      "<Form.Check type=\"switch\" label=\"${1:Switch label}\" className=\"user-select-none\" id=\"${2:toggle-switch-id}\" />"
     ],
     "description": "Create a toggle switch checkbox Form.Check"
   },
   "Inline Toggle Switch Checkbox": {
     "prefix": "rb:form-control-checkbox-toggle-switch-inline",
     "body": [
-      "<Form.Check inline type=\"switch\" label=\"${1:Switch label}\" id=\"${2:toggle-switch-id}\" />"
+      "<Form.Check inline type=\"switch\" label=\"${1:Switch label}\" className=\"user-select-none\" id=\"${2:toggle-switch-id}\" />"
     ],
     "description": "Create an inline toggle switch checkbox Form.Check"
   },
