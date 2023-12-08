@@ -2,7 +2,7 @@
 
 All notable changes to the React-Bootstrap Snippets extension will be documented in this file, with the latest changes first.
 
-### [2.1.2]-[2.1.5] - 2023-12-08
+### [2.1.2]-[2.1.6] - 2023-12-08
 
 - Add small spinners. 
 - Fix button descriptions.
@@ -10,6 +10,7 @@ All notable changes to the React-Bootstrap Snippets extension will be documented
 - Add large buttons. 
 - Add large and small form controls.
 - Change `form-text` to `form-text-muted`.
+- Fix margin-end util class names.
 - Update README.
 
 ### [2.1.1] - 2023-09-27
