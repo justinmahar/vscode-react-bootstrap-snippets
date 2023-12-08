@@ -65,14 +65,14 @@
     "body": ["<Form.Label>${1:Label text}</Form.Label>"],
     "description": "Create a Form.Label"
   },
-  "Form.Text": {
-    "prefix": "rb:form-text",
+  "Muted Form.Text": {
+    "prefix": "rb:form-text-muted",
     "body": [
       "<Form.Text className=\"text-muted\">",
-      "\t${1:Form text}",
+      "\t${1:Muted form text}",
       "</Form.Text>"
     ],
-    "description": "Create a Form.Text"
+    "description": "Create a muted Form.Text"
   },
   "Text Form.Control": {
     "prefix": ["rb:form-control", "rb:form-control-text"],
@@ -81,6 +81,20 @@
     ],
     "description": "Create a text Form.Control"
   },
+  "Small Text Form.Control": {
+    "prefix": ["rb:form-control-small", "rb:form-control-text-small"],
+    "body": [
+      "<Form.Control type=\"${2:text}\" placeholder=\"${1:Placeholder text}\" size=\"sm\" />"
+    ],
+    "description": "Create a small text Form.Control"
+  },
+  "Large Text Form.Control": {
+    "prefix": ["rb:form-control-large", "rb:form-control-text-large"],
+    "body": [
+      "<Form.Control type=\"${2:text}\" placeholder=\"${1:Placeholder text}\" size=\"lg\" />"
+    ],
+    "description": "Create a large text Form.Control"
+  },
   "Email Form.Control": {
     "prefix": ["rb:form-control-email"],
     "body": [
@@ -88,12 +102,40 @@
     ],
     "description": "Create an email Form.Control"
   },
+  "Small Email Form.Control": {
+    "prefix": ["rb:form-control-email-small"],
+    "body": [
+      "<Form.Control type=\"email\" placeholder=\"${1:Enter email}\" size=\"sm\" />"
+    ],
+    "description": "Create a small email Form.Control"
+  },
+  "Large Email Form.Control": {
+    "prefix": ["rb:form-control-email-large"],
+    "body": [
+      "<Form.Control type=\"email\" placeholder=\"${1:Enter email}\" size=\"lg\" />"
+    ],
+    "description": "Create a large email Form.Control"
+  },
   "Password Form.Control": {
     "prefix": ["rb:form-control-password"],
     "body": [
       "<Form.Control type=\"password\" placeholder=\"${1:Enter password}\" />"
     ],
     "description": "Create a password Form.Control"
+  },
+  "Small Password Form.Control": {
+    "prefix": ["rb:form-control-password-small"],
+    "body": [
+      "<Form.Control type=\"password\" placeholder=\"${1:Enter password}\" size=\"sm\" />"
+    ],
+    "description": "Create a small password Form.Control"
+  },
+  "Large Password Form.Control": {
+    "prefix": ["rb:form-control-password-large"],
+    "body": [
+      "<Form.Control type=\"password\" placeholder=\"${1:Enter password}\" size=\"lg\" />"
+    ],
+    "description": "Create a large password Form.Control"
   },
   "Form.Select": {
     "prefix": "rb:form-control-select",
@@ -105,7 +147,7 @@
     ],
     "description": "Create a select Form.Control"
   },
-  "Form.Select (small)": {
+  "Small Form.Select": {
     "prefix": "rb:form-control-select-small",
     "body": [
       "<Form.Select size=\"sm\">",
@@ -115,7 +157,7 @@
     ],
     "description": "Create a small select Form.Control"
   },
-  "Form.Select (large)": {
+  "Large Form.Select": {
     "prefix": "rb:form-control-select-large",
     "body": [
       "<Form.Select size=\"lg\">",
@@ -132,6 +174,20 @@
     ],
     "description": "Create a textarea Form.Control"
   },
+  "Small Textarea Form.Control": {
+    "prefix": "rb:form-control-textarea-small",
+    "body": [
+      "<Form.Control as=\"textarea\" placeholder=\"${1:Placeholder}\" rows={${2:3}} size=\"sm\" />"
+    ],
+    "description": "Create a small textarea Form.Control"
+  },
+  "Large Textarea Form.Control": {
+    "prefix": "rb:form-control-textarea-large",
+    "body": [
+      "<Form.Control as=\"textarea\" placeholder=\"${1:Placeholder}\" rows={${2:3}} size=\"lg\" />"
+    ],
+    "description": "Create a large textarea Form.Control"
+  },
   "Form.Range": {
     "prefix": "rb:form-control-range",
     "body": ["<Form.Range />"],
@@ -141,6 +197,16 @@
     "prefix": "rb:form-control-file",
     "body": ["<Form.Control type=\"file\" />"],
     "description": "Create a file Form.Control"
+  },
+  "Small File Form.Control": {
+    "prefix": "rb:form-control-file-small",
+    "body": ["<Form.Control type=\"file\" size=\"sm\" />"],
+    "description": "Create a small file Form.Control"
+  },
+  "Large File Form.Control": {
+    "prefix": "rb:form-control-file-large",
+    "body": ["<Form.Control type=\"file\" size=\"lg\" />"],
+    "description": "Create a large file Form.Control"
   },
   "Other HTML Form.Control": {
     "prefix": "rb:form-control-other",
