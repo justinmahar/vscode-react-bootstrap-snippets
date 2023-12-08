@@ -135,13 +135,13 @@
     "body": [
       "<Navbar bg=\"dark\" variant=\"dark\">",
       "\t<Navbar.Brand href=\"#home\">Navbar</Navbar.Brand>",
-      "\t<Nav className=\"mr-auto\">",
+      "\t<Nav className=\"me-auto\">",
       "\t\t<Nav.Link href=\"#home\">Home</Nav.Link>",
       "\t\t<Nav.Link href=\"#features\">Features</Nav.Link>",
       "\t\t<Nav.Link href=\"#pricing\">Pricing</Nav.Link>",
       "\t</Nav>",
       "\t<Form inline>",
-      "\t\t<Form.Control type=\"text\" placeholder=\"Search\" className=\"mr-sm-2\" />",
+      "\t\t<Form.Control type=\"text\" placeholder=\"Search\" className=\"me-sm-2\" />",
       "\t\t<Button variant=\"outline-info\">Search</Button>",
       "\t</Form>",
       "</Navbar>"

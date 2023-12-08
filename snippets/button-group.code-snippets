@@ -46,7 +46,7 @@
     "prefix": "rb:button-toolbar-example",
     "body": [
       "<ButtonToolbar>",
-      "\t<ButtonGroup className=\"mr-2\">",
+      "\t<ButtonGroup className=\"me-2\">",
       "\t\t<Button>1</Button> <Button>2</Button> <Button>3</Button> <Button>4</Button>",
       "\t</ButtonGroup>",
       "\t<InputGroup>",

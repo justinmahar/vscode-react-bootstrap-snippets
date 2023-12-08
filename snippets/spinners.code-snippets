@@ -196,7 +196,7 @@
       "\t\tanimation=\"${3:border}\"",
       "\t\tsize=\"sm\"",
       "\t\trole=\"status\"",
-      "\t\tclassName=\"mr-2\"",
+      "\t\tclassName=\"me-2\"",
       "\t/>",
       "\t${1:Loading...}",
       "</Button>"
