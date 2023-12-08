@@ -70,3 +70,7 @@ All notable changes to the "react-bootstrap-snippets" extension will be document
 - Fix button descriptions.
 - Fix placeholder images.
 - Update README.
+
+### [2.1.3] - 2023-12-08
+
+- Add large buttons. 
