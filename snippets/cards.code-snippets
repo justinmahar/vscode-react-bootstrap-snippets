@@ -19,7 +19,7 @@
   "Card.Img": {
     "prefix": "rb:card-img",
     "body": [
-      "<Card.Img variant=\"${2:top}\" src=\"${1:https://placeimg.com/300/120/any}\"/>"
+      "<Card.Img variant=\"${2:top}\" src=\"${1:https://placekitten.com/300/120}\"/>"
     ],
     "description": "Create a Card.Img"
   },
@@ -75,7 +75,7 @@
     "prefix": "rb:card-example",
     "body": [
       "<Card style={{ width: '18rem' }}>",
-      "\t<Card.Img variant=\"top\" src=\"https://placeimg.com/300/120/any\" />",
+      "\t<Card.Img variant=\"top\" src=\"https://placekitten.com/300/120\" />",
       "\t<Card.Header>Header</Card.Header>",
       "\t<Card.Body>",
       "\t\t<Card.Title>Card Title</Card.Title>",

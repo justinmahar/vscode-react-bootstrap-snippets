@@ -11,31 +11,31 @@
   },
   "Image": {
     "prefix": "rb:image",
-    "body": ["<Image src=\"${1:https://placeimg.com/171/180/any}\" />"],
+    "body": ["<Image src=\"${1:https://placekitten.com/171/180}\" />"],
     "description": "Create an Image"
   },
   "Rounded Image": {
     "prefix": "rb:image-rounded",
-    "body": ["<Image src=\"${1:https://placeimg.com/171/180/any}\" rounded />"],
+    "body": ["<Image src=\"${1:https://placekitten.com/171/180}\" rounded />"],
     "description": "Create a rounded Image"
   },
   "Rounded Circle Image": {
     "prefix": "rb:image-rounded-circle",
     "body": [
-      "<Image src=\"${1:https://placeimg.com/171/180/any}\" roundedCircle />"
+      "<Image src=\"${1:https://placekitten.com/171/180}\" roundedCircle />"
     ],
     "description": "Create a rounded circle Image"
   },
   "Thumbnail Image": {
     "prefix": "rb:image-thumbnail",
     "body": [
-      "<Image src=\"${1:https://placeimg.com/171/180/any}\" thumbnail />"
+      "<Image src=\"${1:https://placekitten.com/171/180}\" thumbnail />"
     ],
     "description": "Create a thumbnail Image"
   },
   "Fluid Image": {
     "prefix": "rb:image-fluid",
-    "body": ["<Image src=\"${1:https://placeimg.com/1104/250/any}\" fluid />"],
+    "body": ["<Image src=\"${1:https://placekitten.com/1104/250}\" fluid />"],
     "description": "Create a fluid Image that scales to the parent element"
   }
 }

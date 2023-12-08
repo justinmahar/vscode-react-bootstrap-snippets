@@ -33,7 +33,7 @@
     "body": [
       "<Toast>",
       "\t<Toast.Header>",
-      "\t\t<img src=\"http://placeimg.com/20/20/any\" className=\"rounded mr-2\" alt=\"Placeholder image\" />",
+      "\t\t<img src=\"https://placekitten.com/20/20\" className=\"rounded mr-2\" alt=\"Placeholder image\" />",
       "\t\t<strong className=\"mr-auto\">Bootstrap</strong>",
       "\t\t<small>11 mins ago</small>",
       "\t</Toast.Header>",

@@ -100,7 +100,7 @@
     "body": [
       "<Navbar.Brand href=\"${2:#home}\">",
       "\t<img",
-      "\t\tsrc=\"${3:/logo.svg}\"",
+      "\t\tsrc=\"${3:https://placekitten.com/30/30}\"",
       "\t\twidth=\"${4:30}\"",
       "\t\theight=\"${5:30}\"",
       "\t\tclassName=\"d-inline-block align-top\"",

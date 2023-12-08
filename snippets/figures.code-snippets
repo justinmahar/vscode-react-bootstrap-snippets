@@ -14,7 +14,7 @@
     "body": [
       "<Figure>",
       "\t<Figure.Image",
-      "\t\tsrc=\"${2:https://placeimg.com/171/180/any}\"",
+      "\t\tsrc=\"${2:https://placekitten.com/171/180}\"",
       "\t\twidth={${3:171}}",
       "\t\theight={${4:180}}",
       "\t\talt=\"${5:171x180}\"",
@@ -30,7 +30,7 @@
     "prefix": "rb:figure-image",
     "body": [
       "<Figure.Image",
-      "\tsrc=\"${1:https://placeimg.com/171/180/any}\"",
+      "\tsrc=\"${1:https://placekitten.com/171/180}\"",
       "\twidth={${2:171}}",
       "\theight={${3:180}}",
       "\talt=\"${4:171x180}\"",
