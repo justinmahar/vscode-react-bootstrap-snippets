@@ -27,6 +27,15 @@
     ],
     "description": "Create a small primary Button"
   },
+  "Large Button (primary)": {
+    "prefix": ["rb:button-large", "rb:button-primary-large"],
+    "body": [
+      "<Button variant=\"primary\" size=\"lg\" onClick={${2:() => console.log(\"${1:Primary}\")}}>",
+      "\t${1:Primary}",
+      "</Button>"
+    ],
+    "description": "Create a large primary Button"
+  },
   "Block-level Button (primary)": {
     "prefix": ["rb:button-block", "rb:button-primary-block"],
     "body": [
@@ -53,6 +62,15 @@
       "</Button>"
     ],
     "description": "Create a small outlined primary Button with no background color"
+  },
+  "Large Button (outline-primary)": {
+    "prefix": "rb:button-outline-primary-large",
+    "body": [
+      "<Button variant=\"outline-primary\" size=\"lg\" onClick={${2:() => console.log(\"${1:Primary}\")}}>",
+      "\t${1:Primary outline}",
+      "</Button>"
+    ],
+    "description": "Create a large outlined primary Button with no background color"
   },
   "Block-level Button (outline-primary)": {
     "prefix": "rb:button-outline-primary-block",
@@ -83,6 +101,15 @@
     ],
     "description": "Create a small secondary Button"
   },
+  "Large Button (secondary)": {
+    "prefix": "rb:button-secondary-large",
+    "body": [
+      "<Button variant=\"secondary\" size=\"lg\" onClick={${2:() => console.log(\"${1:Secondary}\")}}>",
+      "\t${1:Secondary}",
+      "</Button>"
+    ],
+    "description": "Create a large secondary Button"
+  },
   "Block-level Button (secondary)": {
     "prefix": "rb:button-secondary-block",
     "body": [
@@ -111,6 +138,15 @@
       "</Button>"
     ],
     "description": "Create a small outlined secondary Button with no background color"
+  },
+  "Large Button (outline-secondary)": {
+    "prefix": "rb:button-outline-secondary-large",
+    "body": [
+      "<Button variant=\"outline-secondary\" size=\"lg\" onClick={${2:() => console.log(\"${1:Secondary}\")}}>",
+      "\t${1:Secondary outline}",
+      "</Button>"
+    ],
+    "description": "Create a large outlined secondary Button with no background color"
   },
   "Block-level Button (outline-secondary)": {
     "prefix": "rb:button-outline-secondary-block",
@@ -141,6 +177,15 @@
     ],
     "description": "Create a small success Button"
   },
+  "Large Button (success)": {
+    "prefix": "rb:button-success-large",
+    "body": [
+      "<Button variant=\"success\" size=\"lg\" onClick={${2:() => console.log(\"${1:Success}\")}}>",
+      "\t${1:Success}",
+      "</Button>"
+    ],
+    "description": "Create a large success Button"
+  },
   "Block-level Button (success)": {
     "prefix": "rb:button-success-block",
     "body": [
@@ -169,6 +214,15 @@
       "</Button>"
     ],
     "description": "Create a small outlined success Button with no background color"
+  },
+  "Large Button (outline-success)": {
+    "prefix": "rb:button-outline-success-large",
+    "body": [
+      "<Button variant=\"outline-success\" size=\"lg\" onClick={${2:() => console.log(\"${1:Success}\")}}>",
+      "\t${1:Success outline}",
+      "</Button>"
+    ],
+    "description": "Create a large outlined success Button with no background color"
   },
   "Block-level Button (outline-success)": {
     "prefix": "rb:button-outline-success-block",
@@ -199,6 +253,15 @@
     ],
     "description": "Create a small danger Button"
   },
+  "Large Button (danger)": {
+    "prefix": "rb:button-danger-large",
+    "body": [
+      "<Button variant=\"danger\" size=\"lg\" onClick={${2:() => console.log(\"${1:Danger}\")}}>",
+      "\t${1:Danger}",
+      "</Button>"
+    ],
+    "description": "Create a large danger Button"
+  },
   "Block-level Button (danger)": {
     "prefix": "rb:button-danger-block",
     "body": [
@@ -227,6 +290,15 @@
       "</Button>"
     ],
     "description": "Create a small outlined danger Button with no background color"
+  },
+  "Large Button (outline-danger)": {
+    "prefix": "rb:button-outline-danger-large",
+    "body": [
+      "<Button variant=\"outline-danger\" size=\"lg\" onClick={${2:() => console.log(\"${1:Danger}\")}}>",
+      "\t${1:Danger outline}",
+      "</Button>"
+    ],
+    "description": "Create a large outlined danger Button with no background color"
   },
   "Block-level Button (outline-danger)": {
     "prefix": "rb:button-outline-danger-block",
@@ -257,6 +329,15 @@
     ],
     "description": "Create a small warning Button"
   },
+  "Large Button (warning)": {
+    "prefix": "rb:button-warning-large",
+    "body": [
+      "<Button variant=\"warning\" size=\"lg\" onClick={${2:() => console.log(\"${1:Warning}\")}}>",
+      "\t${1:Warning}",
+      "</Button>"
+    ],
+    "description": "Create a large warning Button"
+  },
   "Block-level Button (warning)": {
     "prefix": "rb:button-warning-block",
     "body": [
@@ -285,6 +366,15 @@
       "</Button>"
     ],
     "description": "Create a small outlined warning Button with no background color"
+  },
+  "Large Button (outline-warning)": {
+    "prefix": "rb:button-outline-warning-large",
+    "body": [
+      "<Button variant=\"outline-warning\" size=\"lg\" onClick={${2:() => console.log(\"${1:Warning}\")}}>",
+      "\t${1:Warning outline}",
+      "</Button>"
+    ],
+    "description": "Create a large outlined warning Button with no background color"
   },
   "Block-level Button (outline-warning)": {
     "prefix": "rb:button-outline-warning-block",
@@ -315,6 +405,15 @@
     ],
     "description": "Create a small info Button"
   },
+  "Large Button (info)": {
+    "prefix": "rb:button-info-large",
+    "body": [
+      "<Button variant=\"info\" size=\"lg\" onClick={${2:() => console.log(\"${1:Info}\")}}>",
+      "\t${1:Info}",
+      "</Button>"
+    ],
+    "description": "Create a large info Button"
+  },
   "Block-level Button (info)": {
     "prefix": "rb:button-info-block",
     "body": [
@@ -343,6 +442,15 @@
       "</Button>"
     ],
     "description": "Create a small outlined info Button with no background color"
+  },
+  "Large Button (outline-info)": {
+    "prefix": "rb:button-outline-info-large",
+    "body": [
+      "<Button variant=\"outline-info\" size=\"lg\" onClick={${2:() => console.log(\"${1:Info}\")}}>",
+      "\t${1:Info outline}",
+      "</Button>"
+    ],
+    "description": "Create a large outlined info Button with no background color"
   },
   "Block-level Button (outline-info)": {
     "prefix": "rb:button-outline-info-block",
@@ -373,6 +481,15 @@
     ],
     "description": "Create a small light Button"
   },
+  "Large Button (light)": {
+    "prefix": "rb:button-light-large",
+    "body": [
+      "<Button variant=\"light\" size=\"lg\" onClick={${2:() => console.log(\"${1:Light}\")}}>",
+      "\t${1:Light}",
+      "</Button>"
+    ],
+    "description": "Create a large light Button"
+  },
   "Block-level Button (light)": {
     "prefix": "rb:button-light-block",
     "body": [
@@ -401,6 +518,15 @@
       "</Button>"
     ],
     "description": "Create a small outlined light Button with no background color"
+  },
+  "Large Button (outline-light)": {
+    "prefix": "rb:button-outline-light-large",
+    "body": [
+      "<Button variant=\"outline-light\" size=\"lg\" onClick={${2:() => console.log(\"${1:Light}\")}}>",
+      "\t${1:Light outline}",
+      "</Button>"
+    ],
+    "description": "Create a large outlined light Button with no background color"
   },
   "Block-level Button (outline-light)": {
     "prefix": "rb:button-outline-light-block",
@@ -431,6 +557,15 @@
     ],
     "description": "Create a small dark Button"
   },
+  "Large Button (dark)": {
+    "prefix": "rb:button-dark-large",
+    "body": [
+      "<Button variant=\"dark\" size=\"lg\" onClick={${2:() => console.log(\"${1:Dark}\")}}>",
+      "\t${1:Dark}",
+      "</Button>"
+    ],
+    "description": "Create a large dark Button"
+  },
   "Block-level Button (dark)": {
     "prefix": "rb:button-dark-block",
     "body": [
@@ -460,6 +595,15 @@
     ],
     "description": "Create a small outlined dark Button with no background color"
   },
+  "Large Button (outline-dark)": {
+    "prefix": "rb:button-outline-dark-large",
+    "body": [
+      "<Button variant=\"outline-dark\" size=\"lg\" onClick={${2:() => console.log(\"${1:Dark}\")}}>",
+      "\t${1:Dark outline}",
+      "</Button>"
+    ],
+    "description": "Create a large outlined dark Button with no background color"
+  },
   "Block-level Button (outline-dark)": {
     "prefix": "rb:button-outline-dark-block",
     "body": [
@@ -488,6 +632,15 @@
       "</Button>"
     ],
     "description": "Create a small link Button"
+  },
+  "Large Button (link)": {
+    "prefix": "rb:button-link-large",
+    "body": [
+      "<Button variant=\"link\" size=\"lg\" onClick={${2:() => console.log(\"${1:Link}\")}}>",
+      "\t${1:Link}",
+      "</Button>"
+    ],
+    "description": "Create a large link Button"
   },
   "Block-level Button (link)": {
     "prefix": "rb:button-link-block",
