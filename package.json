@@ -8,6 +8,9 @@
     "color": "#1d0539",
     "theme": "dark"
   },
+  "scripts": {
+    "ship": "vsce publish patch"
+  },
   "publisher": "justinmahar",
   "keywords": [
     "react-bootstrap",
@@ -108,7 +111,7 @@
         "path": "./snippets/modal.code-snippets"
       },
       {
-        "language": "javascriptreact",
+        "language": "javascriptreact",ƒ
         "path": "./snippets/navbar.code-snippets"
       },
       {
