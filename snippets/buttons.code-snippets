@@ -25,7 +25,7 @@
       "\t${1:Primary}",
       "</Button>"
     ],
-    "description": "Create a primary Button"
+    "description": "Create a small primary Button"
   },
   "Block-level Button (primary)": {
     "prefix": ["rb:button-block", "rb:button-primary-block"],
@@ -52,7 +52,7 @@
       "\t${1:Primary outline}",
       "</Button>"
     ],
-    "description": "Create an outlined primary Button with no background color"
+    "description": "Create a small outlined primary Button with no background color"
   },
   "Block-level Button (outline-primary)": {
     "prefix": "rb:button-outline-primary-block",
@@ -81,7 +81,7 @@
       "\t${1:Secondary}",
       "</Button>"
     ],
-    "description": "Create a secondary Button"
+    "description": "Create a small secondary Button"
   },
   "Block-level Button (secondary)": {
     "prefix": "rb:button-secondary-block",
@@ -110,7 +110,7 @@
       "\t${1:Secondary outline}",
       "</Button>"
     ],
-    "description": "Create an outlined secondary Button with no background color"
+    "description": "Create a small outlined secondary Button with no background color"
   },
   "Block-level Button (outline-secondary)": {
     "prefix": "rb:button-outline-secondary-block",
@@ -139,7 +139,7 @@
       "\t${1:Success}",
       "</Button>"
     ],
-    "description": "Create a success Button"
+    "description": "Create a small success Button"
   },
   "Block-level Button (success)": {
     "prefix": "rb:button-success-block",
@@ -168,7 +168,7 @@
       "\t${1:Success outline}",
       "</Button>"
     ],
-    "description": "Create an outlined success Button with no background color"
+    "description": "Create a small outlined success Button with no background color"
   },
   "Block-level Button (outline-success)": {
     "prefix": "rb:button-outline-success-block",
@@ -197,7 +197,7 @@
       "\t${1:Danger}",
       "</Button>"
     ],
-    "description": "Create a danger Button"
+    "description": "Create a small danger Button"
   },
   "Block-level Button (danger)": {
     "prefix": "rb:button-danger-block",
@@ -226,7 +226,7 @@
       "\t${1:Danger outline}",
       "</Button>"
     ],
-    "description": "Create an outlined danger Button with no background color"
+    "description": "Create a small outlined danger Button with no background color"
   },
   "Block-level Button (outline-danger)": {
     "prefix": "rb:button-outline-danger-block",
@@ -255,7 +255,7 @@
       "\t${1:Warning}",
       "</Button>"
     ],
-    "description": "Create a warning Button"
+    "description": "Create a small warning Button"
   },
   "Block-level Button (warning)": {
     "prefix": "rb:button-warning-block",
@@ -284,7 +284,7 @@
       "\t${1:Warning outline}",
       "</Button>"
     ],
-    "description": "Create an outlined warning Button with no background color"
+    "description": "Create a small outlined warning Button with no background color"
   },
   "Block-level Button (outline-warning)": {
     "prefix": "rb:button-outline-warning-block",
@@ -304,7 +304,7 @@
       "\t${1:Info}",
       "</Button>"
     ],
-    "description": "Create a info Button"
+    "description": "Create an info Button"
   },
   "Small Button (info)": {
     "prefix": "rb:button-info-small",
@@ -313,7 +313,7 @@
       "\t${1:Info}",
       "</Button>"
     ],
-    "description": "Create a info Button"
+    "description": "Create a small info Button"
   },
   "Block-level Button (info)": {
     "prefix": "rb:button-info-block",
@@ -324,7 +324,7 @@
       "\t</Button>",
       "</div>"
     ],
-    "description": "Create a info Button"
+    "description": "Create an info Button"
   },
   "Button (outline-info)": {
     "prefix": "rb:button-outline-info",
@@ -342,7 +342,7 @@
       "\t${1:Info outline}",
       "</Button>"
     ],
-    "description": "Create an outlined info Button with no background color"
+    "description": "Create a small outlined info Button with no background color"
   },
   "Block-level Button (outline-info)": {
     "prefix": "rb:button-outline-info-block",
@@ -371,7 +371,7 @@
       "\t${1:Light}",
       "</Button>"
     ],
-    "description": "Create a light Button"
+    "description": "Create a small light Button"
   },
   "Block-level Button (light)": {
     "prefix": "rb:button-light-block",
@@ -400,7 +400,7 @@
       "\t${1:Light outline}",
       "</Button>"
     ],
-    "description": "Create an outlined light Button with no background color"
+    "description": "Create a small outlined light Button with no background color"
   },
   "Block-level Button (outline-light)": {
     "prefix": "rb:button-outline-light-block",
@@ -429,7 +429,7 @@
       "\t${1:Dark}",
       "</Button>"
     ],
-    "description": "Create a dark Button"
+    "description": "Create a small dark Button"
   },
   "Block-level Button (dark)": {
     "prefix": "rb:button-dark-block",
@@ -458,7 +458,7 @@
       "\t${1:Dark outline}",
       "</Button>"
     ],
-    "description": "Create an outlined dark Button with no background color"
+    "description": "Create a small outlined dark Button with no background color"
   },
   "Block-level Button (outline-dark)": {
     "prefix": "rb:button-outline-dark-block",
@@ -487,7 +487,7 @@
       "\t${1:Link}",
       "</Button>"
     ],
-    "description": "Create a link Button"
+    "description": "Create a small link Button"
   },
   "Block-level Button (link)": {
     "prefix": "rb:button-link-block",
