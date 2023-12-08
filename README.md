@@ -1,5 +1,7 @@
 # React-Bootstrap Snippets
 
+## Overview 
+
 This [extension](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-bootstrap-snippets) includes 806 [React-Bootstrap](https://react-bootstrap.github.io/) snippets for VS Code.
 
 Build apps with React-Bootstrap at your fingertips.
@@ -18,6 +20,39 @@ This extension supports:
 Read below for more information and gif demos.
 
 > Loving it? **[Rate it here!](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-bootstrap-snippets&ssr=false#review-details)**
+
+## Donate 
+
+If this project helped you, please consider buying me a coffee. Your support is much appreciated!
+
+<a href="https://github.com/sponsors/justinmahar">
+  <img src="https://justinmahar.github.io/react-kindling/support/sponsor.png" alt="Sponsor via GitHub" height="35" />
+</a> <a href="https://paypal.me/thejustinmahar/5">
+  <img src="https://justinmahar.github.io/react-kindling/support/coffee-1.png" alt="Buy me a coffee" height="35" />
+</a> <a href="https://paypal.me/thejustinmahar/15">
+  <img src="https://justinmahar.github.io/react-kindling/support/coffee-3.png" alt="Buy me 3 coffees" height="35" />
+</a> <a href="https://paypal.me/thejustinmahar/25">
+  <img src="https://justinmahar.github.io/react-kindling/support/coffee-5.png" alt="Buy me 5 coffees" height="35" />
+</a>
+
+## Table of Contents
+
+- [React-Bootstrap Snippets](#react-bootstrap-snippets)
+  - [Overview](#overview)
+  - [Donate](#donate)
+  - [Table of Contents](#table-of-contents)
+  - [📚 Supported languages (file extensions)](#-supported-languages-file-extensions)
+  - [react-bootstrap Support](#react-bootstrap-support)
+  - [📖 Snippets](#-snippets)
+    - [Component Snippets](#component-snippets)
+    - [Import Snippets](#import-snippets)
+      - [Individual Import Snippets](#individual-import-snippets)
+    - [Example Snippets](#example-snippets)
+    - [Alert and Modal Functions](#alert-and-modal-functions)
+    - [Table Utilities](#table-utilities)
+    - [Bootstrap Utility CSS Class Snippets](#bootstrap-utility-css-class-snippets)
+  - [A Note To You, The Developer](#a-note-to-you-the-developer)
+  - [Release Notes](#release-notes)
 
 ## 📚 Supported languages (file extensions)
 - JavaScript (.js)
@@ -126,23 +161,9 @@ My goal was to make this one of the best snippets extensions available to you. A
 
 That being said, if you find a bug or see a way to improve this extension, please feel free to [open an issue](https://github.com/justinmahar/vscode-react-bootstrap-snippets/issues) or submit a [pull request to the project](https://github.com/justinmahar/vscode-react-bootstrap-snippets).
 
-If you found this extension helpful, consider **[rating it](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-bootstrap-snippets&ssr=false#review-details)** and **[give it a star](https://github.com/justinmahar/vscode-react-bootstrap-snippets)** so others can find it.
+If you found this extension helpful, consider **[rating it](https://marketplace.visualstudio.com/items?itemName=justinmahar.react-bootstrap-snippets&ssr=false#review-details)**, **[give it a star ⭐️](https://github.com/justinmahar/vscode-react-bootstrap-snippets)** so others can find it, or **[buy me a coffee ☕️](https://paypal.me/thejustinmahar/5)** to show your appreciation.
 
 Happy coding 🖖
-
-## Donate 
-
-If this project helped you, please consider buying me a coffee. Your support is much appreciated!
-
-<a href="https://github.com/sponsors/justinmahar">
-  <img src="https://justinmahar.github.io/react-kindling/support/sponsor.png" alt="Sponsor via GitHub" height="35" />
-</a> <a href="https://paypal.me/thejustinmahar/5">
-  <img src="https://justinmahar.github.io/react-kindling/support/coffee-1.png" alt="Buy me a coffee" height="35" />
-</a> <a href="https://paypal.me/thejustinmahar/15">
-  <img src="https://justinmahar.github.io/react-kindling/support/coffee-3.png" alt="Buy me 3 coffees" height="35" />
-</a> <a href="https://paypal.me/thejustinmahar/25">
-  <img src="https://justinmahar.github.io/react-kindling/support/coffee-5.png" alt="Buy me 5 coffees" height="35" />
-</a>
 
 ## Release Notes
 
